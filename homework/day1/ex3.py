@@ -18,5 +18,5 @@ Giải thích code:
 #làm tiếp tại đây, nhấn control + F5 để chạy
 
 for i in range(1,100):
-    if ... % 2 == 0 and ... % ... == 0: 
-        print(...)
+    if i % 2 == 0 and i % 5 == 0: 
+        print(i)

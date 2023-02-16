@@ -10,9 +10,9 @@ ví dụ:
 ******
 
 """
-print("")   #làm tiếp tại đây, nhấn control + F5 để chạy
-print("")
-print("")
-print("")
-print("")
-print("")
+print("*")   #làm tiếp tại đây, nhấn control + F5 để chạy
+print("**")
+print("***")
+print("****")
+print("*****")
+print("******")
