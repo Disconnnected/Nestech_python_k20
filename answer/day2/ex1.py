@@ -17,3 +17,5 @@ Ví dụ:
 """
 
 input_text = "Sơn Tùng MTP"
+
+length = len(input_text)
