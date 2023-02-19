@@ -19,3 +19,11 @@ Ví dụ:
 input_text = "Sơn Tùng MTP"
 
 length = len(input_text)
+
+if length < 2:
+    output = ''
+elif length == 2:
+    output = input_text*2
+else:
+    output = input_text[:2]+input_text[-2:]
+print(output)
