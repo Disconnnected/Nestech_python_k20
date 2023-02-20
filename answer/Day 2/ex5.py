@@ -5,4 +5,4 @@ def daonguoc(reverse):
     return reverse[::-1]
 
 string = daonguoc('Hello World')
-print(f'{string}')
+print(string)
