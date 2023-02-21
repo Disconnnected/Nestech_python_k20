@@ -17,3 +17,7 @@ Ví dụ:
 """
 
 input_text = "Sơn Tùng MTP"
+
+def two_char_first_and_last(inputtext):
+    print(inputtext[:2]+inputtext[-2:])
+two_char_first_and_last(input_text)
