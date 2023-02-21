@@ -9,3 +9,10 @@ Ghép nhiều chuỗi riêng biệt thành 1 chuỗi hoàn chỉnh, ngăn cách 
     output: Nguyễn Văn Tèo
 """
 
+string1 = "Nguyễn"
+string2 = "Văn"
+string3 = "Tèo"
+
+print(f"{string1} {string2} {string3}")
+stringfullname = "{} {} {}".format(string1,string2,string3)
+print(stringfullname)

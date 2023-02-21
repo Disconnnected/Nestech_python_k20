@@ -10,3 +10,10 @@ cho 1 chuỗi có sẵn, in ra màn hình chuỗi trong đó các ký tự đc y
         - Ký tự "i" đổi thành "1"
 
 """
+
+stringtext = "Aquafina - Vị ngon của sự tinh khiết"
+stringtext = stringtext.replace('a','@')
+stringtext = stringtext.replace('o','0')
+stringtext = stringtext.replace('s','$')
+stringtext = stringtext.replace('i','1')
+print(stringtext)
