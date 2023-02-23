@@ -16,4 +16,12 @@ Ví dụ:
 
 """
 
-input_text = "Sơn Tùng MTP"
+input_text = "P"
+
+if len(input_text) >= 2:
+    x = input_text[0:2]
+    y = input_text[-2:]
+
+    print(x+y)
+else:
+    print("chuỗi ban đầu chưa đáp ứng điều kiện")
