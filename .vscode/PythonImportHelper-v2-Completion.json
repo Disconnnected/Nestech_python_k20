@@ -2483,7 +2483,25 @@
         "kind": 5,
         "importPath": "answer.day3.ex04",
         "description": "answer.day3.ex04",
-        "peekOfCode": "a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.\"\nhint: use list comprehension\n\"\"\"",
+        "peekOfCode": "a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.\"\nhint: use list comprehension\n\"\"\"\na = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\nb = [i for i in a if i%2==0]\nprint(b)",
+        "detail": "answer.day3.ex04",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "answer.day3.ex04",
+        "description": "answer.day3.ex04",
+        "peekOfCode": "a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\nb = [i for i in a if i%2==0]\nprint(b)",
+        "detail": "answer.day3.ex04",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "answer.day3.ex04",
+        "description": "answer.day3.ex04",
+        "peekOfCode": "b = [i for i in a if i%2==0]\nprint(b)",
         "detail": "answer.day3.ex04",
         "documentation": {}
     },
