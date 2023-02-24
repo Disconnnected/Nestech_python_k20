@@ -16,7 +16,21 @@ Giải thích code:
 """
 
 #làm tiếp tại đây, nhấn control + F5 để chạy
-
-for i in range(1,100):
-    if i % 2 == 0 and i % 5 == 0: 
-        print(i)
+x = int(input("Nhập x: "))
+y = int(input("Nhập y: "))
+total=0
+step=1
+toantu=1
+dau=1
+for i in range(y):
+    total= total+(toantu)*x**step
+    step=step+2
+    toantu=toantu*(-1)
+    if(toantu==1):
+        dau="+"
+    elif(i==y-1):
+        dau=""
+    else:
+        dau="-"
+    print(f"({x})^{step}{dau}",end='')
+print(f" ={total}")
