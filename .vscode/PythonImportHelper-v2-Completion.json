@@ -2461,6 +2461,33 @@
         "documentation": {}
     },
     {
+        "label": "check_palindrome",
+        "kind": 2,
+        "importPath": "answer.day3.ex03",
+        "description": "answer.day3.ex03",
+        "peekOfCode": "def check_palindrome(string):\n    if string == string[::-1]:\n        return \"This is a palindrome\"\n    else:\n        return \"This isn't a palindrome\"\nprint(check_palindrome(string))",
+        "detail": "answer.day3.ex03",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "answer.day3.ex03",
+        "description": "answer.day3.ex03",
+        "peekOfCode": "string = input(\"Nhập vào 1 chữ bất kì:\\n\")\ndef check_palindrome(string):\n    if string == string[::-1]:\n        return \"This is a palindrome\"\n    else:\n        return \"This isn't a palindrome\"\nprint(check_palindrome(string))",
+        "detail": "answer.day3.ex03",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "answer.day3.ex04",
+        "description": "answer.day3.ex04",
+        "peekOfCode": "a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.\"\nhint: use list comprehension\n\"\"\"",
+        "detail": "answer.day3.ex04",
+        "documentation": {}
+    },
+    {
         "label": "input_text",
         "kind": 5,
         "importPath": "homework.day 02.ex1",
