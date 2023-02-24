@@ -2384,7 +2384,7 @@
         "kind": 5,
         "importPath": "answer.day3.ex01",
         "description": "answer.day3.ex01",
-        "peekOfCode": "fullname = \"Trần Lâm\" # input(\"Tên ủa bạn là gì?: \\n\")\nage = 20 #int(input(\"Bạn bao nhiêu tuôi\"))\nnowYear = time.localtime(time.time()).tm_year\nfutureYear = (100-age)+nowYear\nage_check = lambda age : \"chẵn\" if age%2==0 else \"lẽ\"\nmessage = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"",
+        "peekOfCode": "fullname = input(\"Tên ủa bạn là gì?: \\n\")\nage = int(input(\"Bạn bao nhiêu tuôi: \\n\"))\nnowYear = time.localtime(time.time()).tm_year\nfutureYear = (100-age)+nowYear\nage_check = lambda age : \"chẵn\" if age%2==0 else \"lẽ\"\nmessage = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"",
         "detail": "answer.day3.ex01",
         "documentation": {}
     },
@@ -2393,7 +2393,7 @@
         "kind": 5,
         "importPath": "answer.day3.ex01",
         "description": "answer.day3.ex01",
-        "peekOfCode": "age = 20 #int(input(\"Bạn bao nhiêu tuôi\"))\nnowYear = time.localtime(time.time()).tm_year\nfutureYear = (100-age)+nowYear\nage_check = lambda age : \"chẵn\" if age%2==0 else \"lẽ\"\nmessage = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"\nprint(message)",
+        "peekOfCode": "age = int(input(\"Bạn bao nhiêu tuôi: \\n\"))\nnowYear = time.localtime(time.time()).tm_year\nfutureYear = (100-age)+nowYear\nage_check = lambda age : \"chẵn\" if age%2==0 else \"lẽ\"\nmessage = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"\nprint(message)",
         "detail": "answer.day3.ex01",
         "documentation": {}
     },
@@ -2431,6 +2431,33 @@
         "description": "answer.day3.ex01",
         "peekOfCode": "message = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"\nprint(message)",
         "detail": "answer.day3.ex01",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "answer.day3.ex02",
+        "description": "answer.day3.ex02",
+        "peekOfCode": "a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]\nb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]\nc = []\n# b1: loại bỏ phần tử trùng trong list.\na_set=set(a)\nb_set=set(b)\n# b2: vòng lặp set1, check tồn tại trong set2 và append vào list mới  \nfor i in a_set:\n  if i in b_set:\n    c.append(i)",
+        "detail": "answer.day3.ex02",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "answer.day3.ex02",
+        "description": "answer.day3.ex02",
+        "peekOfCode": "b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]\nc = []\n# b1: loại bỏ phần tử trùng trong list.\na_set=set(a)\nb_set=set(b)\n# b2: vòng lặp set1, check tồn tại trong set2 và append vào list mới  \nfor i in a_set:\n  if i in b_set:\n    c.append(i)\nprint(c)",
+        "detail": "answer.day3.ex02",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "answer.day3.ex02",
+        "description": "answer.day3.ex02",
+        "peekOfCode": "c = []\n# b1: loại bỏ phần tử trùng trong list.\na_set=set(a)\nb_set=set(b)\n# b2: vòng lặp set1, check tồn tại trong set2 và append vào list mới  \nfor i in a_set:\n  if i in b_set:\n    c.append(i)\nprint(c)",
+        "detail": "answer.day3.ex02",
         "documentation": {}
     },
     {

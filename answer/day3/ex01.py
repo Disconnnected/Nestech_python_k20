@@ -5,8 +5,8 @@ extra: Depending on whether the number is even or odd, print out an appropriate 
 
 import time;
 
-fullname = "Trần Lâm" # input("Tên ủa bạn là gì?: \n")
-age = 20 #int(input("Bạn bao nhiêu tuôi"))
+fullname = input("Tên ủa bạn là gì?: \n")
+age = int(input("Bạn bao nhiêu tuôi: \n"))
 
 nowYear = time.localtime(time.time()).tm_year
 futureYear = (100-age)+nowYear
