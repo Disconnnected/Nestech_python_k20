@@ -7,14 +7,14 @@ import sympy
 def prime_check(x):
     while True:
       try:
-        x = int(input('To test Prime, enter a number: '))
+        x = int(x)
         if sympy.isprime(x):
-            return f"<{x}> is prime"
+            return f"< {x} > is prime"
         else:
-            return f"<{x}> isn't prime"
-      except ValueError:
+            return f"< {x} > isn't prime"
+      except:
             print("Please only enter integers. Try again...")
-            continue
+            x = input('To test Prime, enter a number: ')
 
-user_enter = ''
+user_enter = input('To test Prime, enter a number: ')
 print(prime_check(user_enter))

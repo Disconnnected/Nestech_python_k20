@@ -19,15 +19,16 @@ def puzzle_random_numb(x):
 def check(x):
     while True:
       try:
-        x = int(input('Enter your answer: '))
+        x = int(x)
         if x in range(1,10):
             run = x
             break
-        else:
-            print('Please only enter numbers from 1 to 9. Try again...') 
-      except ValueError:
+        elif x > 9:
+            print('Please only enter numbers from 1 to 9. Try again...')
+            x = input('Enter your answer: ')
+      except:
             print('The answer must be a number. Try again...')
-            continue #If the number is a string or something, keep checking it.
+            x = input('Enter your answer: ')
     return puzzle_random_numb(run)
 
 message = f'''
@@ -36,5 +37,5 @@ message = f'''
     FILL IN THE BLANKS WITH YOUR RESPONSE
 '''
 print(message)
-user_guess = ''
+user_guess = input('Enter your answer: ')
 print(check(user_guess))
