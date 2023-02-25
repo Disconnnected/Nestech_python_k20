@@ -12,10 +12,11 @@ example:
     - wow
 
 """
-string = input("Type your string here: ").lower()
 def palindrome_check(a):
     if a == a[::-1]:
         return f"{a} is palidrome."
     else:
         return f"{a} isn't palidrome."
+
+string = input("Type your string here: ").lower()
 print(palindrome_check(string))

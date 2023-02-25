@@ -3,8 +3,6 @@ Create a program that asks the user to enter their name and their age. Print out
 extra: Depending on whether the number is even or odd, print out an appropriate message to the user ("your age is odd/even")
 """
 import datetime
-namefield = input('Please enter your name: ')
-age = input('Please enter your age: ')
 
 def next_100_years(n,a):
     #Get datetime
@@ -29,5 +27,9 @@ def next_100_years(n,a):
     But if you survive to be 100 years old, your will advance in {next_100_year}.    
     '''
 
-    print(message)
+    return message
+
+namefield = input('Please enter your name: ')
+age = input('Please enter your age: ')
+
 print(next_100_years(namefield,age))

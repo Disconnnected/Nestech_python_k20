@@ -4,9 +4,6 @@ example:
  a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
  b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 """
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-c = []
 
 def remove_dupicates_element(x,y,z):
     #Set list
@@ -22,6 +19,10 @@ def remove_dupicates_element(x,y,z):
     #Set items after sorting and switching to list mode
     z = list(set(z))
     
-    print(z)
+    return z
+
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+c = []
 
 print(remove_dupicates_element(a,b,c))
