@@ -14,3 +14,4 @@ for i in a:
             c.append(j)
 c=list(set(c))
 print(c)
+

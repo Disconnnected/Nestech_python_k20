@@ -1,5 +1,6 @@
 """
 Write a password generator in Python. Be creative with how you generate passwords - strong passwords have a mix of lowercase letters, uppercase letters, numbers, and symbols. The passwords should be random, generating a new password every time the user asks for a new password
+<<<<<<< HEAD
 """
 import random
 import string
@@ -20,3 +21,6 @@ length = 10
 # Tạo và in ra mật khẩu mới
 password = generate_password(length)
 print("Mật khẩu mới của bạn là:", password)
+=======
+"""
+>>>>>>> ce1be8cee6e60a1d7368aec84d539cd6d1a7b484

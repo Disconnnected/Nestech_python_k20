@@ -17,3 +17,4 @@ def showNameAgeTo100(name, age):
         print(f"{name} à tuổi của bạn là lẻ và Năm {current_year+(100-age)} bạn sẽ được 100 tuổi ")
 showNameAgeTo100(name,age)
 
+

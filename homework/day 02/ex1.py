@@ -16,8 +16,20 @@ Ví dụ:
 
 """
 
+<<<<<<< HEAD:homework/day 2/ex1.py
 input_text = "Sơn Tùng MTP"
 
 
 print(input_text[:2]+input_text[-2:])
 
+=======
+input_text = "P"
+
+if len(input_text) >= 2:
+    x = input_text[0:2]
+    y = input_text[-2:]
+
+    print(x+y)
+else:
+    print("chuỗi ban đầu chưa đáp ứng điều kiện")
+>>>>>>> ce1be8cee6e60a1d7368aec84d539cd6d1a7b484:homework/day 02/ex1.py
