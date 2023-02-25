@@ -6,10 +6,6 @@ example:
 """
 
 def remove_dupicates_element(x,y,z):
-    #Set list
-    x = list(set(x))
-    y = list(set(y))
-
     #Join two list
     z = x + y 
 

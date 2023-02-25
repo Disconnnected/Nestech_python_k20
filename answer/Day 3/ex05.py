@@ -27,7 +27,7 @@ def check(x):
             print('Please only enter numbers from 1 to 9. Try again...') 
       except ValueError:
             print('The answer must be a number. Try again...')
-            continue #If the number is a string or has values greater than 9, keep checking it.
+            continue #If the number is a string or something, keep checking it.
     return puzzle_random_numb(run)
 
 message = f'''
