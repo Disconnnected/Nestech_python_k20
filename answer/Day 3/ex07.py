@@ -22,8 +22,6 @@ def password_generator(y):
     random.shuffle(characters_lower)
     random.shuffle(number)
     random.shuffle(scac)
-    
-    y = int(y)
 
     password_list = []
     
