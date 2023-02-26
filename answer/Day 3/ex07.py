@@ -24,20 +24,12 @@ def password_generator(y):
     random.shuffle(scac)
     
     y = int(y)
-    
-    #Calculate % of number of character.
-    cal_30 = round(y * (30/100)) #30%
-    cal_20 = round(y * (20/100)) #20%
 
     password_list = []
     
-    #Add Character calculated.
-    for i in range(cal_30):
+    for i in range(round(12/4)):
         password_list.append(characters_upper[i])
         password_list.append(characters_lower[i])
-
-    #Add Number, Symbols and Ambiguous calculated.
-    for i in range(cal_20):
         password_list.append(number[i])
         password_list.append(scac[i])
 
@@ -55,21 +47,23 @@ def main(x):
     while True:
         try:
             x = int(x)
-            if x < 8:
-                print("Your password lenght should be at least 8 characters.")
-                x = input("Please, Enter your password lenght again: ")
-            else:
-                print(password_generator(x))
-                x = input("Enter your new password lenght or <'q'> to Exit: ")
-                main(x)
-                break
-        except ValueError:
-            if x == "q":
+            if x == 2:
                 print("Exiting...")
                 exit()
+            elif x != 1:
+                x = x = input("Enter your next choice again (1 or 2): ")
             else:
-                x = input("Please, Enter numbers only or <'q'> to Exit.")
+                print(password_generator(x))
+                x = input("""Enter your next choice: """)
+                return main(x)
+        except ValueError:
+            x = x = input("Enter your next choice again (1 or 2): ")
                 
-                
-user_input = input("Enter your password lenght: ")
+user_input = input("""
+<----->GENERATOR PASSWORD<----->
+        Choose 1 or 2
+    1. Create new password
+    2. Exit
+
+Enter your choice: """)
 print(main(user_input))
