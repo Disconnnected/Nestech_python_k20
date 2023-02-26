@@ -22,6 +22,7 @@ To your heart.
 """
 # https://www.poetrysoup.com/poem/cross_my_heart_609765
 
+import string
 
 def solve(input_data):
     """Trả về tiêu đề bài thơ ghép từ các chữ cái đầu tiên của mỗi dòng.
@@ -30,8 +31,6 @@ def solve(input_data):
     chú ý thay đổi trên input_data chứ không dùng trực tiếp data.
     """
     result = None
-
-
 
     return result
 

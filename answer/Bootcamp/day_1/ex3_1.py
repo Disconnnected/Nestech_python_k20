@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-data = 1000
+data = 10
 
 
 def solve(input_data):
@@ -17,14 +17,17 @@ def solve(input_data):
       output = 1000
 
       input_data = 9 (1001)
-      output = 1
+      output = 1    
 
     Hàm có sẵn: bin(10) == '0b1010'
     Hàm có sẵn tạo ra integer từ string: 69 == int('69')
     """
-    result = None
+    result = bin(input_data)
 
-    # code here
+    # #Lọc ký tự chữ và lấy phần còn lại
+    # string_filter = filter(str.isdigit,result)
+    # result = ''.join(string_filter)
+    # result = int(result)
 
     return result
 
