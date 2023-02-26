@@ -9,6 +9,8 @@ def squared(input_data):
     được cung cấp sẵn bởi bài tập. chỉ cần lo tính toán ra kết quả
     dựa trên `input_data` đã cho.
     """
+    result = None
+
     x = math.pow(input_data,2)
 
     result = int(x)
