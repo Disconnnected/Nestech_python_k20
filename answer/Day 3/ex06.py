@@ -12,7 +12,7 @@ def prime_check(x):
             return f"< {x} > is prime"
         else:
             return f"< {x} > isn't prime"
-      except:
+      except ValueError:
             print("Please only enter integers. Try again...")
             x = input('To test Prime, enter a number: ')
 

@@ -26,7 +26,7 @@ def check(x):
         elif x > 9:
             print('Please only enter numbers from 1 to 9. Try again...')
             x = input('Enter your answer: ')
-      except:
+      except ValueError:
             print('The answer must be a number. Try again...')
             x = input('Enter your answer: ')
     return puzzle_random_numb(run)
