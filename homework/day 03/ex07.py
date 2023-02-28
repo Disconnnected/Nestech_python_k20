@@ -11,10 +11,10 @@ def password(a):
     symbol = list(string.punctuation)
     
     #shuffle characters
-    random.shuffle(lowercase)
-    random.shuffle(uppercase)
-    random.shuffle(number)
-    random.shuffle(symbol)
+    # random.shuffle(lowercase)
+    # random.shuffle(uppercase)
+    # random.shuffle(number)
+    # random.shuffle(symbol)
     
     #condition: sum b + c + d + e = a
     while True:
