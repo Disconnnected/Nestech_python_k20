@@ -11,10 +11,10 @@ def puzzle_random_numb(x):
         try:
             x = int(x)
             if x < correct_numb:
-                print(f'{x} is too low. Accurate results: {correct_numb}')
+                print(f'{x} is too low. Try again...')
                 x = input("Enter your guess again: ")
             elif x > correct_numb:
-                print(f'{x} is too high. Accurate results: {correct_numb}')
+                print(f'{x} is too high. Try again...')
                 x = input("Enter your guess again: ")
             else:
                 print(f'Congratulations! {x} is exactly right. Accurate results: {correct_numb}')
