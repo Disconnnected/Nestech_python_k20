@@ -11,8 +11,7 @@ def squared(input_data):
     """
     result = None
 
-    # Xoá dòng raise và Viết code vào đây set các giá trị phù hợp
-    # raise NotImplementedError("Bạn chưa làm bài này")
+    result= (int(input_data**2))
 
     # Uncomment dòng sau để có kết quả đúng
     # result = input_data ** 2

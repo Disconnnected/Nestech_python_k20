@@ -11,7 +11,6 @@ example:
     - radar
     - wow
 
-<<<<<<< HEAD
 """
 example = input("Mòi bạn nhập chuỗi: ")
 cout=0
@@ -24,6 +23,3 @@ if(cout==int(len(example)/2)):
 else:
     print(f"{example} không là chuỗi đối xứng")
         
-=======
-"""
->>>>>>> ce1be8cee6e60a1d7368aec84d539cd6d1a7b484
