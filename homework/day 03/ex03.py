@@ -12,3 +12,10 @@ example:
     - wow
 
 """
+
+while True:
+    string_input = input("input string: \n")
+    if string_input == string_input[::-1]:
+        print(f"Correct answer: {string_input} \n \n")
+    else:
+        print("wrong answer. try again")
