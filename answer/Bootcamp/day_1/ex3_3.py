@@ -14,8 +14,14 @@ def solve():
 
     :rtype: list
     """
-    result = None
+    # for i in range(1,101):
+    #     if i % 15 == 0:
+           
+    #     elif i % 5 == 0:
 
+    #     elif i % 3 == 0:
+
+    result = None
 
     return result
 

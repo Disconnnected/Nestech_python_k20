@@ -30,9 +30,16 @@ def solve(input_data):
 
     chú ý thay đổi trên input_data chứ không dùng trực tiếp data.
     """
-    result = None
+
+    result = input_data
+
+    
+    
 
     return result
+
+
+
 
 
 def main():
