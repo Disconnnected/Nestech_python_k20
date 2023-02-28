@@ -6,7 +6,7 @@ hint: use list comprehension
 a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 b = []
 def even_list(x,y):
-    for i in x:
+    for i in a:
         if i % 2 == 0:
             y.append(i)
     y.sort()

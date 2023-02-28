@@ -16,7 +16,7 @@ def password(a):
     random.shuffle(number)
     random.shuffle(symbol)
     
-    
+    #condition: sum b + c + d + e = a
     while True:
         b = a - random.randint(3,a-1)
         c = a - random.randint(3,a-1)
@@ -44,7 +44,7 @@ def password(a):
     password = ''.join(password)
     return password
 
-def main(x,a):
+def main(x):
     while True:
         try:
             x = int(x)
@@ -53,10 +53,15 @@ def main(x,a):
                 exit()
             elif x != 1:
                 x = x = input("Enter your next choice again (1 or 2): ")
-            elif x == 1:
-                a = int(input("Password's Length: "))
+            else:
+                a = int(input("Password's Length (at least 4): "))
                 print(password(a))
-                x = input("""Enter your next choice: """)
+                x = input("""
+<----->GENERATOR PASSWORD<----->
+        Choose 1 or 2
+    1. Create new password
+    2. Exit
+Enter your next choice: """)
                 return main(x)
         except ValueError:
             x = x = input("Enter your next choice again (1 or 2): ")
@@ -68,4 +73,4 @@ user_input = input("""
     2. Exit
 Enter your choice: """)
 
-print(main(user_input,0))
+print(main(user_input))
