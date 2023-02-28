@@ -10,12 +10,12 @@ def check_prime(number):
 
 print("Kiểm tra 1 số có phải là số nguyên tố không?")
 number = input("Nhập 1 số: \n")
-
 while True:
     try:
         number = int(number)
         if number > 1:
-            check_prime(number)
+            print(check_prime(number))
+            number = input("Nhập 1 số khác hoặc nhấn q/quit để thoát: \n")
         else:
             print("=> Phải nhập 1 số lớn hơn 1")
             number = input("Nhập 1 số khác hoặc nhấn q/quit để thoát: \n")
