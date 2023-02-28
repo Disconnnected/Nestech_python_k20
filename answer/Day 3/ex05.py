@@ -7,13 +7,21 @@ import random
 #Puzzle Game
 def puzzle_random_numb(x):
     correct_numb = random.randrange(1,9)
-    x = int(x)
-    if x < correct_numb:
-        return f'{x} is too low. Accurate results: {correct_numb}'
-    elif x > correct_numb:
-        return f'{x} is too high. Accurate results: {correct_numb}'
-    else:
-        return f'Congratulations! {x} is exactly right. Accurate results: {correct_numb}'
+    while True:
+        try:
+            x = int(x)
+            if x < correct_numb:
+                print(f'{x} is too low. Accurate results: {correct_numb}')
+                x = input("Enter your guess again: ")
+            elif x > correct_numb:
+                print(f'{x} is too high. Accurate results: {correct_numb}')
+                x = input("Enter your guess again: ")
+            else:
+                print(f'Congratulations! {x} is exactly right. Accurate results: {correct_numb}')
+                return x
+        except ValueError:
+            check(x)
+            continue
 
 #Checking Function
 def check(x):
