@@ -7,7 +7,6 @@ https://docs.python.org/3/library/functions.html#enumerate
 
 data = ["I", "Love", "You", "Chiu", "Chiu"]
 
-
 def solve(input_data):
     """Trả về 1 `list` các `list` theo định dạng sau:
 
@@ -16,7 +15,8 @@ def solve(input_data):
     :rtype: list
     """
     result = None
-
+    for index,aresult in enumerate(input_data,start=1):
+        print(index,aresult)
 
     return result
 

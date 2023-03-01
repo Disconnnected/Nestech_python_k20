@@ -22,7 +22,13 @@ def solve():
 
     
     result = None
-
+    list=[]
+    for i in range (1,11):
+        for j in range (1,11):
+            for z in range (1,11):
+                if (i + j/z)==10:
+                    list.append([i,j,z])
+    result=list
 
     return result
 

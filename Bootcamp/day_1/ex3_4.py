@@ -13,7 +13,7 @@ Ví dụ::
 
 Read: https://docs.python.org/3/library/stdtypes.html#str.rfind
 """
-
+input_data = '....slsslslsls...sls'
 
 def solve(input_data):
     """Trả về tên file sau khi loại bỏ phần mở rộng
@@ -21,7 +21,12 @@ def solve(input_data):
     :param input_data: tên file bất kì
     :rtype: str
     """
+
+
     result = None
+    lastdot = input_data.rfind('.')
+    result= input_data[:-(len(input_data)-lastdot)]
+
 
     return result
 

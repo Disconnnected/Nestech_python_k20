@@ -11,7 +11,18 @@ Ví dụ:
 
 - output: February 28
 """
-
+months = [["January", 31], 
+          ["February", 28], 
+          ["March", 31], 
+          ["April", 30], 
+          ["May", 31], 
+          ["June", 30], 
+          ["July", 31], 
+          ["August", 31], 
+          ["September", 30], 
+          ["October", 31], 
+          ["November", 30], 
+          ["December", 31]]
 
 def solve(input_data):
     """Trả về 1 `tuple` chứa 2 phần tử, ví dụ:
@@ -25,12 +36,14 @@ def solve(input_data):
     :rtype: list
     """
     result = None
-
+    for index,month_days in enumerate(months,start=1):
+        if index==input_data:
+            result= month_days
     return result
 
 
 def main():
-    month, day = solve(0)
+    month, day = solve(6)
     print(month, day)
 
 

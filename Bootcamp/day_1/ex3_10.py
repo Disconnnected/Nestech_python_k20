@@ -14,7 +14,7 @@ Làm thêm tùy chọn:
 - https://projecteuler.net/problem=10
 - https://projecteuler.net/problem=16
 """
-data = ([2, 7, 11, 15], 9)
+data = ([2, 7, 4, 5], 9)
 
 
 def solve(nums, target):
@@ -26,14 +26,21 @@ def solve(nums, target):
     """
 
     result = None
+    list=[]
+    for i in range(len(nums)-1):
+        for j in range(i+1,len(nums)):
+            if (int(nums[i])+int(nums[j]))==target:
+                list.append([i,j])
 
+    result=list
 
     return result
 
 
 def main():
-    nums, target = data
+    nums,target= data
     print(solve(nums, target))
+
 
 
 if __name__ == "__main__":

@@ -18,8 +18,10 @@ def solve():
     Lưu ý: Thứ tự tăng dần theo bảng cửu chương
     """
     result = None
-
-    return result
+    list=[]
+    for i in range(5,101,5):
+        list.append(f"{i} = 5*{int(i/5)}")
+    return list
 
 
 def main():

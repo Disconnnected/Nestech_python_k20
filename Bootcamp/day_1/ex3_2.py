@@ -22,18 +22,22 @@ To your heart.
 """
 # https://www.poetrysoup.com/poem/cross_my_heart_609765
 
-
-def solve(input_data):
-    """Trả về tiêu đề bài thơ ghép từ các chữ cái đầu tiên của mỗi dòng.
+"""Trả về tiêu đề bài thơ ghép từ các chữ cái đầu tiên của mỗi dòng.
     Chỉ viết hoa chữ cái đầu tiên.
 
     chú ý thay đổi trên input_data chứ không dùng trực tiếp data.
     """
+def solve(input_data):
+    readlinedata= input_data.split("\n")
+    str=''
+    for i in readlinedata:
+        if i!='':
+            str+=i[0]
+    str=str.capitalize()     
     result = None
-
-
-
+    print(str)
     return result
+    
 
 
 def main():
@@ -42,8 +46,9 @@ def main():
     Khi ghép các chữ cái HOẶC các từ đầu tiên lại với nhau thu được một
     thông điệp
     """
-    print(solve(data))
-    print("Result should be Pymi: {}".format(solve("P\nY\nM\nI")))
+    # print(solve(data))
+    # print("Result should be Pymi: {}".format(solve("P\nY\nM\nI")))
+    solve(data)
 
 
 if __name__ == "__main__":

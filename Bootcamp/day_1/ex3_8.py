@@ -13,7 +13,7 @@ def solve(input_data):
     """
 
     result = None
-
+    
 
     return result
 
