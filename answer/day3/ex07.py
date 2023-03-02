@@ -8,7 +8,7 @@ import string
 lowercase_string = 'abcdefghijklmnopqrstuvwxyz'
 uppercase_string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 digit_string ='0123456789'
-symbols_string= "!#$%&()-/?@"
+symbols_string= "!#$%&()-/@"
 
 full_string = lowercase_string+uppercase_string+digit_string+symbols_string
 
@@ -38,6 +38,7 @@ def check_password(password):
 
 print("Tạo 1 mật khẩu mới")
 length = input("Nhập chiều dài ký tự cần tạo: \n")
+
 while True:
     try:
         length = int(length)
