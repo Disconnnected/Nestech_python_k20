@@ -11,20 +11,18 @@ def solve(input_data):
 
     :rtype: bool
     """
-    input_data = input_data.lower()
+    result = input_data.lower().split()
 
-    print(input_data)
-    
-    result = input_data.split()
-    
+    char = result[0:][::-1]
+    # print(char)
+    rchar = [i[::-1] for i in result]
+    # print(rchar)
 
-    for i in result:
-        if i == i[::-1]:
+    for i in range(len(result)):
+        if char == rchar:
             result = True
         else:
             result = False
-
-
     return result
 
 
