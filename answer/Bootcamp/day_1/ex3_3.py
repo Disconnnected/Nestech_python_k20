@@ -33,7 +33,7 @@ def solve():
 
 
 def main():
-    #Not working with this!
+    ## Không hoạt động trên code
     # for i in solve():
     #     print(i)
 

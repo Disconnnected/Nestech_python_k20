@@ -33,7 +33,7 @@ def solve(input_data):
 
     result = input_data.strip().splitlines()
 
-    #First way
+    ## First way
     # first_letter = ""
     
     # for i in result:
@@ -41,7 +41,7 @@ def solve(input_data):
     
     # result = first_letter
 
-    #Second way
+    # Second way
     result = " ".join(i[0] for i in result)
 
     return result

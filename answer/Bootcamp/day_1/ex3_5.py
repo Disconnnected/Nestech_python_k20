@@ -15,9 +15,21 @@ def solve(input_data):
 
     :rtype: list
     """
-    result = None
+    result = input_data
 
 
+    #Cách 1:
+    add_arr_list = []
+
+    for i in range(len(result)):
+        add_arr_list.append([i+1,result[i]])
+        
+    print(f"Cách 1: \n{add_arr_list}\n")
+
+    
+    #Cách 2 `Khác dấu "()" thay vì "[]" `:
+    print(f"Cách 2: \n{list(enumerate(result,1))}")
+    
     return result
 
 

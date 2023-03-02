@@ -12,6 +12,8 @@ Ví dụ:
 - output: February 28
 """
 
+from calendar import *
+import datetime
 
 def solve(input_data):
     """Trả về 1 `tuple` chứa 2 phần tử, ví dụ:
@@ -24,15 +26,35 @@ def solve(input_data):
     :param input_data: tháng bất kì
     :rtype: list
     """
-    result = None
+    result = input_data
+    
+    if result < 1:
+        result = 1
+    elif result > 12:
+        result = 12
+    
+    # Lấy năm hiện tại
+    today = datetime.date.today()
+    year = today.year
 
+    # Lấy số ngày trong tháng
+    days_in_month = monthrange(year,result)[1]
+
+    # Lấy tên của tháng nhập vào
+    m_name = month_name[result]
+
+    # Trả về dạng tuple
+    result = tuple((m_name,days_in_month))
+    
     return result
 
 
 def main():
-    month, day = solve(0)
-    print(month, day)
+    ## Không hoạt động trên code
+    # month, day = solve(0)
+    # print(month, day)
 
+    print(solve(1))
 
 if __name__ == "__main__":
     main()
