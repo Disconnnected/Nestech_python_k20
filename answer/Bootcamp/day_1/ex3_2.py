@@ -31,15 +31,21 @@ def solve(input_data):
     chú ý thay đổi trên input_data chứ không dùng trực tiếp data.
     """
 
-    result = input_data
+    result = input_data.strip().splitlines()
 
+    #First way
+    # first_letter = ""
     
+    # for i in result:
+    #     first_letter += i[0] + " "
     
+    # result = first_letter
+
+    #Second way
+
+    result = " ".join([i[0][0] for i in result])
 
     return result
-
-
-
 
 
 def main():

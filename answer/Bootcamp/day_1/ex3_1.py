@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-data = 10
+data = 24
 
 
 def solve(input_data):
@@ -22,12 +22,7 @@ def solve(input_data):
     Hàm có sẵn: bin(10) == '0b1010'
     Hàm có sẵn tạo ra integer từ string: 69 == int('69')
     """
-    result = bin(input_data)
-
-    # #Lọc ký tự chữ và lấy phần còn lại
-    # string_filter = filter(str.isdigit,result)
-    # result = ''.join(string_filter)
-    # result = int(result)
+    result = bin(input_data)[bin(input_data).rfind("1"):]
 
     return result
 
