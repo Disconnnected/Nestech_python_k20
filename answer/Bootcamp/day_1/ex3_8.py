@@ -11,8 +11,12 @@ def solve(input_data):
 
     :rtype: bool
     """
+    input_data = input_data.lower()
 
+    print(input_data)
+    
     result = input_data.split()
+    
 
     for i in result:
         if i == i[::-1]:
