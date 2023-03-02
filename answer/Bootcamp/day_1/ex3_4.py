@@ -21,7 +21,11 @@ def solve(input_data):
     :param input_data: tên file bất kì
     :rtype: str
     """
-    result = None
+    result = input_data
+
+    file_type = result[result.rfind("."):]
+
+    result = result.replace(file_type,"")
 
     return result
 

@@ -14,21 +14,30 @@ def solve():
 
     :rtype: list
     """
-    # for i in range(1,101):
-    #     if i % 15 == 0:
-           
-    #     elif i % 5 == 0:
 
-    #     elif i % 3 == 0:
+    result = []
 
-    result = None
+    for i in range(1,101):
+        if i % 15 == 0:
+           result.append("FizzBuzz")
+
+        elif i % 5 == 0:
+            result.append("Buzz")
+
+        elif i % 3 == 0:
+            result.append("Fizz")
+        else:
+            result.append(i)
 
     return result
 
 
 def main():
-    for i in solve():
-        print(i)
+    #Not working with this!
+    # for i in solve():
+    #     print(i)
+
+    print(solve())
 
 
 if __name__ == "__main__":
