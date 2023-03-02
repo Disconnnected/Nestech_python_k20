@@ -12,7 +12,13 @@ def solve(input_data):
     :rtype: bool
     """
 
-    result = None
+    result = input_data.split()
+
+    for i in result:
+        if i == i[::-1]:
+            result = True
+        else:
+            result = False
 
 
     return result
