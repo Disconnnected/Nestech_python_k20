@@ -42,7 +42,6 @@ def solve(input_data):
     # result = first_letter
 
     #Second way
-
     result = " ".join([i[0][0] for i in result])
 
     return result
