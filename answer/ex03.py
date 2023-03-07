@@ -13,32 +13,53 @@ example:
 """
 #phân biệt hoa, thường
 #input từ
-word_1 = input("Điền từ cần nhập: ")
+
 
 
 #check cách đọc
-def check_read(a):
-    if word_1 == word_1[::-1]:
+def check_read_1(a):
+    word = input("Điền từ cần nhập: ")
+    if word == word[::-1]:
         return ("xuôi ngược là 1")
     else:
         return ('khác nhau hoàn toàn')
 
 #không phân biệt hoa, thường
 #input từ
-word_2 = input("Điền từ cần nhập: ").upper()
 
 #check cách đọc
-def check_read(a):
-    if word_2 == word_2[::-1]:
-        return "xuôi ngược là 1"
+def check_read_2(a):
+    word = input("Điền từ cần nhập: ").upper()
+    if word == word[::-1]:
+        print("xuôi ngược là 1")
+        return main(a)
     else:
-        return 'khác nhau hoàn toàn'
+        print('khác nhau hoàn toàn')
+        return main(a)
 
-while True:
-    message = """
-Please choose one number:
-    1. Phân biệt hoa thường
-    2. Không phân biệt hoa thường
-    3. Quit
-----------------------------------
-    """
+def main(user_input):
+    while (True):
+        try:
+            
+            if user_input == 1:
+                print(check_read_1(user_input))
+                return main(user_input)
+            elif user_input == 2:
+                print( check_read_2(user_input))
+                return main(user_input)
+            elif user_input == 3:
+                print('Exist....')
+                exit()
+        except ValueError:
+            user_input = user_input = input('please choose 1, 2, 3 : ')
+
+
+user_input = int(input(''''
+<----->palindrome<----->
+    1. Phân biệt hoa, thường
+    2. Không phân biệt hoa, thường
+    3. Exit
+
+YOUR CHOOSE: 
+'''))
+print(main(user_input))
