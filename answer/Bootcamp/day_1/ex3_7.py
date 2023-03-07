@@ -17,15 +17,18 @@ def solve():
 
     Lưu ý: Thứ tự tăng dần theo bảng cửu chương
     """
-    result = None
-
+    result = []
+    for i in range(101):
+        if i % 5 == 0 and (i*5) % 5 == 0 and i!=0:
+            n = i / 5
+            result.append(f"{i} == {int(n)} * 5")
+        
     return result
 
-
 def main():
-    for i in solve():
-        print(i)
-
+    print(solve())
+    # for i in solve():
+    #     print(i)
 
 if __name__ == "__main__":
     main()

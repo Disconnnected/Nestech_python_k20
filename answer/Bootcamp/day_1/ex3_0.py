@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 data = 5
-import math
+# import math
 
 def squared(input_data):
     """Tính bình phương của số đầu vào
@@ -9,11 +9,11 @@ def squared(input_data):
     được cung cấp sẵn bởi bài tập. chỉ cần lo tính toán ra kết quả
     dựa trên `input_data` đã cho.
     """
-    result = None
+    result = int(input_data) ** 2
 
-    x = math.pow(input_data,2)
+    # x = math.pow(input_data,2)
 
-    result = int(x)
+    # result = int(x)
 
     return result
 

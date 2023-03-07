@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-data = 24
+data = 5
 
 
 def solve(input_data):
