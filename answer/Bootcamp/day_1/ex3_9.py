@@ -20,15 +20,23 @@ def solve():
     Lưu ý: kết quả từng list con trả về với a giảm dần, b và c tăng dần
     """
 
-    
     result = []
+    a = []
+    b = []
+    c = []
+    
     for i in range(1,10):
-        for j in range(1,10):
-            for k in range(1,10):
-                if i + (j/k) == 10:
+        a.append(i)
+        b.append(i)
+        c.append(i)
+
+    a = a[::-1]
+
+    for i in a:
+        for j in b:
+            for k in c:
+                if i + j/k == 10:
                     result.append([i,j,k])
-
-
     return result
 
 
