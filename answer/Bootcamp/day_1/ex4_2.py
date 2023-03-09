@@ -38,8 +38,12 @@ def solve(octal):
     Out[1]: '0o111'
     """
 
-    result = None
-
+    result = octal
+    
+    if result != 0o777:
+        a = 0o777 - result
+        foct = result + a
+        result = oct(foct)
 
     return result
 
