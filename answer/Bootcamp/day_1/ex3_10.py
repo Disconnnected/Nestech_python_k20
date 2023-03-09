@@ -14,7 +14,7 @@ Làm thêm tùy chọn:
 - https://projecteuler.net/problem=10
 - https://projecteuler.net/problem=16
 """
-data = ([2, 7, 11, 15], 9)
+data = ([2,7,11,15], 9)
 
 
 def solve(nums, target):
@@ -24,10 +24,12 @@ def solve(nums, target):
     Kiểm tra kết quả tại
     https://leetcode.com/problems/two-sum/
     """
-
-    result = None
-
-
+    result = []
+    for i in range(len(nums)-1):
+        for j in range(i+1,len(nums)):
+            if nums[i] + nums[j] == target:
+                result.append(i)
+                result.append(j)
     return result
 
 
