@@ -13,14 +13,30 @@ def solve(words):
       print(string.ascii_lowercase)
     """
 
-    result = None
+    result = words
+    lcharacter = string.ascii_lowercase
+    sp = 0
+    plist = []
+    for i in words:
+        for j in i:
+            j = j.lower()
+            for k in lcharacter:
+                if j in k:
+                    sp += lcharacter.index(j)+1
+                    
+        plist.append(sp)
+        sp = 0
+    
+    print(words)
 
+    result = plist
 
     return result
 
 
 def main():
     words = [
+        "attitude",
         "numpy",
         "django",
         "saltstack",
@@ -28,6 +44,7 @@ def main():
         "Python",
         "FAMILUG",
         "pymi",
+        "AAAaaa",
     ]
 
     print(solve(words))
