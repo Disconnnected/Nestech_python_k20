@@ -49,11 +49,14 @@ def solve(ip):
 
     Khi s = '1', s.zfill(5) sẽ thêm đủ "zero" để tạo thành '00001'
     """
-    result = None
+    
+    result = ip
 
+    bip = ".".join(map(str,["{0:08b}".format(int(i)) for i in result.split(".")]))
+
+    result = bip
 
     return result
-
 
 def main():
     """
@@ -72,6 +75,8 @@ def main():
 
       Trên Python2, function tương ứng tên là `raw_input`
     """
+    # name = input("Bạn tên gì? ")
+    # print(name)
 
     ip = input("Nhập vào IP:")
     print(solve(ip))
