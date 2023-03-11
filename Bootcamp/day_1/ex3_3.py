@@ -8,22 +8,33 @@ bình thưòng.
 """
 
 
-def solve():
-    """Thay vì in ra, hãy trả về 1 `list`
-    100 phần tử thỏa mãn yêu cầu đề bài
-
-    :rtype: list
-    """
-    result = None
-
-
-    return result
+# def solve():
+#     """Thay vì in ra, hãy trả về 1 `list`
+#     100 phần tử thỏa mãn yêu cầu đề bài
+#     :rtype: list
+#     """
+#     result = None
 
 
-def main():
-    for i in solve():
-        print(i)
+#     return result
 
 
-if __name__ == "__main__":
-    main()
+# def main():
+#     for i in solve():
+#         print(i)
+
+
+# if __name__ == "__main__":
+#     main()
+
+list =[]
+for i in range(1,101):
+    if i % 15 == 0:
+        apl = list.append('FizzBuzz')
+    elif i % 5 == 0:
+        apl = list.append('Buzz')
+    elif i % 3 == 0:
+        apl = list.append('Fizz')
+    else:
+        apl = list.append(i)
+print(list)

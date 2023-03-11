@@ -18,33 +18,39 @@ Hasten
 Earnestly
 As my love flows by
 Rushing through the flood-gates
-To your heart.
-"""
+To your heart."""
 # https://www.poetrysoup.com/poem/cross_my_heart_609765
 
 
-def solve(input_data):
-    """Trả về tiêu đề bài thơ ghép từ các chữ cái đầu tiên của mỗi dòng.
-    Chỉ viết hoa chữ cái đầu tiên.
+# def solve(input_data):
+#     """Trả về tiêu đề bài thơ ghép từ các chữ cái đầu tiên của mỗi dòng.
+#     Chỉ viết hoa chữ cái đầu tiên.
 
-    chú ý thay đổi trên input_data chứ không dùng trực tiếp data.
-    """
-    result = None
-
-
-
-    return result
+#     chú ý thay đổi trên input_data chứ không dùng trực tiếp data.
+#     """
+#     result = None
 
 
-def main():
-    """
-    Cross my heart là một bài thơ thuộc thể loại "acrostic".
-    Khi ghép các chữ cái HOẶC các từ đầu tiên lại với nhau thu được một
-    thông điệp
-    """
-    print(solve(data))
-    print("Result should be Pymi: {}".format(solve("P\nY\nM\nI")))
+
+#     return result
 
 
-if __name__ == "__main__":
-    main()
+# def main():
+#     """
+#     Cross my heart là một bài thơ thuộc thể loại "acrostic".
+#     Khi ghép các chữ cái HOẶC các từ đầu tiên lại với nhau thu được một
+#     thông điệp
+#     """
+#     print(solve(data))
+#     print("Result should be Pymi: {}".format(solve("P\nY\nM\nI")))
+
+
+# if __name__ == "__main__":
+#     main()
+# print(data)
+# print('\t'.join(data))
+print('\r'.join(data[::-1]))
+for i in range(len(data)):
+    if data[i] == """
+""":
+        print(data[i+1])

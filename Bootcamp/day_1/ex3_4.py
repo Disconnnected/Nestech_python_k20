@@ -33,3 +33,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+data = input("Please choose a file with format: ")
+def data_1():
+    for i in range(len(data)):
+        if data[i] == "." :
+            enddot = (data)[i:]
+    return enddot
+print(data_1())
+print(data.removesuffix(data_1()))

@@ -34,19 +34,20 @@
 # if __name__ == "__main__":
 #     main()
 
-# def bin_1(data):
-#     reverse = bin(data)
-#     # reverse = reverse[::-1]
-#     return reverse
-# user = int(input('nhập 1 số: '))
-
-# print(bin_1(user))
 
 
-
-data = 24
-print(bin(data))
-print(bin(data)[3:])
-
-print(bin(data).split('0',1))
-
+def bin_one(data):
+    for i in range(len(bin(data))):
+        if bin(data)[i] == "1" :
+            bin_data = (bin(data)[i:])
+    return "the binary of number: " + bin_data
+while True:
+    try:
+        ask_user = input('''Please choose number or exit: ''')
+        if ask_user == ("exit"):
+            exit()
+        else:
+            data = int(ask_user)
+            print(bin_one(data))
+    except ValueError:
+        False
