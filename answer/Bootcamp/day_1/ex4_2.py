@@ -43,7 +43,7 @@ def solve(octal):
     if result != 0o777:
         a = 0o777 - result
         foct = result + a
-        result = oct(foct)
+        result = f"{oct(result)} -> otc({octal}) + oct({a}) = otc({foct}) -> " + oct(foct)
 
     return result
 
