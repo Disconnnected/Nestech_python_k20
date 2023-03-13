@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-
+import string
+import unidecode
 
 def solve(text):
     """Bóc tách từ `text` ra một list các số theo thứ tự chúng xuất hiện.
@@ -12,8 +13,34 @@ def solve(text):
 
     # use isalnum()
 
-    result = None
+    result = []
+    char = ""
 
+    for i in text.split():
+        if i.isdigit():
+            result.append(int(i))
+        else:
+            char += i
+    
+    char = list(char.split(","))
+    i = 0                           
+    while i < len(char):
+        if char[i].isalpha():
+            del char[i]
+            i = 0
+        else:
+            break
+    print(char)
+
+    nlist = []
+ 
+        
+                
+                
+             
+    print(nlist)
+
+        
     return result
 
 def main():
