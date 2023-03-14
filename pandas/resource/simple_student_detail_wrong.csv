@@ -1,0 +1,11 @@
+id,full_name,sex,math,physics,biology,chemistry,english,art,music,overall,Note
+Nestech_001,Nguyen Phu Trong,M,8,4,4,7,6,4,4,5.285714286,Lop Truong
+Nestech_002,Vo Van Thuong,M,3,,8,,5,4,6,3.714285714,Pho Lop Truong
+Nestech_003,Nguyen Hoang Kieu Trinh,F,6,2,65,8,3,,1,12.14285714,
+Nestech_004,Viktor Nguyen,M,,8,9,,7,7,6,5.285714286,
+Nestech_005,Clint Nguyen,M,8,9,7,3,2,8,8,6.428571429,
+Nestech_006,Nguyen Van Toan,M,9,5,,5,7,2,,4,
+Nestech_007,Kha Kim Bao Han,F,10,79,5,9,8,4,5,17.14285714,Ex
+Nestech_008,Pham Le Tram Anh,F,5,5,1,5,44,6,8,10.57142857,Ex
+Nestech_009,Ba Hoang Kim Thinh,F,4,7,,7,,6,2,3.714285714,Ex
+Nestech_010,Giap Phi Hoang,M,6,6,8,2,8,7,45,11.71428571,Y Thuc Kem
