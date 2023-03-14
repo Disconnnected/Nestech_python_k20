@@ -7,8 +7,7 @@ def solve():
 
     Yêu cầu dùng list comprehension.
     """
-    result = None
-
+    result = [(a,b,24) for a in range(1,11) for b in range(1,11) if a <= 10 and a == b and 24%b == 0]
 
     return result
 
