@@ -8,9 +8,11 @@ def solve(numbers):
     Không sử dụng hàm `sum`
     """
 
-    result = None
-
-
+    result = numbers
+    sum = 0
+    for i in range(len(result)):
+        sum += result[i]
+    
     return result
 
 
