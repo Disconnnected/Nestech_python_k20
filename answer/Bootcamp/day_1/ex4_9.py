@@ -8,10 +8,12 @@ def solve(numbers):
     Gợi ý: python có sẵn giá trị âm/dương vô cùng.
     """
     assert isinstance(numbers, list)
-    result = None
-
-
-    return result
+    result = numbers[0]
+    for x in range(len(numbers)):
+        if numbers[x] > result:
+            result = numbers[x]
+    
+    return f"Phần tử lớn nhất: {result}"
 
 
 def main():
