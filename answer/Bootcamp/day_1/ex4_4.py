@@ -9,9 +9,21 @@ def solve():
     thể có giá trị giống nhau), dạng biểu thức:
 
       a + 13 * b / c + d + 12 * e - f - 11 + g * h / i - 10 = 66
+
+    rhs =  87 + f - a - d - (e*12)
+
+    rhs2 = (rhs*i*c) - (13*b*i)
+
+    (13*b/c) + (g*h/i) = 87 + f - a - d - (12*e)
+
+	(13*b*i) + (g*h*c) = rhs*i*c
+
+	(13*b*i) = c*((rhs*i) - (g*h))
+
     """ 
     """
     Bài toán áp dụng
+    https://go.dev/play/p/euUskIcgtE
     https://viettuts.vn/bai-tap-python/phan-tich-so-nguyen-n-thanh-tich-cac-so-nguyen-to-trong-python
     https://gmaths.edu.vn/9-bai-toan-khien-cong-dong-mang-tren-toan-gioi-hai-nao-co-ca-mot-cau-danh-cho-hoc-sinh-lop-3-cua-viet-nam/
     https://stackoverflow.com/questions/42266204/solving-an-arithmetic-expression-with-multiple-answers-vietnamese-math-maze
