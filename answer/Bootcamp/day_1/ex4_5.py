@@ -10,8 +10,11 @@ def solve(numbers):
 
     result = numbers
     sum = 0
+    product = 1
     for i in range(len(result)):
         sum += result[i]
+        product *= result[i]
+    result = tuple((sum,product))
     
     return result
 
