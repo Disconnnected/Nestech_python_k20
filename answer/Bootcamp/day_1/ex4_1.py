@@ -50,8 +50,14 @@ def solve(ip):
     Khi s = '1', s.zfill(5) sẽ thêm đủ "zero" để tạo thành '00001'
     """
     result = None
-
-
+    arr = ip.split('.')
+    arr_bin = []
+    for i in arr:
+      if(i == '1'):
+        arr_bin.append(i.zfill(8))
+      else:  
+        arr_bin.append(bin(int(i))[2:])
+    result = '.'.join(arr_bin)
     return result
 
 
@@ -72,7 +78,8 @@ def main():
 
       Trên Python2, function tương ứng tên là `raw_input`
     """
-
+    
+    
     ip = input("Nhập vào IP:")
     print(solve(ip))
 

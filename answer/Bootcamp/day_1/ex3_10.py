@@ -33,7 +33,9 @@ def solve(nums, target):
                     result=[index1,index2]
                     break
         else:
-            break   
+            break
+    
+    
     return result
 
 
