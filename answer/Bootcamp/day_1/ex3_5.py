@@ -16,14 +16,18 @@ def solve(input_data):
     :rtype: list
     """
     result = None
-
+    lst = []
+    for index, el in enumerate(input_data):
+        lst.append([index+1, el])
+    result = lst
     return result
 
 
 def main():
     # xử lí in ra theo yêu cầu đề bài bên dưới
     result = solve(data)
-    pass
+    print(result)
+
 
 if __name__ == "__main__":
     main()
