@@ -41,10 +41,10 @@ data = [
 
 def solve(last_year_data):
     """
-    Trả về list thông tin các sau khi đã update sau 1 năm.
+    Trả về list thông tin các học viên sau khi đã update sau 1 năm.
     Không thay đổi thông tin năm cũ.
 
-    Biết các đều học được các ngôn ngữ lập trình
+    Biết các học viên đều học được các ngôn ngữ lập trình
     trong "languages" của "Hoang".
     Sau đó "Hoang" học thêm được ngôn ngữ "Elixir", các học
     viên khác không biết ngôn ngữ này.
@@ -54,20 +54,44 @@ def solve(last_year_data):
     Chú ý: code tránh dựa vào thứ tự cụ thể trong để bài.
     """
 
-    result = None
+    new_data = copy.deepcopy(last_year_data)
 
+    values = []
 
-    return result
+    for i in last_year_data:
+        values += list(i.values())
+
+    languages = values[2]
+    
+    for i in range(len(new_data)):
+        if new_data[i]["name"] != "Hoang":
+            new_data[i]['languages'] = languages
+        else:
+            new_data[i]['languages'].append('Elixir')
+
+        if new_data[i]['name'] == 'Tu':
+            new_data[i]['girl_friend'] = 'Do Anh'
+        elif new_data[i]['name'] == 'Duy':
+            del new_data[i]['girl_friend']
+
+    return new_data
+    
 
 
 def main():
     # Cho list chứa các dictionary chứa thông tin của các học viên:
     students = data
-    # In ra màn hình tên kèm tên bạn gái (nếu có)
 
-    result = solve(students)  # NOQA
+    # In ra màn hình tên học viên kèm tên bạn gái (nếu có)
+    for i in range(len(students)):
+        if 'girl_friend' in students[i]:
+            print(f"Tên học viên {i+1}: {students[i]['name']}, bạn gái: {students[i]['girl_friend']}")
+        else:
+            print(f"Tên học viên {i+1}: {students[i]['name']}")
+    
     # In ra các thông tin đã thay đổi so với năm trước của mỗi học viên.
-
+    print("\nThông tin đã thay đổi so với năm trước:")
+    print(solve(students))
 
 if __name__ == "__main__":
     main()
