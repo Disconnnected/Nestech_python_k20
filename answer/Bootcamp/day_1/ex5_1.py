@@ -23,8 +23,15 @@ def solve(colors):
         In [1]: list(zip(['xanh', 'do'], ['XXX', 'YYY']))
         Out[1]: [('xanh', 'XXX'), ('do', 'YYY')]
     """
-    result = None
+    
+    result = []
 
+    key = list(data)
+
+    values = list(data.values())
+    
+    for i in range(len(data)):
+        result += list(zip([key[i]],[values[i]]))
 
     return result
 
