@@ -26,8 +26,19 @@ def solve(inputfile, N=5):
     theo thứ tự tên học viên.
     """
     result = None
-
-
+    f = open(inputfile,"r",)
+    names = f.readlines()
+    lst_tup = []
+    for name in names:
+        if(name[0] == "D"):
+            lst_tup.append((hash(name)% MAGIC_NUMBER,name[:-1],1990,N))
+        elif((name[0]=="H") or (name[-3:-1]=="ng")):
+            lst_tup.append((hash(name)% MAGIC_NUMBER,name[:-1],1990,N+1))
+        else:
+            lst_tup.append((hash(name)% MAGIC_NUMBER,name[:-1],1990,N))
+                
+    result = lst_tup
+    f.close()
     return result
 
 
