@@ -15,8 +15,18 @@ def solve(input_data):
     cũng được).
     """
     result = None
-
-
+    lst_data = []
+    text = ''
+    for i in data:
+        if(i.isalpha() or i == "’"):
+            text += i
+        elif i == ' ':
+            lst_data.append(text)
+            text = ''
+    set_data = set(lst_data)
+    tup_data = [ (i, lst_data.count(i)) for i in set_data ]
+    result = sorted(tup_data,key=lambda el: el[1], reverse=True)
+    
     return result[:10]
 
 
