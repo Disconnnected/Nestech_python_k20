@@ -16,7 +16,7 @@ def solve(output_path, n=NUMBER_OF_LINES):
     """
 
     result = None
-    # Bài này ko cần làm 
+    # Bài này ko cần làm  
 
     #
     #
