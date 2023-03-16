@@ -24,13 +24,37 @@ def solve(text):
     abbbccccdddd
     """
     result = None
-
-
+    lst = []
+    chars = ''
+    text_new =''
+    for index, char in enumerate(text):
+        if(index > 0 and index < (len(text)-1)):
+            if(char == text[index-1]):
+                chars += char
+            else:
+                lst.append(chars)
+                chars = char
+        elif(index == (len(text)-1)):
+            if(char == text[index-1]):
+                chars += char
+                lst.append(chars)
+            else:
+                lst.append(chars)
+                lst.append(char)
+        else:
+            chars += char
+    print(lst) 
+    for i in lst:
+        if(len(i)==1):
+            text_new+=i
+        else:
+            text_new+=i[:2]+str(len(i))
+    result = text_new
     return result
 
 
 def main():
-    print(solve("abbbccccdddd"))
+    print(solve("abbbccccddddeffg"))
 
 
 if __name__ == "__main__":
