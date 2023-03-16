@@ -35,3 +35,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+import string
+a = 'numpy'.split("")
+print(a)

@@ -33,3 +33,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+lst = []
+for a in range(1,10):
+    for b in range(1,10):
+        for c in range(1,10):
+            d = [a,b,c]
+            if a + b/c == 10:
+                lst.append(d)
+                print(d)
