@@ -11,7 +11,11 @@ def solve(term1, term2):
     """
 
     result = None
-
+    term_last = term2.copy()
+    for key, value in term1.items():
+        if key not in term2.keys():
+            term_last[key] = value
+    result = term_last      
     return result
 
 
