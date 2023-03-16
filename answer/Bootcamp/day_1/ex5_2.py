@@ -55,8 +55,16 @@ def solve(last_year_data):
     """
 
     result = None
-
-
+    students_update = copy.deepcopy(last_year_data)
+    for student in students_update:
+        name = student.get('name')
+        if(name == "Hoang"):
+            student['languages'].append('Elixir')
+        elif (name == "Tu"):
+            student["girl_friend"] = "Do Anh"
+        elif(name == "Duy"):
+            del student["girl_friend"]
+    result = students_update        
     return result
 
 
@@ -67,7 +75,7 @@ def main():
 
     result = solve(students)  # NOQA
     # In ra các thông tin đã thay đổi so với năm trước của mỗi học viên.
-
+    print(result)
 
 if __name__ == "__main__":
     main()
