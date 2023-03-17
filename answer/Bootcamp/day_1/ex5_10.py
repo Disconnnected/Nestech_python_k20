@@ -17,7 +17,7 @@ def solve(input_data):
     # Viết code vào đây set result làm kết quả của tính toán
     #
     #
-    #
+    # 
 
     return result
 
