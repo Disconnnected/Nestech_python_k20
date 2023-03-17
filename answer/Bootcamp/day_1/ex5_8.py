@@ -32,9 +32,9 @@ def solve():
 def main():
     for part in solve():
         print(part)
-        # if isinstance(part, list):
-        #     for elem in part:
-        #         print(elem)
+        if isinstance(part, list):
+            for elem in part:
+                print(elem)
 
 
 if __name__ == "__main__":
