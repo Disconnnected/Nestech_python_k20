@@ -15,7 +15,16 @@ def solve(text):
 
     result = []
 
+    newt = unidecode.unidecode(text)
+    
+    for i,j in enumerate(newt):
+        if j.isdigit() and newt[i-1].isdigit():
+            result[-1] = int(newt[i-1]+j)
+        elif j.isdigit():
+            result.append(int(j))
     return result
+
+    
 
 def main():
     ss = "Bé lên 3 bé đi lớp 4"

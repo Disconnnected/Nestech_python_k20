@@ -14,7 +14,22 @@ def solve(input_data):
     (Nếu có nhiều từ cùng xuất hiện với số lần như nhau thì trả về từ nào
     cũng được).
     """
-    result = None
+    result = []
+    repeated = 0
+    laststring = ""
+    for i in input_data.lower():
+        if i.isalnum():
+            laststring = i
+            # if i != laststring:
+            #     repeated = input_data.count(i)
+            #     print(repeated)
+            
+                
+        
+            
+
+
+    
 
 
     return result[:10]
