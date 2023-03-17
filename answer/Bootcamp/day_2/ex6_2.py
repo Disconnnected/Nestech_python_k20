@@ -18,7 +18,7 @@ def your_function(iterable, N):
     return result
     # pass
 
-
+ 
 def solve(iterable, N):
     """Chia input_data thành các tuple chứa N phần tử (chunk a list).
     Nếu tuple cuối không đủ phần tử thì bỏ đi.
