@@ -80,47 +80,59 @@ def solve(year1, year2):
         
     can_chi_1 = f"{can_1} {chi_1}"
     can_chi_2 = f"{can_2} {chi_2}"
-
-    hopnhau = None
-
-    for h in tamhop:
-        if chi_1 in h and chi_2 in h:
-            hopnhau = 1
-            break
     
     list_xung = []
     list_bth = []
 
+    chi = [chi_1.lower(),chi_2.lower()]
+
     for x in range(len(xung)):
         xung_1 = xung[x][:2]
         xung_2 = xung[x][-2:]
+
         bth_1 = [xung[x][0],xung[x][2]]
         bth_2 = [xung[x][0],xung[x][3]]
+
         list_xung.append(xung_1)
         list_xung.append(xung_2)
+
         list_bth.append(bth_1)
         list_bth.append(bth_2)
-    
+
+    hopnhau = None
+
+    for li,t in enumerate(tamhop):
+        if chi_1.lower() in tamhop[li] and chi_2.lower() in tamhop[li][li-1] or chi_2.lower() in tamhop[li] and chi_1.lower() in tamhop[li][li-1]:
+            hopnhau = 1
+            break
+           
     if hopnhau is None:
-        chi = [chi_1.lower(),chi_2.lower()]
-        for x in list_xung: 
-            for b in list_bth:
-                if chi == x:
-                    hopnhau = -1
-                    break
-                elif chi == b:
-                    hopnhau = 0
-                    break
-                else:
-                    hopnhau = 0
-    
+        for x in list_xung:
+            if chi == x:
+                hopnhau = -1
+                break
+            elif chi == [b for b in list_bth] or chi_1 == chi_2:
+                hopnhau = 0
+            else:
+                hopnhau = 0
+
     result = (can_chi_1,can_chi_2,hopnhau)
 
     return result
 
 def main():
+    # 0:
+    # this = 1960
+    # that = 1961
+    
+    # 1:
+    # this = 1986
+    # that = 2006
+
+    # -1
     this = 1986
     that = 2008
+    
     thiscc, thatcc, isgood = solve(this, that)
     if isgood == GOOD:
         result = "hợp"
@@ -130,6 +142,7 @@ def main():
         result = "bình thường - hợp ăn hợp ngủ là được"
     else:
         raise ValueError("Bad value {}".format(isgood))
+        
 
     print(
         "Năm {0}({1}), năm {2}({3}): {4}".format(
