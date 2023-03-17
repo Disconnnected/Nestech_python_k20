@@ -15,22 +15,17 @@ def solve(input_data):
     cũng được).
     """
     result = []
-    repeated = 0
     laststring = ""
+
     for i in input_data.lower():
         if i.isalnum():
-            laststring = i
-            # if i != laststring:
-            #     repeated = input_data.count(i)
-            #     print(repeated)
+            laststring += i
             
-                
-        
-            
+    clist = set(laststring)
+   
+    tup = [(j,laststring.count(j)) for j in clist]
 
-
-    
-
+    result = sorted(tup,key=itemgetter(1),reverse=True)
 
     return result[:10]
 
