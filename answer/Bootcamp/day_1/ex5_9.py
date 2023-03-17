@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from operator import itemgetter
+
 data = [
     {"name": "An Giang", "population": 2153700, "area": 3536.7, "senator": 10},
     {
@@ -126,6 +127,8 @@ data = [
     {"name": "Yên Bái", "population": 764400, "area": 6886.3, "senator": 7},
 ]
 
+alphabet = "AÁÀẢÃẠÂẮẦẨẪẬĂẮẰẲẴẶBCDĐEÉÈẺẼẸÊẾỀỂỄỆFGHIÍÌỈĨỊJKLMNOÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢPQRSTUÚÙỦŨỤƯỨỪỬỮỰVWXYZaáàảãạâắầẩẫậăắằẳẵặbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvwxyz "
+alphabet_list = list(alphabet)
 
 def solve(input_data):
     """Dùng list comprehensions để:
@@ -137,12 +140,24 @@ def solve(input_data):
     sắp xếp theo thứ tự giảm dần.
     """
     result = None
+    lst_H = []
+    lst_greater_1b = []
+    for i in input_data:
+        if(i['name'][0]=="H"):
+            lst_H.append(i)
+        if (i['population'] > 10**6):
+            lst_greater_1b.append(i)
+    # sort
+    lst_H.sort(key= lambda word: [alphabet_list.index(c) for c in word['name']])
+    lst_greater_1b.sort(key=lambda el : el['population'],reverse=True)
 
+    result = [lst_H,lst_greater_1b]
     return result
 
 
 def main():
     provinces = data
+    solve(provinces)
     for L in solve(provinces):
         for province in L:
             print(province)
