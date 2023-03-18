@@ -5,10 +5,6 @@ GOOD = 1
 NEUTRAL = 0
 BAD = -1
 
-def last_two_digits(year):
-    year = str(year)
-    return int(year[-2:])
-
 def last_one_digits(year):
     year = str(year)
     return int(year[-1])
@@ -53,7 +49,7 @@ def solve(year1, year2):
             #    0         1       2    3       4       5       6       7       8     9
     thiencan = ['canh', 'tân', 'nhâm', 'quý', 'giáp', 'ất', 'bính', 'đinh', 'mậu', 'kỷ']
 
-    diachi = ['tý', 'sửu', 'dần', 'mão', 'thìn', 'tị', 'ngọ', 'mui', 'thân', 'dậu', 'tuất', 'hợi']
+    diachi = ['thân', 'dậu', 'tuất', 'hợi', 'tý', 'sửu', 'dần', 'mão', 'thìn', 'tị', 'ngọ', 'mùi']
 
     xung = [["dần", "thân", "tị", "hợi"],
             ["tý", "ngọ", "mão", "dậu"],
@@ -73,9 +69,9 @@ def solve(year1, year2):
 
     #Tính Chi
     for i,c in enumerate(diachi):
-        if i == last_two_digits(year1)%12:
+        if i == year1%12:
             chi_1 = c.title()
-        if i == last_two_digits(year2)%12:
+        if i == year2%12:
             chi_2 = c.title()
         
     can_chi_1 = f"{can_1} {chi_1}"
@@ -131,7 +127,7 @@ def main():
 
     # -1
     this = 1986
-    that = 2008
+    that = 2002
     
     thiscc, thatcc, isgood = solve(this, that)
     if isgood == GOOD:
@@ -143,7 +139,6 @@ def main():
     else:
         raise ValueError("Bad value {}".format(isgood))
         
-
     print(
         "Năm {0}({1}), năm {2}({3}): {4}".format(
             this, thiscc, that, thatcc, result
