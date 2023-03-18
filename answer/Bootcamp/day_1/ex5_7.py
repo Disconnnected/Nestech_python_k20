@@ -23,9 +23,17 @@ def solve(text):
     a1b3c2a1c1d4
     abbbccccdddd
     """
-    result = None
+    result = ""
 
-
+    for i,j in enumerate(text):
+        if j != text[i-1]:
+            if text.count(j)>1:
+                result += "".join(f"{j}{j}{text.count(j)}")
+            elif text.count(j)==1:
+                result += "".join(f"{j}")
+            else:
+                result = "".join(f"{j}{text.count(j)}")
+            
     return result
 
 
