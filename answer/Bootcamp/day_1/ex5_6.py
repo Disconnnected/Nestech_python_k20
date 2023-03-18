@@ -10,7 +10,13 @@ def solve(term1, term2):
     Biết điểm số được chọn là điểm số ở lần học sau cùng.
     """
 
-    result = None
+    last_semester = term2.copy()
+
+    for key,values in term1.items():
+        if key not in term2.keys():
+            last_semester[key] = values
+            
+    result = last_semester
 
     return result
 
