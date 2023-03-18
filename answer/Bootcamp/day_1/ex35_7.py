@@ -11,8 +11,7 @@ def solve(N):
     Must: use list comprehension
     Tips: list comprehension always create new list
     """
-    result = None
-
+    result = sum([i for i in range(N+1) if i%15==0 or i%3==0 or i%5==0])
 
     return result
 

@@ -9,9 +9,7 @@ def solve(N):
     Must: use list comprehension
     Tips: list comprehension always create new list
     """
-
-    result = None
-
+    result = [sum(map(int, str(2**1000)))]
 
     return result
 

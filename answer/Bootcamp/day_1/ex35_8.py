@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 def solve(N):
     """Create a list which contains N lists,
     each list contains N numbers from 0->N-1.
@@ -29,11 +28,6 @@ def solve(N):
       *8******8*
       9********9
     """
-    result = None
-
-
-    return result
-
 
 def main():
     print(solve(10))
