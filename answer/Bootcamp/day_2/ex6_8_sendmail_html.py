@@ -1,6 +1,7 @@
 import os
 import smtplib, ssl
 from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 """
 Gửi email được thực hiện nhờ thư viện smtplib có sẵn của Python.
@@ -39,20 +40,39 @@ def send_gmail(
 
     smtpserver.login(myemail, app_password)
 
-    msg = MIMEText(content.encode("utf-8"), _charset="utf-8")
+    msg = MIMEMultipart("alternative")
     print(msg)
     msg["Subject"] = subject
     msg["From"] = "Người tình bí mật" # tên người gửi
     msg["To"] = ", ".join(to_addresses) # có dòng này, gửi to, ko có sẽ gửi bcc
-    # msg["To"] = "lam.tranledien@gmail.com" # có dòng này, gửi to, ko có sẽ gửi bcc
-    print(msg["To"])
+
+    text = """\
+Hi,
+How are you?
+Real Python has many great tutorials:
+www.realpython.com"""
+    html = """\
+<html>
+  <body>
+    <p>Chào bạn,<br>
+       How are you?<br>
+       <a href="http://www.realpython.com">Real Python</a> 
+       has many great tutorials.
+    </p>
+  </body>
+</html>
+"""
+    part1 = MIMEText(text, "plain")
+    part2 = MIMEText(html, "html")
+    
+    msg.attach(part1)
+    msg.attach(part2)
     # print(msg.as_string())
     smtpserver.sendmail(myemail, to_addresses, msg.as_string())
 
-
 def main():
     YOUREMAIL = "hayashibutler@gmail.com"
-    YOUREMAIL2= ["lam.tranledien@gmail.com"]
+    YOUREMAIL2= ["lam.tranledien@gmail.com","giaohangtienloi.vn@gmail.com"]
     content='''
     Xin chào
     tôi là người yêu của bạn
