@@ -32,8 +32,8 @@ def solve(text):
             elif text.count(j)==1:
                 result += "".join(f"{j}")
             else:
-                result = "".join(f"{j}{text.count(j)}")
-            
+                result += "".join(f"{j}{text.count(j)}")
+    
     return result
 
 

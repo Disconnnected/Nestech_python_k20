@@ -126,6 +126,9 @@ data = [
     {"name": "Yên Bái", "population": 764400, "area": 6886.3, "senator": 7},
 ]
 
+alphabet = "AÁÀẢÃẠÂẮẦẨẪẬĂẮẰẲẴẶBCDĐEÉÈẺẼẸÊẾỀỂỄỆFGHIÍÌỈĨỊJKLMNOÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢPQRSTUÚÙỦŨỤƯỨỪỬỮỰVWXYZaáàảãạâắầẩẫậăắằẳẵặbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvwxyz "
+
+alphabet_list = list(alphabet)
 
 def solve(input_data):
     """Dùng list comprehensions để:
@@ -136,7 +139,21 @@ def solve(input_data):
     - Tạo 1 list chứa tên, dân số của các thành phố có dân số trên 1 triệu,
     sắp xếp theo thứ tự giảm dần.
     """
-    result = None
+    swh = []
+    
+    oms = []
+
+    for i in input_data:
+        if i["name"][0] == "H":
+            swh.append((i["name"],i["population"]))
+        if i["population"] > 1000000:
+            oms.append((i["name"],i["population"]))
+
+    swh.sort(key= lambda word: [alphabet_list.index(c) for i,c in enumerate(word[0])])
+
+    oms.sort(key= lambda numb: [numb[1]], reverse=True)
+
+    result = [swh,oms]
 
     return result
 

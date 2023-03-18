@@ -9,9 +9,24 @@ def solve():
     Unicode codepoint tương ứng với ký tự ``\t`` ``\n``, `` ``
 
     Gợi ý: dùng ``chr()``, ``ord()``.
-    """
-    result = None
+    """ 
 
+    result = []
+    
+    for a in range(33,54):
+        result += [(a,chr(a))]
+
+    for d in range(ord("0"),ord("9")+1):
+        result += [(d,chr(d))]
+
+    for l in range(ord("a"),ord("z")+1):
+        result += [(l,chr(l))]
+    
+    for u in range(ord("A"),ord("Z")+1):
+        result += [(u,chr(u))]
+
+    result += [(ord('\t'),'\t'), (ord('\n'),'\n'), (ord(' '),' ')]
+    
     return result
 
 
