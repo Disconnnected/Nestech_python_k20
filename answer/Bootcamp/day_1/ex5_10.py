@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-
+import numpy as np
+from math import factorial
 """
 [Không bắt buộc]
 
@@ -12,12 +13,16 @@ Kiểm tra kết quả bằng https://projecteuler.net/problem=15
 """
 
 
-def solve(input_data):
-    result = None
+def solve():
     # Viết code vào đây set result làm kết quả của tính toán
     #
     #
-    #
+    #Tính mỗi lần di chuyển bằng cách tính giai thừa đến số ô 
+    
+    f = factorial(20)/(factorial(10)*factorial(20-10))
+
+    result = f"Số hướng đường đi trong ô 10x10: {str(f)} bước"
+      
 
     return result
 
