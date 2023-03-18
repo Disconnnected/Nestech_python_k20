@@ -54,7 +54,7 @@ def solve(text):
 
 
 def main():
-    print(solve("abbbccccddddeffg"))
+    print(solve("abbbccccddddaabbbeffg"))
 
 
 if __name__ == "__main__":
