@@ -25,8 +25,24 @@ def solve(inputfile, N=5):
     (mã sinh viên, tên học viên, năm sinh, phòng thi), sắp xếp
     theo thứ tự tên học viên.
     """
-    result = None
+    result = []
 
+    file = open(inputfile,'r')
+    
+    read = file.read()
+
+    student = read.splitlines()
+
+    birth_year = 1990
+
+    for i,j in enumerate(student):
+        if j[0] == 'D':
+            result.append((hash(student[i])% MAGIC_NUMBER,student[i],birth_year,N))
+        elif j[0] == 'H' or 'ng' in j:
+            result.append((hash(student[i])% MAGIC_NUMBER,student[i],birth_year,N+1))
+        else:
+            result.append((hash(student[i])% MAGIC_NUMBER,student[i],birth_year,N))
+    
 
     return result
 
