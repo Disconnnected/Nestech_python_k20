@@ -3,7 +3,7 @@
 import csv
 import os
 import time
-
+from datetime import datetime
 # bài này khó. làm đc thì làm 
 
 
@@ -11,15 +11,25 @@ def find_max_price(datafile):
     f = open(datafile)
     dr = csv.DictReader(f, ["time", "price", "UNKNOWN"])  # NOQA
     # Viết tiếp code vào đây
-
+    price = 0
+    t = ""
     try:
-        # Xoá dòng sau và viết code vào đây set các giá trị phù hợp
-        # raise NotImplementedError("Bạn chưa làm bài này")
+        for i in dr:
+            if float(i["price"]) > price:
+                price = float(i["price"])
+                t = i["time"]
         pass
-    finally:
-        f.close()
 
-    return
+    finally:
+        get_date = datetime.fromtimestamp(float(t))
+
+        price_time = datetime.date(get_date)
+
+        result = (str(price_time),f"{price:,}")
+
+        f.close()
+    
+    return  result
 
 
 def solve():

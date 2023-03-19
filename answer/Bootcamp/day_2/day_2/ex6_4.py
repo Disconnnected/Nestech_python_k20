@@ -9,7 +9,7 @@ def sumall(*input_data):
     return sum([float(i) for i in input_data])
 
 def solve():
-    result = None
+    result = sumall(2,2,"2",2.2,"4.4")
 
 
     return result

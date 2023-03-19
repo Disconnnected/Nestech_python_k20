@@ -17,6 +17,16 @@ def calculate_cost(usage, prices):
     # Viết code tính toán vào đây
     result = None
 
+    if int(usage) <= 50:
+        total = prices["first_50"]* int(usage)
+        result = f"{total:,}"
+    elif int(usage) > 50 and int(usage) <=100:
+        total = 50*prices["first_50"] + (int(usage)-50)*prices["from_51_to_100"]
+        result = f"{total:,}"
+    else:
+        total = 50*prices["first_50"] + 50*prices["from_51_to_100"] + (int(usage)-100)*prices["above_100"]
+        result = f"{total:,}"
+
     return result
     # pass
 
@@ -31,9 +41,7 @@ def solve(input_data):
     # tính kết quả.
     # Các bài còn lại tự định nghĩa function và gọi function để
     # tính toán kết quả `result`
-    result = [
-        (i[0].title(), calculate_cost(i[1], input_data["prices"])) for i in input_data["usages"]
-    ]
+    result = [(i[0].title(), calculate_cost(i[1], input_data["prices"])) for i in input_data["usages"]]
 
     return result
 

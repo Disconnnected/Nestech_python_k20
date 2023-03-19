@@ -3,8 +3,18 @@
 # lst = []
 def your_function(iterable, N):
     # Sửa tên, set giá trị return
-    result = None
+    result = []
 
+    tup = ()
+
+    for i,j in enumerate(iterable):
+        if (i+1)%N ==0:
+            tup += (j,)
+            result.append(tup)
+            tup = ()
+        else:
+            tup += (j,)
+    
     return result
     # pass
 
