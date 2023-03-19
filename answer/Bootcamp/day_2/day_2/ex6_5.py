@@ -2,7 +2,7 @@
 
 import os
 import json  # NOQA
-
+import copy
 
 data = os.path.join(os.path.dirname(__file__), "salt_contributors.json")
 
@@ -13,7 +13,21 @@ def your_function(datapath):
     Nếu html_url nào bị thiếu, tạo html_url mới bằng
     "https://github.com/" + login tương ứng.
     """
-    result = None
+    result = []
+
+    file = open(datapath,'r')
+
+    data = json.load(file)
+
+    redata = copy.deepcopy(data)
+
+    for i in redata:
+        if "html_url" not in redata:
+            i["html_url"] = "https://github.com/user/" + i["login"]
+            result += [{'login': i['login'],
+                        'html_url': i['html_url'],
+                        'contributions': i['contributions']
+                        }]
 
     return result
     
