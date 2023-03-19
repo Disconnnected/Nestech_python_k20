@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from fractions import Fraction
 
-
 def solve(a, *args):
     """Return tổng (kiểu float) của các phân số
     https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists
@@ -15,6 +14,7 @@ def solve(a, *args):
     total = Fraction(2,10)
     for i in args:
         total += Fraction(i)
+
     result = float(total)
     return result
 
