@@ -16,9 +16,8 @@ def repositories(github_login):
         "https://api.github.com/users/{}/repos".format(github_login)
     ) as f:
         repos = json.load(f)
-        print(repos[0])
     # Sửa function cho phù hợp, trả về kết quả yêu cầu.
-    result = None
+    result = [(i["name"]) for i in repos]
 
     return result
 
