@@ -47,7 +47,7 @@ def send_gmail(
 
 
 def main():
-    YOUREMAIL = "FILL THIS BY YOUREMAIL"
+    YOUREMAIL = "alexlow1924@gmail.com"
     send_gmail(YOUREMAIL, [YOUREMAIL])
     print("sent")
 
