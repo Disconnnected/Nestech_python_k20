@@ -20,7 +20,23 @@ def your_function(length=16):
     mật khẩu này bắt buộc phải chứa ít nhất 1 chữ thường,
     1 chữ hoa, 1 số, 1 ký tự punctuation (string.punctuation).
     """
-
+    least_uppercase = False
+    least_lowercase = False
+    least_digit = False
+    least_punctuation = False
+    
+    while least_uppercase == False or least_lowercase == False or least_digit == False or least_punctuation == False:
+        password = "".join([secrets.choice(full_list) for _ in range(0,length)])
+        for el in password:
+            if el in string.ascii_uppercase:
+                least_uppercase = True
+            elif el in string.ascii_lowercase:
+                least_lowercase = True
+            elif el in string.digits:
+                least_digit = True
+            elif el in string.punctuation:
+                least_punctuation = True
+    return password
 
 def generate_and_append(length, passwords=[]):
     """
@@ -29,6 +45,14 @@ def generate_and_append(length, passwords=[]):
     password vừa tạo ra.
     Sửa argument tùy ý.
     """
+    if(passwords):
+        
+        passwords.append(solve(length))
+    else:
+        passwords = [solve(length)]
+    
+    print(passwords)
+    return passwords
 
 
 def solve(input_data):
