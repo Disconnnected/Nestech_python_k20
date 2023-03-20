@@ -28,7 +28,7 @@ def your_decorator(function):
 @your_decorator
 def worker():
     for i in range(10):
-        pass
+        i**1000000
     time.sleep(1)
 
 # worker = your_decorator(worker)
@@ -46,6 +46,7 @@ def solve():
     while a < 10:
         a += 2
         time.sleep(1)
+        print(a)
     result = worker()
 
     return result
