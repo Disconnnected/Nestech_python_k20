@@ -13,8 +13,11 @@ def your_decorator(function):
     """Tính thời gian chạy của `function` (float)"""
     def wrapper():
         start = time.time()
+        print('start ',start)
         function()
-        return time.time() - start
+        end = time.time()
+        print('end ',end)
+        return end - start
 
     # Sửa lại tên và function cho phù hợp
     # Xoá dòng sau và viết code vào đây set các giá trị phù hợp
@@ -25,16 +28,17 @@ def your_decorator(function):
 @your_decorator
 def worker():
     for i in range(10):
-        print(i)
+        i**1000000
     time.sleep(1)
 
+# worker = your_decorator(worker)
 
 def solve():
     """Thực hiện 1 tính toán bất kì trong function `solve`
 
     Trả về kết quả tùy ý, gán lại vào `result`
     """
-    result = worker()
+    # result = worker()
     # Xoá dòng sau sau khi đã thay đổi your_decorator phù hợp
     # raise NotImplementedError("chưa thực hiện tính toán")
 
@@ -42,6 +46,7 @@ def solve():
     while a < 10:
         a += 2
         time.sleep(1)
+        print(a)
     result = worker()
 
     return result
