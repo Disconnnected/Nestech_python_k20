@@ -25,7 +25,7 @@ def your_decorator(function):
 @your_decorator
 def worker():
     for i in range(10):
-        pass
+        print(i)
     time.sleep(1)
 
 
