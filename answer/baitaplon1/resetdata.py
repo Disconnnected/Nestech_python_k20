@@ -10,7 +10,7 @@ path_out = os.path.join(path_dir,'Google-Playstore-limit.csv')
 count = 0
 index = 0
 with open(path_inp, 'r') as inp, open(path_out, 'w') as out:
-    reader = csv.reader(inp)
+    reader = csv.reader(inp) 
     writer = csv.writer(out)
     # write header
     header = next(reader)
