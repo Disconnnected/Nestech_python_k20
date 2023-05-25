@@ -13,6 +13,8 @@ def solve():
     """
     result = None
 
+    start = time.time()
+
 
     return result
 

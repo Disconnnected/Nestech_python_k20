@@ -22,3 +22,23 @@ def answer(a):
 print(answer(a))
 
 
+=======
+
+# random
+
+import random
+
+x = random.randint(1,9)
+
+
+
+while True:
+    user_guess = int(input("Let's guess: \n"))
+    if user_guess > x:
+        print("It's too high")
+    elif user_guess < x:
+        print("it's too low")
+    else:
+        print("you are correct")
+    print(f"Số X là: {x}")
+    
