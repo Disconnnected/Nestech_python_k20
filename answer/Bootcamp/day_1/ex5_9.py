@@ -153,7 +153,7 @@ def solve(input_data):
 
     oms.sort(key= lambda numb: [numb[1]], reverse=True)
 
-    result = [swh,oms]
+    result = [swh,float(oms)]
 
     return result
 
