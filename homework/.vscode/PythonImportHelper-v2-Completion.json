@@ -1,0 +1,29 @@
+[
+    {
+        "label": "input_text",
+        "kind": 5,
+        "importPath": "day 2.ex1",
+        "description": "day 2.ex1",
+        "peekOfCode": "input_text = \"Sơn Tùng MTP\"",
+        "detail": "day 2.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "expected_output",
+        "kind": 5,
+        "importPath": "day 2.ex6",
+        "description": "day 2.ex6",
+        "peekOfCode": "expected_output = [1,4,9,16,25,36,49,64]\n\"\"\"",
+        "detail": "day 2.ex6",
+        "documentation": {}
+    },
+    {
+        "label": "list_input",
+        "kind": 5,
+        "importPath": "day 2.ex7",
+        "description": "day 2.ex7",
+        "peekOfCode": "list_input = [1, 6, \"Hương\", \"\", [\"vinamilk\", \"ông thọ\"], \"\", 3.5]\n\"\"\"",
+        "detail": "day 2.ex7",
+        "documentation": {}
+    }
+]

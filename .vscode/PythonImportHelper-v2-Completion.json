@@ -1,0 +1,2643 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "itemgetter",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "itemgetter",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "ProcessPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "send_gmail",
+        "importPath": "ex6_8",
+        "description": "ex6_8",
+        "isExtraImport": true,
+        "detail": "ex6_8",
+        "documentation": {}
+    },
+    {
+        "label": "Fraction",
+        "importPath": "fractions",
+        "description": "fractions",
+        "isExtraImport": true,
+        "detail": "fractions",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "xml.etree.ElementTree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xml.etree.ElementTree",
+        "description": "xml.etree.ElementTree",
+        "detail": "xml.etree.ElementTree",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "time;",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time;",
+        "description": "time;",
+        "detail": "time;",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_1",
+        "description": "Bootcamp.day_1.ex35_1",
+        "peekOfCode": "def solve(N):\n    \"\"\"Create a list which contains N elements 2\n    Must: use list comprehension\n    Tips: list comprehension always create new list\n    \"\"\"\n    result = None\n    return result\ndef main():\n    print(solve(10))\nif __name__ == \"__main__\":",
+        "detail": "Bootcamp.day_1.ex35_1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_1",
+        "description": "Bootcamp.day_1.ex35_1",
+        "peekOfCode": "def main():\n    print(solve(10))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex35_1",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_2",
+        "description": "Bootcamp.day_1.ex35_2",
+        "peekOfCode": "def solve(N):\n    \"\"\"Creates a list which contains N random integers, each >=0, <=9\n    To generate 1 random integer, use::\n      import random\n      random.randrange(0, 10)\n    Must: use list comprehension\n    Tips: list comprehension always create new list\n    \"\"\"\n    result = None\n    return result",
+        "detail": "Bootcamp.day_1.ex35_2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_2",
+        "description": "Bootcamp.day_1.ex35_2",
+        "peekOfCode": "def main():\n    print(solve(10))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex35_2",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_3",
+        "description": "Bootcamp.day_1.ex35_3",
+        "peekOfCode": "def solve(N):\n    \"\"\"Creates a list which contains N first even integers. ``[2, 4 ...]``\n    Must: use list comprehension\n    Tips: list comprehension always create new list\n    \"\"\"\n    result = None\n    return result\ndef main():\n    print(solve(6))\nif __name__ == \"__main__\":",
+        "detail": "Bootcamp.day_1.ex35_3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_3",
+        "description": "Bootcamp.day_1.ex35_3",
+        "peekOfCode": "def main():\n    print(solve(6))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex35_3",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_4",
+        "description": "Bootcamp.day_1.ex35_4",
+        "peekOfCode": "def solve(N):\n    \"\"\"Creates a string which contains N random ASCII letters.\n    To create 1 letter, use::\n      import random\n      import string\n      random.choice(string.ascii_letters)\n    Must: use list comprehension\n    Tips: list comprehension always create new list\n    \"\"\"\n    result = None",
+        "detail": "Bootcamp.day_1.ex35_4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_4",
+        "description": "Bootcamp.day_1.ex35_4",
+        "peekOfCode": "def main():\n    print(solve(16))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex35_4",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_5",
+        "description": "Bootcamp.day_1.ex35_5",
+        "peekOfCode": "def solve(N):\n    \"\"\"Creates a list like this - odd numbers repeat six times.\n      ['111111', '333333', ..., '999999', '111111111111',..., NNNNNN]\n    Must: use list comprehension\n    Tips: list comprehension always create new list\n    \"\"\"\n    result = None\n    return result\ndef main():\n    print(solve(20))",
+        "detail": "Bootcamp.day_1.ex35_5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_5",
+        "description": "Bootcamp.day_1.ex35_5",
+        "peekOfCode": "def main():\n    print(solve(20))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex35_5",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_6",
+        "description": "Bootcamp.day_1.ex35_6",
+        "peekOfCode": "def solve(N):\n    \"\"\"\n    What is the sum of the digits of the number `2**1000`?\n    https://projecteuler.net/problem=16\n    Must: use list comprehension\n    Tips: list comprehension always create new list\n    \"\"\"\n    result = None\n    return result\ndef main():",
+        "detail": "Bootcamp.day_1.ex35_6",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_6",
+        "description": "Bootcamp.day_1.ex35_6",
+        "peekOfCode": "def main():\n    print(solve(1000))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex35_6",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_7",
+        "description": "Bootcamp.day_1.ex35_7",
+        "peekOfCode": "def solve(N):\n    \"\"\"Calculates sum of a list contains all integers less than N,\n    which are multiple of 3 or 5.\n    Given `sum` function:\n    >>>  sum([1,2,3,4]) == 10\n    Must: use list comprehension\n    Tips: list comprehension always create new list\n    \"\"\"\n    result = None\n    return result",
+        "detail": "Bootcamp.day_1.ex35_7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_7",
+        "description": "Bootcamp.day_1.ex35_7",
+        "peekOfCode": "def main():\n    print(solve(1000))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex35_7",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_8",
+        "description": "Bootcamp.day_1.ex35_8",
+        "peekOfCode": "def solve(N):\n    \"\"\"Create a list which contains N lists,\n    each list contains N numbers from 0->N-1.\n    E.g with N = 10:\n    matrix = [\n      [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n      [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n      ...\n      ...\n      [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],",
+        "detail": "Bootcamp.day_1.ex35_8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_8",
+        "description": "Bootcamp.day_1.ex35_8",
+        "peekOfCode": "def main():\n    print(solve(10))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex35_8",
+        "documentation": {}
+    },
+    {
+        "label": "diff_attributes",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_9",
+        "description": "Bootcamp.day_1.ex35_9",
+        "peekOfCode": "def diff_attributes(object1, object2):\n    \"\"\"\n    Biết dir(5) trả về list các attribute của object 5 (gồm cả method).\n    dir([]) trả về list các attribute của object empty list (list rỗng).\n    Một attribute được gọi là magic nếu nó có tên bắt đầu và kết thúc bằng `__`\n    \"Magic\" attribute được Python dùng với ý nghĩa đặc biệt, người dùng không\n    nên tự đặt tên theo kiểu magic này.\n    Tìm list các \"magic\" attribute mà chỉ object1 có, object2 không có\n    \"\"\"\n    result = None",
+        "detail": "Bootcamp.day_1.ex35_9",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_9",
+        "description": "Bootcamp.day_1.ex35_9",
+        "peekOfCode": "def solve(input_data):\n    result = diff_attributes(*input_data)\n    return result\ndef main():\n    input_data = ([], \"\")\n    print(\n        \"Các attribute mà chỉ {0} có còn {1} thì không:\".format(\n            type(input_data[0]), type(input_data[1])\n        )\n    )",
+        "detail": "Bootcamp.day_1.ex35_9",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex35_9",
+        "description": "Bootcamp.day_1.ex35_9",
+        "peekOfCode": "def main():\n    input_data = ([], \"\")\n    print(\n        \"Các attribute mà chỉ {0} có còn {1} thì không:\".format(\n            type(input_data[0]), type(input_data[1])\n        )\n    )\n    print(solve(input_data))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex35_9",
+        "documentation": {}
+    },
+    {
+        "label": "squared",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_0",
+        "description": "Bootcamp.day_1.ex3_0",
+        "peekOfCode": "def squared(input_data):\n    \"\"\"Tính bình phương của số đầu vào\n    Số đầu vào ở đây được chứa trong tên `input_data`,\n    được cung cấp sẵn bởi bài tập. chỉ cần lo tính toán ra kết quả\n    dựa trên `input_data` đã cho.\n    \"\"\"\n    result = None\n    # Xoá dòng raise và Viết code vào đây set các giá trị phù hợp\n    # raise NotImplementedError(\"Bạn chưa làm bài này\")\n    # Uncomment dòng sau để có kết quả đúng",
+        "detail": "Bootcamp.day_1.ex3_0",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_0",
+        "description": "Bootcamp.day_1.ex3_0",
+        "peekOfCode": "def main():\n    print(squared(data))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_0",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex3_0",
+        "description": "Bootcamp.day_1.ex3_0",
+        "peekOfCode": "data = 5\ndef squared(input_data):\n    \"\"\"Tính bình phương của số đầu vào\n    Số đầu vào ở đây được chứa trong tên `input_data`,\n    được cung cấp sẵn bởi bài tập. chỉ cần lo tính toán ra kết quả\n    dựa trên `input_data` đã cho.\n    \"\"\"\n    result = None\n    # Xoá dòng raise và Viết code vào đây set các giá trị phù hợp\n    # raise NotImplementedError(\"Bạn chưa làm bài này\")",
+        "detail": "Bootcamp.day_1.ex3_0",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_1",
+        "description": "Bootcamp.day_1.ex3_1",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"Đầu vào: một số nguyên dương\n    Đầu ra: số nguyên tạo bởi phần từ số 1 cuối cùng trở về bên\n    phải - của dạng binary của số đầu vào.\n    Ví dụ::\n      input_data = 5 # (0b101)\n      output = 1\n      input_data = 24 (11000)\n      output = 1000\n      input_data = 9 (1001)",
+        "detail": "Bootcamp.day_1.ex3_1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_1",
+        "description": "Bootcamp.day_1.ex3_1",
+        "peekOfCode": "def main():\n    print(solve(data))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_1",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex3_1",
+        "description": "Bootcamp.day_1.ex3_1",
+        "peekOfCode": "data = 1000\ndef solve(input_data):\n    \"\"\"Đầu vào: một số nguyên dương\n    Đầu ra: số nguyên tạo bởi phần từ số 1 cuối cùng trở về bên\n    phải - của dạng binary của số đầu vào.\n    Ví dụ::\n      input_data = 5 # (0b101)\n      output = 1\n      input_data = 24 (11000)\n      output = 1000",
+        "detail": "Bootcamp.day_1.ex3_1",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_10",
+        "description": "Bootcamp.day_1.ex3_10",
+        "peekOfCode": "def solve(nums, target):\n    \"\"\"\n    Trả về index của 2 số riêng biệt trong nums có tổng là target.\n    Kiểm tra kết quả tại\n    https://leetcode.com/problems/two-sum/\n    \"\"\"\n    result = None\n    return result\ndef main():\n    nums, target = data",
+        "detail": "Bootcamp.day_1.ex3_10",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_10",
+        "description": "Bootcamp.day_1.ex3_10",
+        "peekOfCode": "def main():\n    nums, target = data\n    print(solve(nums, target))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_10",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex3_10",
+        "description": "Bootcamp.day_1.ex3_10",
+        "peekOfCode": "data = ([2, 7, 11, 15], 9)\ndef solve(nums, target):\n    \"\"\"\n    Trả về index của 2 số riêng biệt trong nums có tổng là target.\n    Kiểm tra kết quả tại\n    https://leetcode.com/problems/two-sum/\n    \"\"\"\n    result = None\n    return result\ndef main():",
+        "detail": "Bootcamp.day_1.ex3_10",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_2",
+        "description": "Bootcamp.day_1.ex3_2",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"Trả về tiêu đề bài thơ ghép từ các chữ cái đầu tiên của mỗi dòng.\n    Chỉ viết hoa chữ cái đầu tiên.\n    chú ý thay đổi trên input_data chứ không dùng trực tiếp data.\n    \"\"\"\n    result = None\n    return result\ndef main():\n    \"\"\"\n    Cross my heart là một bài thơ thuộc thể loại \"acrostic\".",
+        "detail": "Bootcamp.day_1.ex3_2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_2",
+        "description": "Bootcamp.day_1.ex3_2",
+        "peekOfCode": "def main():\n    \"\"\"\n    Cross my heart là một bài thơ thuộc thể loại \"acrostic\".\n    Khi ghép các chữ cái HOẶC các từ đầu tiên lại với nhau thu được một\n    thông điệp\n    \"\"\"\n    print(solve(data))\n    print(\"Result should be Pymi: {}\".format(solve(\"P\\nY\\nM\\nI\")))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_2",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex3_2",
+        "description": "Bootcamp.day_1.ex3_2",
+        "peekOfCode": "data = \"\"\"\nCome to the\nRiver\nOf my\nSoulful\nSentiments\nMeandering silently\nYearning for release.\nHasten\nEarnestly",
+        "detail": "Bootcamp.day_1.ex3_2",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_3",
+        "description": "Bootcamp.day_1.ex3_3",
+        "peekOfCode": "def solve():\n    \"\"\"Thay vì in ra, hãy trả về 1 `list`\n    100 phần tử thỏa mãn yêu cầu đề bài\n    :rtype: list\n    \"\"\"\n    result = None\n    return result\ndef main():\n    for i in solve():\n        print(i)",
+        "detail": "Bootcamp.day_1.ex3_3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_3",
+        "description": "Bootcamp.day_1.ex3_3",
+        "peekOfCode": "def main():\n    for i in solve():\n        print(i)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_3",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_4",
+        "description": "Bootcamp.day_1.ex3_4",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"Trả về tên file sau khi loại bỏ phần mở rộng\n    :param input_data: tên file bất kì\n    :rtype: str\n    \"\"\"\n    result = None\n    return result\ndef main():\n    data = \"maria.data.mp9\"\n    print(solve(data))",
+        "detail": "Bootcamp.day_1.ex3_4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_4",
+        "description": "Bootcamp.day_1.ex3_4",
+        "peekOfCode": "def main():\n    data = \"maria.data.mp9\"\n    print(solve(data))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_4",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_5",
+        "description": "Bootcamp.day_1.ex3_5",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"Trả về 1 `list` các `list` theo định dạng sau:\n        result = [[1, \"I\"], [2, \"Love\"], [3, \"You\"], [4, \"Chiu\"], [5, \"Chiu\"]]\n    :rtype: list\n    \"\"\"\n    result = None\n    return result\ndef main():\n    # xử lí in ra theo yêu cầu đề bài bên dưới\n    result = solve(data)",
+        "detail": "Bootcamp.day_1.ex3_5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_5",
+        "description": "Bootcamp.day_1.ex3_5",
+        "peekOfCode": "def main():\n    # xử lí in ra theo yêu cầu đề bài bên dưới\n    result = solve(data)\n    pass\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_5",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex3_5",
+        "description": "Bootcamp.day_1.ex3_5",
+        "peekOfCode": "data = [\"I\", \"Love\", \"You\", \"Chiu\", \"Chiu\"]\ndef solve(input_data):\n    \"\"\"Trả về 1 `list` các `list` theo định dạng sau:\n        result = [[1, \"I\"], [2, \"Love\"], [3, \"You\"], [4, \"Chiu\"], [5, \"Chiu\"]]\n    :rtype: list\n    \"\"\"\n    result = None\n    return result\ndef main():\n    # xử lí in ra theo yêu cầu đề bài bên dưới",
+        "detail": "Bootcamp.day_1.ex3_5",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_6",
+        "description": "Bootcamp.day_1.ex3_6",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"Trả về 1 `tuple` chứa 2 phần tử, ví dụ:\n        input_data: 2\n        output: (\"February\", 28)\n    (1,2) là biểu diễn tương tự [1,2], chỉ thay dấu ngoặc vuông thành tròn.\n    Đây là kiểu dữ liệu tuple.\n    :param input_data: tháng bất kì\n    :rtype: list\n    \"\"\"\n    result = None",
+        "detail": "Bootcamp.day_1.ex3_6",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_6",
+        "description": "Bootcamp.day_1.ex3_6",
+        "peekOfCode": "def main():\n    month, day = solve(0)\n    print(month, day)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_6",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_7",
+        "description": "Bootcamp.day_1.ex3_7",
+        "peekOfCode": "def solve():\n    \"\"\"Trả về 1 `list` các `string` có dạng:\n        output: ['5 == 1 * 5', '10 == 2 * 5', ...]\n    Lưu ý: Thứ tự tăng dần theo bảng cửu chương\n    \"\"\"\n    result = None\n    return result\ndef main():\n    for i in solve():\n        print(i)",
+        "detail": "Bootcamp.day_1.ex3_7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_7",
+        "description": "Bootcamp.day_1.ex3_7",
+        "peekOfCode": "def main():\n    for i in solve():\n        print(i)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_7",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_8",
+        "description": "Bootcamp.day_1.ex3_8",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"Kiểm tra input_data có phải là palindrome không.\n    Một string được gọi là `palindrome` nếu viết xuôi hay ngược đều thu được\n    kết quả như nhau (không phân biệt hoa thường, bỏ qua dấu space).\n    String phải dài hơn 2 chữ cái.\n    Ví dụ các palindrome: 'civic', 'Able was I ere I saw Elba', 'Noon'\n    :rtype: bool\n    \"\"\"\n    result = None\n    return result",
+        "detail": "Bootcamp.day_1.ex3_8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_8",
+        "description": "Bootcamp.day_1.ex3_8",
+        "peekOfCode": "def main():\n    print(solve(\"Able was I ere I saw Elba\"))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_8",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_9",
+        "description": "Bootcamp.day_1.ex3_9",
+        "peekOfCode": "def solve():\n    \"\"\"Trả về list chứa các list là các bộ số thỏa mãn đề bài\n    Ví dụ:\n        [[9, 1, 1], ..., [1, 9, 1]]\n    Lưu ý: kết quả từng list con trả về với a giảm dần, b và c tăng dần\n    \"\"\"\n    result = None\n    return result\ndef main():\n    print(solve())",
+        "detail": "Bootcamp.day_1.ex3_9",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex3_9",
+        "description": "Bootcamp.day_1.ex3_9",
+        "peekOfCode": "def main():\n    print(solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex3_9",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_1",
+        "description": "Bootcamp.day_1.ex4_1",
+        "peekOfCode": "def solve(ip):\n    \"\"\"IP là địa chỉ của một máy tính trong mạng (như địa chỉ nhà).\n    IPv4 được biểu diễn bằng 4 số từ 0-255, phân cách nhau bởi dấu `.`\n    Mỗi số trong khoảng 0-255 được biểu diễn bằng 8 bits (1 byte),\n    có tài liệu gọi 4 phần trong IPv4 này là 4 octet.\n    VD: IP của Google DNS là 8.8.8.8, IP mọi máy tính dùng để chỉ chính nó\n    có địa chỉ 127.0.0.1 hay thường gọi là localhost.\n    Trả về string biểu diễn binary (hệ cơ số 2) của `ip`.\n    Input::\n      192.168.1.1",
+        "detail": "Bootcamp.day_1.ex4_1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_1",
+        "description": "Bootcamp.day_1.ex4_1",
+        "peekOfCode": "def main():\n    \"\"\"\n    Biết function `input('Bạn tên gì?')` sẽ in ra màn hình dòng chữ \"Bạn tên\n    gì?\"\n    và chờ bạn nhập câu trả lời. Sau khi bạn gõ câu trả lời rồi enter,\n    nội dung bạn vừa gõ sẽ được function trả về::\n      In [4]: name = input('Bạn tên gì? ')\n      Bạn tên gì? Hưng\n      In [5]: print(name)\n      Hưng",
+        "detail": "Bootcamp.day_1.ex4_1",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_2",
+        "description": "Bootcamp.day_1.ex4_2",
+        "peekOfCode": "def solve(octal):\n    \"\"\"Trả về giá trị cần cộng thêm với octal để thu được 0o777\n    Với người dùng Unix(Ubuntu, MacOS,...), mode của một file được biểu diễn ở\n    dạng Octal, VD: 644, 400, 777...\n    Gợi ý:\n    In [1]: oct(73)\n    Out[1]: '0o111'\n    \"\"\"\n    result = None\n    return result",
+        "detail": "Bootcamp.day_1.ex4_2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_2",
+        "description": "Bootcamp.day_1.ex4_2",
+        "peekOfCode": "def main():\n    print(solve(0o644))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex4_2",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_3",
+        "description": "Bootcamp.day_1.ex4_3",
+        "peekOfCode": "def solve(words):\n    \"\"\"Trả về list chứa điểm tương ứng của các từ trong `words`\n    Nếu a b c d (không phân biệt chữ hoa thường) .... lần lượt bằng 1 2 3 4 ...\n    thì từ ``attitude`` có giá trị bằng 100.\n    Gợi ý::\n      import string\n      print(string.ascii_lowercase)\n    \"\"\"\n    result = None\n    return result",
+        "detail": "Bootcamp.day_1.ex4_3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_3",
+        "description": "Bootcamp.day_1.ex4_3",
+        "peekOfCode": "def main():\n    words = [\n        \"numpy\",\n        \"django\",\n        \"saltstack\",\n        \"discipline\",\n        \"Python\",\n        \"FAMILUG\",\n        \"pymi\",\n    ]",
+        "detail": "Bootcamp.day_1.ex4_3",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_4",
+        "description": "Bootcamp.day_1.ex4_4",
+        "peekOfCode": "def solve():\n    \"\"\"Tính số nghiệm của bài toán lớp 3\n    Với các biến a,b,c,d,e,f,g,h,i là các số nằm trong khoảng 1-9 (các biến có\n    thể có giá trị giống nhau), dạng biểu thức:\n      a + 13 * b / c + d + 12 * e - f - 11 + g * h / i - 10 = 66\n    \"\"\"\n    result = None\n    return result\ndef main():\n    print(solve())",
+        "detail": "Bootcamp.day_1.ex4_4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_4",
+        "description": "Bootcamp.day_1.ex4_4",
+        "peekOfCode": "def main():\n    print(solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex4_4",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_5",
+        "description": "Bootcamp.day_1.ex4_5",
+        "peekOfCode": "def solve(numbers):\n    \"\"\"Tính tổng và tích của dãy số `numbers`\n    Return một tuple (sum, product)\n    Không sử dụng hàm `sum`\n    \"\"\"\n    result = None\n    return result\ndef main():\n    # Cho list numbers chứa các số chẵn từ -10 đến 10, trừ số 0.\n    numbers = range(-10, 11, 2)  # step=2",
+        "detail": "Bootcamp.day_1.ex4_5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_5",
+        "description": "Bootcamp.day_1.ex4_5",
+        "peekOfCode": "def main():\n    # Cho list numbers chứa các số chẵn từ -10 đến 10, trừ số 0.\n    numbers = range(-10, 11, 2)  # step=2\n    numbers = list(numbers)\n    numbers.remove(0)\n    result = solve(numbers)\n    print(result)\n    assert result == (0, -14745600)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex4_5",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_6",
+        "description": "Bootcamp.day_1.ex4_6",
+        "peekOfCode": "def solve(text):\n    \"\"\"Bóc tách từ `text` ra một list các số theo thứ tự chúng xuất hiện.\n    VD: 'Em ơi có bao nhiêu, 60năm cuộc đời, 20 năm đầu, sung sướng0bao lâu'\n    -> [60, 20, 0]\n    NOTE: không dùng `re` library\n    \"\"\"\n    # use isalnum()\n    result = None\n    return result\ndef main():",
+        "detail": "Bootcamp.day_1.ex4_6",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_6",
+        "description": "Bootcamp.day_1.ex4_6",
+        "peekOfCode": "def main():\n    ss = \"Bé lên 3 bé đi lớp 4\"\n    ss = \"Em ơi có bao nhiêu, 60năm cuộc đời, 20 năm đầu, sung sướng0bao lâu9\"\n    print(solve(ss))\n    # assert solve(ss) == [3, 4]\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex4_6",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_7",
+        "description": "Bootcamp.day_1.ex4_7",
+        "peekOfCode": "def solve(year1, year2):\n    \"\"\"Trả về tuple-3 chứa tên gọi can chi của year1, year2, và giá trị số xem\n    2 tuổi này có họp hay không.\n    - 1 đại diện cho hợp\n    - 0 đại diện cho bình thường\n    - -1 đại diện cho khắc\n    Các từ trong tên đề phải viết hoa các chữ cái đầu.\n    Biết có 10 thiên can::\n      ['giáp', 'ất', 'bính', 'đinh', 'mậu', 'kỷ', 'canh', 'tân', 'nhâm', 'quý']\n    Và 12 địa chi::",
+        "detail": "Bootcamp.day_1.ex4_7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_7",
+        "description": "Bootcamp.day_1.ex4_7",
+        "peekOfCode": "def main():\n    this = 1986\n    that = 2002\n    thiscc, thatcc, isgood = solve(this, that)\n    if isgood == GOOD:\n        result = \"hợp\"\n    elif isgood == BAD:\n        result = \"xung\"\n    elif isgood == NEUTRAL:\n        result = \"bình thường - hợp ăn hợp ngủ là được\"",
+        "detail": "Bootcamp.day_1.ex4_7",
+        "documentation": {}
+    },
+    {
+        "label": "GOOD",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex4_7",
+        "description": "Bootcamp.day_1.ex4_7",
+        "peekOfCode": "GOOD = 1\nNEUTRAL = 0\nBAD = -1\ndef solve(year1, year2):\n    \"\"\"Trả về tuple-3 chứa tên gọi can chi của year1, year2, và giá trị số xem\n    2 tuổi này có họp hay không.\n    - 1 đại diện cho hợp\n    - 0 đại diện cho bình thường\n    - -1 đại diện cho khắc\n    Các từ trong tên đề phải viết hoa các chữ cái đầu.",
+        "detail": "Bootcamp.day_1.ex4_7",
+        "documentation": {}
+    },
+    {
+        "label": "NEUTRAL",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex4_7",
+        "description": "Bootcamp.day_1.ex4_7",
+        "peekOfCode": "NEUTRAL = 0\nBAD = -1\ndef solve(year1, year2):\n    \"\"\"Trả về tuple-3 chứa tên gọi can chi của year1, year2, và giá trị số xem\n    2 tuổi này có họp hay không.\n    - 1 đại diện cho hợp\n    - 0 đại diện cho bình thường\n    - -1 đại diện cho khắc\n    Các từ trong tên đề phải viết hoa các chữ cái đầu.\n    Biết có 10 thiên can::",
+        "detail": "Bootcamp.day_1.ex4_7",
+        "documentation": {}
+    },
+    {
+        "label": "BAD",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex4_7",
+        "description": "Bootcamp.day_1.ex4_7",
+        "peekOfCode": "BAD = -1\ndef solve(year1, year2):\n    \"\"\"Trả về tuple-3 chứa tên gọi can chi của year1, year2, và giá trị số xem\n    2 tuổi này có họp hay không.\n    - 1 đại diện cho hợp\n    - 0 đại diện cho bình thường\n    - -1 đại diện cho khắc\n    Các từ trong tên đề phải viết hoa các chữ cái đầu.\n    Biết có 10 thiên can::\n      ['giáp', 'ất', 'bính', 'đinh', 'mậu', 'kỷ', 'canh', 'tân', 'nhâm', 'quý']",
+        "detail": "Bootcamp.day_1.ex4_7",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_8",
+        "description": "Bootcamp.day_1.ex4_8",
+        "peekOfCode": "def solve():\n    \"\"\"Trả về list N bộ integer (a, b, c) là độ dài 3 cạnh của tam giác vuông\n    cạnh huyền `c` có chu vi 24 cm (perimeter), biết độ dài các cạnh <= 10cm.\n    Yêu cầu dùng list comprehension.\n    \"\"\"\n    result = None\n    return result\ndef main():\n    print(solve())\nif __name__ == \"__main__\":",
+        "detail": "Bootcamp.day_1.ex4_8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_8",
+        "description": "Bootcamp.day_1.ex4_8",
+        "peekOfCode": "def main():\n    print(solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex4_8",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_9",
+        "description": "Bootcamp.day_1.ex4_9",
+        "peekOfCode": "def solve(numbers):\n    \"\"\"Tìm phần tử lớn nhất của list số nguyên `numbers`\n    Không sử dụng function `max`, `sorted`\n    Gợi ý: python có sẵn giá trị âm/dương vô cùng.\n    \"\"\"\n    assert isinstance(numbers, list)\n    result = None\n    return result\ndef main():\n    print(solve([-1, 5, 9, 6, -999999999999999, 1]))",
+        "detail": "Bootcamp.day_1.ex4_9",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex4_9",
+        "description": "Bootcamp.day_1.ex4_9",
+        "peekOfCode": "def main():\n    print(solve([-1, 5, 9, 6, -999999999999999, 1]))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex4_9",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_1",
+        "description": "Bootcamp.day_1.ex5_1",
+        "peekOfCode": "def solve(colors):\n    \"\"\"Ghi ra file index.html code HTML để tạo ra logo của Google với màu sắc\n    chính xác.\n    Biết cách để tạo chữ G màu xanh da trời dùng code HTML sau::\n      <span style=\"color:#4885ed\">G</span>\n    Return list chứa các tuple, mỗi tuple  chứa chữ cái trong 'Google' và màu\n    của nó.\n    Gợi ý: dùng `zip`\n        In [1]: list(zip(['xanh', 'do'], ['XXX', 'YYY']))\n        Out[1]: [('xanh', 'XXX'), ('do', 'YYY')]",
+        "detail": "Bootcamp.day_1.ex5_1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_1",
+        "description": "Bootcamp.day_1.ex5_1",
+        "peekOfCode": "def main():\n    \"\"\"Biết mã hex của các màu trong Google logo là:\"\"\"\n    colors = data\n    print(solve(colors))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex5_1",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_1",
+        "description": "Bootcamp.day_1.ex5_1",
+        "peekOfCode": "data = {\n    \"xanh lá\": \"#3cba54\",\n    \"vàng\": \"#f4c20d\",\n    \"đỏ\": \"#db3236\",\n    \"xanh da trời\": \"#4885ed\",\n}\ndef solve(colors):\n    \"\"\"Ghi ra file index.html code HTML để tạo ra logo của Google với màu sắc\n    chính xác.\n    Biết cách để tạo chữ G màu xanh da trời dùng code HTML sau::",
+        "detail": "Bootcamp.day_1.ex5_1",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_10",
+        "description": "Bootcamp.day_1.ex5_10",
+        "peekOfCode": "def solve(input_data):\n    result = None\n    # Viết code vào đây set result làm kết quả của tính toán\n    #\n    #\n    #\n    return result\ndef main():\n    print(solve())\nif __name__ == \"__main__\":",
+        "detail": "Bootcamp.day_1.ex5_10",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_10",
+        "description": "Bootcamp.day_1.ex5_10",
+        "peekOfCode": "def main():\n    print(solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex5_10",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_2",
+        "description": "Bootcamp.day_1.ex5_2",
+        "peekOfCode": "def solve(last_year_data):\n    \"\"\"\n    Trả về list thông tin các sau khi đã update sau 1 năm.\n    Không thay đổi thông tin năm cũ.\n    Biết các đều học được các ngôn ngữ lập trình\n    trong \"languages\" của \"Hoang\".\n    Sau đó \"Hoang\" học thêm được ngôn ngữ \"Elixir\", các học\n    viên khác không biết ngôn ngữ này.\n    \"Tu\" có bạn gái tên là \"Do Anh\".\n    \"Duy\" chia thay bạn gái, không còn bạn gái nữa.",
+        "detail": "Bootcamp.day_1.ex5_2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_2",
+        "description": "Bootcamp.day_1.ex5_2",
+        "peekOfCode": "def main():\n    # Cho list chứa các dictionary chứa thông tin của các học viên:\n    students = data\n    # In ra màn hình tên kèm tên bạn gái (nếu có)\n    result = solve(students)  # NOQA\n    # In ra các thông tin đã thay đổi so với năm trước của mỗi học viên.\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex5_2",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_2",
+        "description": "Bootcamp.day_1.ex5_2",
+        "peekOfCode": "data = [\n    {\n        \"name\": \"Hoang\",\n        \"phone\": \"0988888888\",\n        \"languages\": [\n            \"Python\",\n            \"C\",\n            \"SQL\",\n            \"HTML\",\n            \"CSS\",",
+        "detail": "Bootcamp.day_1.ex5_2",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_3",
+        "description": "Bootcamp.day_1.ex5_3",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"\n    Đặt result bằng list chứa 10 tuple ứng với 10 từ xuất hiện nhiều nhất,\n    mỗi tuple chứa từ và số lần xuất hiện tương ứng.\n    (Nếu có nhiều từ cùng xuất hiện với số lần như nhau thì trả về từ nào\n    cũng được).\n    \"\"\"\n    result = None\n    return result[:10]\ndef main():",
+        "detail": "Bootcamp.day_1.ex5_3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_3",
+        "description": "Bootcamp.day_1.ex5_3",
+        "peekOfCode": "def main():\n    # Đây là một cách làm khác với kiểu dữ liệu có sẵn\n    # trong thư viện collections của Python\n    # chỉ tham khảo, không làm bài theo cách này.\n    # Hãy dùng string & dict/list để làm.\n    # from collections import Counter\n    # Regex (re) là một công cụ xử lý string khác so với các method của\n    # `str`, linh hoạt nhưng phức tạp, khó đọc, dễ sai.\n    # https://pymotw.com/3/re/\n    # import re",
+        "detail": "Bootcamp.day_1.ex5_3",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_3",
+        "description": "Bootcamp.day_1.ex5_3",
+        "peekOfCode": "data = \"\"\"Dictionaries are sometimes found in other languages as “associative memories” or “associative arrays”. Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which can be any immutable type; strings and numbers can always be keys. Tuples can be used as keys if they contain only strings, numbers, or tuples; if a tuple contains any mutable object either directly or indirectly, it cannot be used as a key. You can’t use lists as keys, since lists can be modified in place using index assignments, slice assignments.\"\"\"  # NOQA\n# Chú ý: dấu “ không phải double quotes \"\ndef solve(input_data):\n    \"\"\"\n    Đặt result bằng list chứa 10 tuple ứng với 10 từ xuất hiện nhiều nhất,\n    mỗi tuple chứa từ và số lần xuất hiện tương ứng.\n    (Nếu có nhiều từ cùng xuất hiện với số lần như nhau thì trả về từ nào\n    cũng được).\n    \"\"\"\n    result = None",
+        "detail": "Bootcamp.day_1.ex5_3",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_4",
+        "description": "Bootcamp.day_1.ex5_4",
+        "peekOfCode": "def solve(output_path, n=NUMBER_OF_LINES):\n    \"\"\"Tạo ra 1 file chứa n dòng, các dòng lẻ chứa 30 số 1,\n    các dòng chẵn chứa giá trị 2 * số dòng hiện tại.\n    Sau khi tạo xong file, return result là list chứa 10 dòng đầu và 10 dòng\n    cuối theo thứ tự dòng xuất hiện trước đứng trước.\n    Chú ý: viết code để xử lý được nếu n lớn tùy ý (tức file sau khi tạo ra\n    có thể tới 20 GB).\n    Chú ý: n mặc định là 30 triệu dòng.\n    \"\"\"\n    result = None",
+        "detail": "Bootcamp.day_1.ex5_4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_4",
+        "description": "Bootcamp.day_1.ex5_4",
+        "peekOfCode": "def main():\n    import tempfile\n    # tên _ hàm ý rằng ta sẽ không dùng giá trị của nó - convention\n    _, output_path = tempfile.mkstemp()\n    print(\"File to write: {0}\".format(output_path))\n    for line in solve(output_path, n=NUMBER_OF_LINES * 10):\n        print(line.rstrip())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex5_4",
+        "documentation": {}
+    },
+    {
+        "label": "NUMBER_OF_LINES",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_4",
+        "description": "Bootcamp.day_1.ex5_4",
+        "peekOfCode": "NUMBER_OF_LINES = 30_000_000\ndef solve(output_path, n=NUMBER_OF_LINES):\n    \"\"\"Tạo ra 1 file chứa n dòng, các dòng lẻ chứa 30 số 1,\n    các dòng chẵn chứa giá trị 2 * số dòng hiện tại.\n    Sau khi tạo xong file, return result là list chứa 10 dòng đầu và 10 dòng\n    cuối theo thứ tự dòng xuất hiện trước đứng trước.\n    Chú ý: viết code để xử lý được nếu n lớn tùy ý (tức file sau khi tạo ra\n    có thể tới 20 GB).\n    Chú ý: n mặc định là 30 triệu dòng.\n    \"\"\"",
+        "detail": "Bootcamp.day_1.ex5_4",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_5",
+        "description": "Bootcamp.day_1.ex5_5",
+        "peekOfCode": "def solve(inputfile, N=5):\n    \"\"\"\n    Đọc danh sách từ file `inputfile`.\n    https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files\n    Biết những bạn có tên bắt đầu bằng chữ `D` sẽ ngồi phòng thi số N,\n    các bạn có tên bắt đầu chữ `H` ngồi phòng thi số N+1, và các bạn còn lại,\n    nếu có tên kết thúc là `ng` sẽ ngồi cùng phòng các bạn tên `H`, còn lại\n    ngồi cùng phòng `D`.\n    Tất cả các đều sinh năm 1990.\n    Mã được tính bằng: hash(NAME) % MAGIC_NUMBER",
+        "detail": "Bootcamp.day_1.ex5_5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_5",
+        "description": "Bootcamp.day_1.ex5_5",
+        "peekOfCode": "def main():\n    filename = datafile\n    # Cho danh sách students\n    for msv, *ignore, room in solve(filename):\n        print(msv, room)\n        print(\"DEBUG\", ignore, type(ignore), len(ignore))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex5_5",
+        "documentation": {}
+    },
+    {
+        "label": "filename",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_5",
+        "description": "Bootcamp.day_1.ex5_5",
+        "peekOfCode": "filename = \"input_5_5.txt\"\ndatafile = os.path.join(os.path.dirname(__file__), filename)\nMAGIC_NUMBER = 20200000\ndef solve(inputfile, N=5):\n    \"\"\"\n    Đọc danh sách từ file `inputfile`.\n    https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files\n    Biết những bạn có tên bắt đầu bằng chữ `D` sẽ ngồi phòng thi số N,\n    các bạn có tên bắt đầu chữ `H` ngồi phòng thi số N+1, và các bạn còn lại,\n    nếu có tên kết thúc là `ng` sẽ ngồi cùng phòng các bạn tên `H`, còn lại",
+        "detail": "Bootcamp.day_1.ex5_5",
+        "documentation": {}
+    },
+    {
+        "label": "datafile",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_5",
+        "description": "Bootcamp.day_1.ex5_5",
+        "peekOfCode": "datafile = os.path.join(os.path.dirname(__file__), filename)\nMAGIC_NUMBER = 20200000\ndef solve(inputfile, N=5):\n    \"\"\"\n    Đọc danh sách từ file `inputfile`.\n    https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files\n    Biết những bạn có tên bắt đầu bằng chữ `D` sẽ ngồi phòng thi số N,\n    các bạn có tên bắt đầu chữ `H` ngồi phòng thi số N+1, và các bạn còn lại,\n    nếu có tên kết thúc là `ng` sẽ ngồi cùng phòng các bạn tên `H`, còn lại\n    ngồi cùng phòng `D`.",
+        "detail": "Bootcamp.day_1.ex5_5",
+        "documentation": {}
+    },
+    {
+        "label": "MAGIC_NUMBER",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_5",
+        "description": "Bootcamp.day_1.ex5_5",
+        "peekOfCode": "MAGIC_NUMBER = 20200000\ndef solve(inputfile, N=5):\n    \"\"\"\n    Đọc danh sách từ file `inputfile`.\n    https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files\n    Biết những bạn có tên bắt đầu bằng chữ `D` sẽ ngồi phòng thi số N,\n    các bạn có tên bắt đầu chữ `H` ngồi phòng thi số N+1, và các bạn còn lại,\n    nếu có tên kết thúc là `ng` sẽ ngồi cùng phòng các bạn tên `H`, còn lại\n    ngồi cùng phòng `D`.\n    Tất cả các đều sinh năm 1990.",
+        "detail": "Bootcamp.day_1.ex5_5",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_6",
+        "description": "Bootcamp.day_1.ex5_6",
+        "peekOfCode": "def solve(term1, term2):\n    \"\"\"Trả về result là dict chứa bảng điểm của các môn học sau hai học kỳ.\n    Biết điểm số được chọn là điểm số ở lần học sau cùng.\n    \"\"\"\n    result = None\n    return result\ndef main():\n    # Một có bảng điểm học kỳ 1 trong term1\n    # Học kỳ 2, học thêm/lại có bảng điểm trong term2\n    print(solve(*data))",
+        "detail": "Bootcamp.day_1.ex5_6",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_6",
+        "description": "Bootcamp.day_1.ex5_6",
+        "peekOfCode": "def main():\n    # Một có bảng điểm học kỳ 1 trong term1\n    # Học kỳ 2, học thêm/lại có bảng điểm trong term2\n    print(solve(*data))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex5_6",
+        "documentation": {}
+    },
+    {
+        "label": "term1",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_6",
+        "description": "Bootcamp.day_1.ex5_6",
+        "peekOfCode": "term1 = {\"math\": 3, \"python\": 5, \"data\": 2}\nterm2 = {\"math\": 7, \"python\": 9, \"SQL\": 8, \"HTML\": 6}\ndata = [term1, term2]\ndef solve(term1, term2):\n    \"\"\"Trả về result là dict chứa bảng điểm của các môn học sau hai học kỳ.\n    Biết điểm số được chọn là điểm số ở lần học sau cùng.\n    \"\"\"\n    result = None\n    return result\ndef main():",
+        "detail": "Bootcamp.day_1.ex5_6",
+        "documentation": {}
+    },
+    {
+        "label": "term2",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_6",
+        "description": "Bootcamp.day_1.ex5_6",
+        "peekOfCode": "term2 = {\"math\": 7, \"python\": 9, \"SQL\": 8, \"HTML\": 6}\ndata = [term1, term2]\ndef solve(term1, term2):\n    \"\"\"Trả về result là dict chứa bảng điểm của các môn học sau hai học kỳ.\n    Biết điểm số được chọn là điểm số ở lần học sau cùng.\n    \"\"\"\n    result = None\n    return result\ndef main():\n    # Một có bảng điểm học kỳ 1 trong term1",
+        "detail": "Bootcamp.day_1.ex5_6",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_6",
+        "description": "Bootcamp.day_1.ex5_6",
+        "peekOfCode": "data = [term1, term2]\ndef solve(term1, term2):\n    \"\"\"Trả về result là dict chứa bảng điểm của các môn học sau hai học kỳ.\n    Biết điểm số được chọn là điểm số ở lần học sau cùng.\n    \"\"\"\n    result = None\n    return result\ndef main():\n    # Một có bảng điểm học kỳ 1 trong term1\n    # Học kỳ 2, học thêm/lại có bảng điểm trong term2",
+        "detail": "Bootcamp.day_1.ex5_6",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_7",
+        "description": "Bootcamp.day_1.ex5_7",
+        "peekOfCode": "def solve(text):\n    \"\"\"Thực hiện biến đổi\n      input: [a, abbbccccdddd, xxyyyxyyx]\n      output: [a, abb3cc4dd4, xx2yy3xyy2x]\n    Giải thích: Những chữ cái không lặp lại thì output giữ nguyên chữ cái đó.\n    Những chữ cái liên tiếp sẽ in ra 2 lần + số lần lặp lại liên tiếp.\n    Đây là một biến thể của một thuật toán nén dữ liệu có tên Run-length\n    encoding (RLE).\n    Không dùng groupby, hãy giải bài này.\n    NOTE: bài này có thể giải dễ dàng dùng itertools.groupby",
+        "detail": "Bootcamp.day_1.ex5_7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_7",
+        "description": "Bootcamp.day_1.ex5_7",
+        "peekOfCode": "def main():\n    print(solve(\"abbbccccdddd\"))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex5_7",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_8",
+        "description": "Bootcamp.day_1.ex5_8",
+        "peekOfCode": "def solve():\n    \"\"\"Trả về biểu diễn của 20 mã ASCII từ 33 đến 53 theo format\n    [(33, BIEUDIENCUA33), ...]\n    Unicode codepoint của các số từ 0->9, a-z, A-Z.\n    Unicode codepoint tương ứng với ký tự ``\\t`` ``\\n``, `` ``\n    Gợi ý: dùng ``chr()``, ``ord()``.\n    \"\"\"\n    result = None\n    return result\ndef main():",
+        "detail": "Bootcamp.day_1.ex5_8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_8",
+        "description": "Bootcamp.day_1.ex5_8",
+        "peekOfCode": "def main():\n    for part in solve():\n        print(part)\n        if isinstance(part, list):\n            for elem in part:\n                print(elem)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex5_8",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_9",
+        "description": "Bootcamp.day_1.ex5_9",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"Dùng list comprehensions để:\n    - Tạo 1 list chứa tên, dân số của các thành phố có tên bắt đầu bằng chữ H,\n    sắp xếp theo thứ tự tên A-Z.\n    - Tạo 1 list chứa tên, dân số của các thành phố có dân số trên 1 triệu,\n    sắp xếp theo thứ tự giảm dần.\n    \"\"\"\n    result = None\n    return result\ndef main():",
+        "detail": "Bootcamp.day_1.ex5_9",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_1.ex5_9",
+        "description": "Bootcamp.day_1.ex5_9",
+        "peekOfCode": "def main():\n    provinces = data\n    for L in solve(provinces):\n        for province in L:\n            print(province)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_1.ex5_9",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_1.ex5_9",
+        "description": "Bootcamp.day_1.ex5_9",
+        "peekOfCode": "data = [\n    {\"name\": \"An Giang\", \"population\": 2153700, \"area\": 3536.7, \"senator\": 10},\n    {\n        \"name\": \"Bà Rịa - Vũng Tàu\",\n        \"population\": 1039200,\n        \"area\": 1989.5,\n        \"senator\": 6,\n    },\n    {\"name\": \"Bạc Liêu\", \"population\": 873400, \"area\": 2468.7, \"senator\": 6},\n    {\"name\": \"Bắc Kạn\", \"population\": 301000, \"area\": 4859.4, \"senator\": 6},",
+        "detail": "Bootcamp.day_1.ex5_9",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex69_1",
+        "description": "Bootcamp.day_2.ex69_1",
+        "peekOfCode": "def solve(numbers):\n    \"\"\"Create a list that each element is 2 times of each given numbers.\n    Use map, not listcomps. Example of using map\n    In [2]: map(lambda x: x+1, [1,2,3,4,5])\n    Out[2]: [2, 3, 4, 5, 6]\n    \"\"\"\n    result = None\n    return result\ndef main():\n    print(solve(range(10)))",
+        "detail": "Bootcamp.day_2.ex69_1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex69_1",
+        "description": "Bootcamp.day_2.ex69_1",
+        "peekOfCode": "def main():\n    print(solve(range(10)))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex69_1",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex69_2",
+        "description": "Bootcamp.day_2.ex69_2",
+        "peekOfCode": "def solve(numbers):\n    \"\"\"Create a list contains only odd numbers from given list\n    Use filter, not listcomps. Example of using filter\n    In [5]: filter(lambda x: x == 1, [12,3,1,2,3,1,1])\n    Out[5]: [1, 1, 1]\n    \"\"\"\n    result = None\n    return result\ndef main():\n    print(solve(range(10)))",
+        "detail": "Bootcamp.day_2.ex69_2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex69_2",
+        "description": "Bootcamp.day_2.ex69_2",
+        "peekOfCode": "def main():\n    print(solve(range(10)))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex69_2",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex69_3",
+        "description": "Bootcamp.day_2.ex69_3",
+        "peekOfCode": "def solve(numbers):\n    \"\"\"Calculate product of given numbers\n    Use reduce, not loop. Example of using reduce\n    In [6]: import functools\n    In [8]: functools.reduce(lambda x,y: x+y, [1,2,3,4,5], 0)\n    Out[8]: 15\n    \"\"\"\n    result = None\n    return result\ndef main():",
+        "detail": "Bootcamp.day_2.ex69_3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex69_3",
+        "description": "Bootcamp.day_2.ex69_3",
+        "peekOfCode": "def main():\n    print(solve(range(1, 10)))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex69_3",
+        "documentation": {}
+    },
+    {
+        "label": "do_sum",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex69_4",
+        "description": "Bootcamp.day_2.ex69_4",
+        "peekOfCode": "def do_sum(n):\n    s = 0\n    for i in range(n):\n        s = s + i\n    return s\ndef main():\n    ns = [100_000_000] * 8\n    # Sequential\n    start = time.time()\n    sequential_results = list(map(do_sum, ns))",
+        "detail": "Bootcamp.day_2.ex69_4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex69_4",
+        "description": "Bootcamp.day_2.ex69_4",
+        "peekOfCode": "def main():\n    ns = [100_000_000] * 8\n    # Sequential\n    start = time.time()\n    sequential_results = list(map(do_sum, ns))\n    print(\n        \"Result: {} Took: {} seconds\".format(\n            sequential_results, time.time() - start\n        )\n    )",
+        "detail": "Bootcamp.day_2.ex69_4",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_cost",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_1",
+        "description": "Bootcamp.day_2.ex6_1",
+        "peekOfCode": "def calculate_cost(usage, prices):\n    \"\"\"Tính tiền điện\n    với giá tiền cho bởi đề bài, số điện tiêu thụ `usage`\n    Trả về giá tiền ở dạng biểu diễn cho người đọc dễ nhìn\n    Ví dụ: 100000 -> \"100,000\"\n    Biết:\n    In [1]: \"{:,}\".format(10000) == \"10,000\"\n    Out[1]: True\n    \"\"\"\n    # Viết code tính toán vào đây",
+        "detail": "Bootcamp.day_2.ex6_1",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_1",
+        "description": "Bootcamp.day_2.ex6_1",
+        "peekOfCode": "def solve(input_data):\n    result = None\n    # Xoá dòng sau và viết code vào đây set các giá trị phù hợp\n    # raise NotImplementedError(\"Bạn chưa làm bài này\")\n    # Bài này làm mẫu, gọi function định nghĩa với input để\n    # tính kết quả.\n    # Các bài còn lại tự định nghĩa function và gọi function để\n    # tính toán kết quả `result`\n    result = [\n        (i[0].title(), calculate_cost(i[1], input_data[\"prices\"])) for i in input_data[\"usages\"]",
+        "detail": "Bootcamp.day_2.ex6_1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_1",
+        "description": "Bootcamp.day_2.ex6_1",
+        "peekOfCode": "def main():\n    \"\"\"\n    Cho tiền điện sinh hoạt được tính theo công thức:\n    - 50 số đầu: 1230 VND/số.\n    - 50 số tiếp: 1530 VND/số.\n    - Các số tiếp theo: 1786 VND/số.\n    \"\"\"\n    idata = {\n        \"usages\": [\n            (\"nam\", \"1\"),",
+        "detail": "Bootcamp.day_2.ex6_1",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex6_1",
+        "description": "Bootcamp.day_2.ex6_1",
+        "peekOfCode": "data = {\"first_50\": 1230, \"from_51_to_100\": 1530, \"above_100\": 1786}\ndef calculate_cost(usage, prices):\n    \"\"\"Tính tiền điện\n    với giá tiền cho bởi đề bài, số điện tiêu thụ `usage`\n    Trả về giá tiền ở dạng biểu diễn cho người đọc dễ nhìn\n    Ví dụ: 100000 -> \"100,000\"\n    Biết:\n    In [1]: \"{:,}\".format(10000) == \"10,000\"\n    Out[1]: True\n    \"\"\"",
+        "detail": "Bootcamp.day_2.ex6_1",
+        "documentation": {}
+    },
+    {
+        "label": "your_function",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_2",
+        "description": "Bootcamp.day_2.ex6_2",
+        "peekOfCode": "def your_function(iterable, N):\n    # Sửa tên, set giá trị return\n    result = None\n    return result\n    # pass\ndef solve(iterable, N):\n    \"\"\"Chia input_data thành các tuple chứa N phần tử (chunk a list).\n    Nếu tuple cuối không đủ phần tử thì bỏ đi.\n    \"\"\"\n    result = None",
+        "detail": "Bootcamp.day_2.ex6_2",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_2",
+        "description": "Bootcamp.day_2.ex6_2",
+        "peekOfCode": "def solve(iterable, N):\n    \"\"\"Chia input_data thành các tuple chứa N phần tử (chunk a list).\n    Nếu tuple cuối không đủ phần tử thì bỏ đi.\n    \"\"\"\n    result = None\n    # Xoá dòng sau và viết code vào đây set các giá trị phù hợp\n    # raise NotImplementedError(\"Bạn chưa làm bài này\")\n    # sửa thành tên function phù hợp\n    result = your_function(iterable, N)\n    return result",
+        "detail": "Bootcamp.day_2.ex6_2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_2",
+        "description": "Bootcamp.day_2.ex6_2",
+        "peekOfCode": "def main():\n    li = [\"meo\", \"bo\", \"ga\", \"cho\", \"chim\", \"gau\", \"voi\"]\n    print(solve(li, 2))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex6_2",
+        "documentation": {}
+    },
+    {
+        "label": "find_max_price",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_3",
+        "description": "Bootcamp.day_2.ex6_3",
+        "peekOfCode": "def find_max_price(datafile):\n    f = open(datafile)\n    dr = csv.DictReader(f, [\"time\", \"price\", \"UNKNOWN\"])  # NOQA\n    # Viết tiếp code vào đây\n    try:\n        # Xoá dòng sau và viết code vào đây set các giá trị phù hợp\n        # raise NotImplementedError(\"Bạn chưa làm bài này\")\n        pass\n    finally:\n        f.close()",
+        "detail": "Bootcamp.day_2.ex6_3",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_3",
+        "description": "Bootcamp.day_2.ex6_3",
+        "peekOfCode": "def solve():\n    \"\"\"Tìm ngày giá BTC lên cao nhất. Trả về Tuple chứa ngày ở định dạng\n    YYYY-mm-dd (VD: 2017-06-19) và giá VND của 1 BTC\n    \"\"\"\n    # http://api.bitcoincharts.com/v1/csv/\n    datafile = \"localbtcVND.csv\"\n    exdir = os.path.dirname(__file__)\n    datapath = os.path.join(exdir, datafile)\n    result = find_max_price(datapath)\n    return result",
+        "detail": "Bootcamp.day_2.ex6_3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_3",
+        "description": "Bootcamp.day_2.ex6_3",
+        "peekOfCode": "def main():\n    now = time.gmtime(int(time.time()))\n    print(now.tm_year, now.tm_mon, now.tm_mday)\n    print(solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex6_3",
+        "documentation": {}
+    },
+    {
+        "label": "sumall",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_4",
+        "description": "Bootcamp.day_2.ex6_4",
+        "peekOfCode": "def sumall(*input_data):\n    \"\"\"Viết function ``sumall`` tính tổng của tất cả các argument (int, float,\n    hoặc string) được gọi. Thay input_data bằng code phù hợp.\n    \"\"\"\n    return sum([float(i) for i in input_data])\ndef solve():\n    result = None\n    return result\ndef main():\n    print(solve())",
+        "detail": "Bootcamp.day_2.ex6_4",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_4",
+        "description": "Bootcamp.day_2.ex6_4",
+        "peekOfCode": "def solve():\n    result = None\n    return result\ndef main():\n    print(solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex6_4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_4",
+        "description": "Bootcamp.day_2.ex6_4",
+        "peekOfCode": "def main():\n    print(solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex6_4",
+        "documentation": {}
+    },
+    {
+        "label": "your_function",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_5",
+        "description": "Bootcamp.day_2.ex6_5",
+        "peekOfCode": "def your_function(datapath):\n    \"\"\"Trả về list chứa các dictionary chứa data về các contributor bao gồm\n    các key: login, html_url và contributions.\n    Nếu html_url nào bị thiếu, tạo html_url mới bằng\n    \"https://github.com/\" + login tương ứng.\n    \"\"\"\n    result = None\n    return result\ndef solve(input_data):\n    result = your_function(input_data)",
+        "detail": "Bootcamp.day_2.ex6_5",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_5",
+        "description": "Bootcamp.day_2.ex6_5",
+        "peekOfCode": "def solve(input_data):\n    result = your_function(input_data)\n    return result\ndef main():\n    \"\"\"Truy cập đường dẫn\n    https://api.github.com/repos/saltstack/salt/contributors?page=4 Lưu lại\n    thành file salt_contributors.json.\n    Sử dụng JSON để chuyển dữ liệu thành dữ liệu trong Python.\n    File đã được lưu sẵn trong thư mục này - link để đây để biết\n    dữ liệu lấy từ đâu.",
+        "detail": "Bootcamp.day_2.ex6_5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_5",
+        "description": "Bootcamp.day_2.ex6_5",
+        "peekOfCode": "def main():\n    \"\"\"Truy cập đường dẫn\n    https://api.github.com/repos/saltstack/salt/contributors?page=4 Lưu lại\n    thành file salt_contributors.json.\n    Sử dụng JSON để chuyển dữ liệu thành dữ liệu trong Python.\n    File đã được lưu sẵn trong thư mục này - link để đây để biết\n    dữ liệu lấy từ đâu.\n    \"\"\"\n    datafile = data\n    for d in solve(datafile):",
+        "detail": "Bootcamp.day_2.ex6_5",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex6_5",
+        "description": "Bootcamp.day_2.ex6_5",
+        "peekOfCode": "data = os.path.join(os.path.dirname(__file__), \"salt_contributors.json\")\ndef your_function(datapath):\n    \"\"\"Trả về list chứa các dictionary chứa data về các contributor bao gồm\n    các key: login, html_url và contributions.\n    Nếu html_url nào bị thiếu, tạo html_url mới bằng\n    \"https://github.com/\" + login tương ứng.\n    \"\"\"\n    result = None\n    return result\ndef solve(input_data):",
+        "detail": "Bootcamp.day_2.ex6_5",
+        "documentation": {}
+    },
+    {
+        "label": "repositories",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_6",
+        "description": "Bootcamp.day_2.ex6_6",
+        "peekOfCode": "def repositories(github_login):\n    \"\"\"\n    Trả về list name của các repos của GitHub user github_login\n    \"\"\"\n    with urllib.request.urlopen(\n        \"https://api.github.com/users/{}/repos\".format(github_login)\n    ) as f:\n        repos = json.load(f)\n        print(repos[0])\n    # Sửa function cho phù hợp, trả về kết quả yêu cầu.",
+        "detail": "Bootcamp.day_2.ex6_6",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_6",
+        "description": "Bootcamp.day_2.ex6_6",
+        "peekOfCode": "def solve(input_data):\n    return repositories(input_data)\ndef main():\n    for repo_name in solve(\"pallets\"):\n        print(repo_name)\n        # print('hàm Main')\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex6_6",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_6",
+        "description": "Bootcamp.day_2.ex6_6",
+        "peekOfCode": "def main():\n    for repo_name in solve(\"pallets\"):\n        print(repo_name)\n        # print('hàm Main')\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex6_6",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_7",
+        "description": "Bootcamp.day_2.ex6_7",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"\n    Trả về string biễu diễn tương ứng ở hệ thập phân (decimal),\n    hệ nhị phân (binary), bát phân (octal), thập lục phân (heximal)\n    Gợi ý: sử dụng bin(), oct(), hex(), string method `rjust`\n    Mỗi dòng 1 số, với độ rộng là 8, các giá trị thẳng nhau căn lề phải.\n    Output :\n       1       1     0o1     0x1\n       2      10     0o2     0x2\n       ...",
+        "detail": "Bootcamp.day_2.ex6_7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_7",
+        "description": "Bootcamp.day_2.ex6_7",
+        "peekOfCode": "def main():\n    input_data = range(1, 20)\n    print(solve(input_data))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex6_7",
+        "documentation": {}
+    },
+    {
+        "label": "send_gmail",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_8",
+        "description": "Bootcamp.day_2.ex6_8",
+        "peekOfCode": "def send_gmail(\n    myemail, to_addresses, content=\"HIHIHI\", subject=\"Hello from PyMivn\"\n):\n    assert isinstance(\n        to_addresses, list\n    ), \"to_addresses must be a list of emails\"\n    # Ví dụ này dùng gmail, nếu sử dụng các nhà cung cấp khác, cần thay\n    # đổi các giá trị phù hợp.\n    # Từ khóa: NHA_CUNG_CAP SMTP settings\n    smtpserver = smtplib.SMTP(\"smtp.gmail.com\", 587)",
+        "detail": "Bootcamp.day_2.ex6_8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_8",
+        "description": "Bootcamp.day_2.ex6_8",
+        "peekOfCode": "def main():\n    YOUREMAIL = \"FILL THIS BY YOUREMAIL\"\n    send_gmail(YOUREMAIL, [YOUREMAIL])\n    print(\"sent\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex6_8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex6_9",
+        "description": "Bootcamp.day_2.ex6_9",
+        "peekOfCode": "def main():\n    # Không dùng trực tiếp được do ketqua.net chặn Python\n    # f = urllib.request.urlopen(\"https://ketqua.net\")\n    # Đổi User-Agent header để đóng giả làm trình duyệt Firefox\n    req = urllib.request.Request(\n        url=\"https://ketqua.net\",\n        headers={\n            \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0\"  # noqa\n        },\n    )",
+        "detail": "Bootcamp.day_2.ex6_9",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_1",
+        "description": "Bootcamp.day_2.ex7_1",
+        "peekOfCode": "def solve(a, *args):\n    \"\"\"Return tổng (kiểu float) của các phân số\n    https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists\n    https://docs.python.org/3/library/fractions.html\n    Thư viện fractions cung cấp class Fraction để tạo ra kiểu phân số trên\n    Python.\n    \"\"\"\n    result = None\n    return result\ndef main():",
+        "detail": "Bootcamp.day_2.ex7_1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_1",
+        "description": "Bootcamp.day_2.ex7_1",
+        "peekOfCode": "def main():\n    print(solve(\"1/10\", \"1/10\", \"1/10\"))\n# __name__ là một biến|name đặc biệt do Python tự tạo ra\n# nó có giá trị là string \"__main__\" khi file được chạy bằng lệnh\n# python filename.py\n# và có giá trị là tên file (bỏ .py) khi được import.\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex7_1",
+        "documentation": {}
+    },
+    {
+        "label": "Fighter",
+        "kind": 6,
+        "importPath": "Bootcamp.day_2.ex7_2",
+        "description": "Bootcamp.day_2.ex7_2",
+        "peekOfCode": "class Fighter:\n    ...\nclass Weapon:\n    ...\ndef solve(player1, player2):\n    \"\"\"Trả về tuple tên người thắng cuộc và lượng máu còn lại (int)\"\"\"\n    result = None\n    return result\ndef main():\n    # Thay đổi các dòng sau cho phù hợp",
+        "detail": "Bootcamp.day_2.ex7_2",
+        "documentation": {}
+    },
+    {
+        "label": "Weapon",
+        "kind": 6,
+        "importPath": "Bootcamp.day_2.ex7_2",
+        "description": "Bootcamp.day_2.ex7_2",
+        "peekOfCode": "class Weapon:\n    ...\ndef solve(player1, player2):\n    \"\"\"Trả về tuple tên người thắng cuộc và lượng máu còn lại (int)\"\"\"\n    result = None\n    return result\ndef main():\n    # Thay đổi các dòng sau cho phù hợp\n    player1 = Fighter('Nguyễn Phương Hằng', 1000)\n    player2 = Fighter('Thuỷ Tiên', 100)",
+        "detail": "Bootcamp.day_2.ex7_2",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_2",
+        "description": "Bootcamp.day_2.ex7_2",
+        "peekOfCode": "def solve(player1, player2):\n    \"\"\"Trả về tuple tên người thắng cuộc và lượng máu còn lại (int)\"\"\"\n    result = None\n    return result\ndef main():\n    # Thay đổi các dòng sau cho phù hợp\n    player1 = Fighter('Nguyễn Phương Hằng', 1000)\n    player2 = Fighter('Thuỷ Tiên', 100)\n    print(solve(player1, player2))\n\"\"\"",
+        "detail": "Bootcamp.day_2.ex7_2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_2",
+        "description": "Bootcamp.day_2.ex7_2",
+        "peekOfCode": "def main():\n    # Thay đổi các dòng sau cho phù hợp\n    player1 = Fighter('Nguyễn Phương Hằng', 1000)\n    player2 = Fighter('Thuỷ Tiên', 100)\n    print(solve(player1, player2))\n\"\"\"\nNOTE\nsau khi thành thạo việc tạo 1 class và viết method, có thể\nvào link sau lấy chứng chỉ Python basic của HackerRank\nRất dễ, làm 5-10 phút là xong.",
+        "detail": "Bootcamp.day_2.ex7_2",
+        "documentation": {}
+    },
+    {
+        "label": "your_function",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_3",
+        "description": "Bootcamp.day_2.ex7_3",
+        "peekOfCode": "def your_function():\n    \"\"\"Trả về số phần tử của kiểu dữ liệu sau khi dùng module `yaml` để load\n    Thực hiện các yêu cầu tại ``__doc__``\n    :rtype int:\n    \"\"\"\n    # Sửa tên và function cho phù hợp, trả về kết quả yêu cầu.\n    result = None\n    return result\ndef solve():\n    \"\"\"không cần viết code trong hàm `solve`, chỉ thực hiện",
+        "detail": "Bootcamp.day_2.ex7_3",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_3",
+        "description": "Bootcamp.day_2.ex7_3",
+        "peekOfCode": "def solve():\n    \"\"\"không cần viết code trong hàm `solve`, chỉ thực hiện\n    đổi tên lại function của mình cho phù hợp\n    :rtype int:\n    \"\"\"\n    result = your_function()\n    return result\ndef main():\n    print(solve())\nif __name__ == \"__main__\":",
+        "detail": "Bootcamp.day_2.ex7_3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_3",
+        "description": "Bootcamp.day_2.ex7_3",
+        "peekOfCode": "def main():\n    print(solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex7_3",
+        "documentation": {}
+    },
+    {
+        "label": "__doc__",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex7_3",
+        "description": "Bootcamp.day_2.ex7_3",
+        "peekOfCode": "__doc__ = \"\"\"\nYêu cầu:\n- Dùng pip cài thư viện PyYAML, import yaml và dùng `yaml.safe_load` để biến nội\ndung trong file thành kiểu dữ liệu trên Python.\n- In ra số phần tử của kiểu dữ liệu vừa tạo. Dùng thư viện json để\n `json.dump` nội dung, ghi ra một file tên là event.json trong thư mục hiện tại.\n- Dùng thư viện pickle để pickle.dump nội dung trên ra file event.pkl trong\n  thư mục hiện tại. Chú ý khi mở file, phải mở ở chế độ ghi ở dạng binary. Đọc\n  thêm tại đây:\n  https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files`",
+        "detail": "Bootcamp.day_2.ex7_3",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex7_3",
+        "description": "Bootcamp.day_2.ex7_3",
+        "peekOfCode": "path = 'exercises\\day_2\\event.yaml'\ndef your_function():\n    \"\"\"Trả về số phần tử của kiểu dữ liệu sau khi dùng module `yaml` để load\n    Thực hiện các yêu cầu tại ``__doc__``\n    :rtype int:\n    \"\"\"\n    # Sửa tên và function cho phù hợp, trả về kết quả yêu cầu.\n    result = None\n    return result\ndef solve():",
+        "detail": "Bootcamp.day_2.ex7_3",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_4",
+        "description": "Bootcamp.day_2.ex7_4",
+        "peekOfCode": "def solve() -> str:\n    \"\"\"\n    Tải file sau về cùng thư mục với file code này\n    https://github.com/NUKnightLab/sql-mysteries/raw/master/sql-murder-mystery.db\n    Đây là 1 file database, 1 file dạng binary lưu trữ dữ liệu.\n    File ở dạng binary (như file nhạc, film) nên không thể mở bằng text editor\n    để đọc được. File này chứa dữ liệu của phần mềm sqlite, có thể dùng\n    ngôn ngữ SQL để truy cập.\n    Đọc file ex10/database.md để có hiểu biết tổng quát về database.\n    https://sqlzoo.net/wiki/SQL_Tutorial",
+        "detail": "Bootcamp.day_2.ex7_4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_4",
+        "description": "Bootcamp.day_2.ex7_4",
+        "peekOfCode": "def main():\n    print(\"The real villain behind this crime is \", solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex7_4",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_5",
+        "description": "Bootcamp.day_2.ex7_5",
+        "peekOfCode": "def solve(*args, **kwargs):\n    \"\"\"Return tuple chứa\n    - Đường dẫn tới code của module `os`\n    - list chứa các attribute của os và sys\n    - Số dòng trong module `os`\n    Biết dir(object) sẽ trả về tất cả thuộc tính (attribute) của object đó.\n    Module cũng là object.\n    In [11]: import os\n    In [12]: len(dir(os))\n    Out[12]: 284",
+        "detail": "Bootcamp.day_2.ex7_5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_5",
+        "description": "Bootcamp.day_2.ex7_5",
+        "peekOfCode": "def main():\n    print(solve())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex7_5",
+        "documentation": {}
+    },
+    {
+        "label": "your_function",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_6",
+        "description": "Bootcamp.day_2.ex7_6",
+        "peekOfCode": "def your_function(length=16):\n    \"\"\"Tạo một mật khẩu ngẫu nhiên (random password),\n    mật khẩu này bắt buộc phải chứa ít nhất 1 chữ thường,\n    1 chữ hoa, 1 số, 1 ký tự punctuation (string.punctuation).\n    \"\"\"\ndef generate_and_append(length, passwords=[]):\n    \"\"\"\n    Sinh password ngẫu nhiên và append vào list passwords.\n    Nếu không có list nào được gọi với function, trả về list chứa một\n    password vừa tạo ra.",
+        "detail": "Bootcamp.day_2.ex7_6",
+        "documentation": {}
+    },
+    {
+        "label": "generate_and_append",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_6",
+        "description": "Bootcamp.day_2.ex7_6",
+        "peekOfCode": "def generate_and_append(length, passwords=[]):\n    \"\"\"\n    Sinh password ngẫu nhiên và append vào list passwords.\n    Nếu không có list nào được gọi với function, trả về list chứa một\n    password vừa tạo ra.\n    Sửa argument tùy ý.\n    \"\"\"\ndef solve(input_data):\n    result = your_function(input_data)\n    return result",
+        "detail": "Bootcamp.day_2.ex7_6",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_6",
+        "description": "Bootcamp.day_2.ex7_6",
+        "peekOfCode": "def solve(input_data):\n    result = your_function(input_data)\n    return result\ndef main():\n    \"\"\"\n    Sinh ra 10 password và viết code đảm bảo chúng đều khác nhau.\n    \"\"\"\n    passwords8 = generate_and_append(8)\n    passwords10 = generate_and_append(10)\n    passwords12 = generate_and_append(12)",
+        "detail": "Bootcamp.day_2.ex7_6",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_6",
+        "description": "Bootcamp.day_2.ex7_6",
+        "peekOfCode": "def main():\n    \"\"\"\n    Sinh ra 10 password và viết code đảm bảo chúng đều khác nhau.\n    \"\"\"\n    passwords8 = generate_and_append(8)\n    passwords10 = generate_and_append(10)\n    passwords12 = generate_and_append(12)\n    passwords12 = generate_and_append(12, passwords12)\n    assert len(passwords8) == 1, passwords8\n    assert len(passwords10) == 1, passwords10",
+        "detail": "Bootcamp.day_2.ex7_6",
+        "documentation": {}
+    },
+    {
+        "label": "full_list",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex7_6",
+        "description": "Bootcamp.day_2.ex7_6",
+        "peekOfCode": "full_list = string.ascii_letters + string.punctuation + string.digits\ndef your_function(length=16):\n    \"\"\"Tạo một mật khẩu ngẫu nhiên (random password),\n    mật khẩu này bắt buộc phải chứa ít nhất 1 chữ thường,\n    1 chữ hoa, 1 số, 1 ký tự punctuation (string.punctuation).\n    \"\"\"\ndef generate_and_append(length, passwords=[]):\n    \"\"\"\n    Sinh password ngẫu nhiên và append vào list passwords.\n    Nếu không có list nào được gọi với function, trả về list chứa một",
+        "detail": "Bootcamp.day_2.ex7_6",
+        "documentation": {}
+    },
+    {
+        "label": "country_ranks",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_7",
+        "description": "Bootcamp.day_2.ex7_7",
+        "peekOfCode": "def country_ranks(xmldata):\n    \"\"\"Python hỗ trợ xử lý file định dạng XML/HTML. Sử dụng thư viện\n    xml.etree.ElementTree có thể dễ dàng \"parse\" các văn bản định dạng XML/HTML\n    (biến từ text thành dữ liệu có cấu trúc).\n    https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.ElementTree  # NOQA\n    Trả về list các tuple (tên quốc gia, thứ hạng)\n    \"\"\"\n    result = None\n    return result\ndef solve(input_data):",
+        "detail": "Bootcamp.day_2.ex7_7",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_7",
+        "description": "Bootcamp.day_2.ex7_7",
+        "peekOfCode": "def solve(input_data):\n    result = country_ranks(data)\n    return result\ndef main():\n    print(solve(data))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex7_7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_7",
+        "description": "Bootcamp.day_2.ex7_7",
+        "peekOfCode": "def main():\n    print(solve(data))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex7_7",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex7_7",
+        "description": "Bootcamp.day_2.ex7_7",
+        "peekOfCode": "data = \"\"\"<?xml version=\"1.0\"?>\n<data>\n    <country name=\"Liechtenstein\">\n        <rank>1</rank>\n        <year>2008</year>\n        <gdppc>141100</gdppc>\n        <neighbor name=\"Austria\" direction=\"E\"/>\n        <neighbor name=\"Switzerland\" direction=\"W\"/>\n    </country>\n    <country name=\"Singapore\">",
+        "detail": "Bootcamp.day_2.ex7_7",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_8",
+        "description": "Bootcamp.day_2.ex7_8",
+        "peekOfCode": "def solve(input_data):\n    result = None\n    return result\ndef main():\n    print(solve(True))",
+        "detail": "Bootcamp.day_2.ex7_8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex7_8",
+        "description": "Bootcamp.day_2.ex7_8",
+        "peekOfCode": "def main():\n    print(solve(True))",
+        "detail": "Bootcamp.day_2.ex7_8",
+        "documentation": {}
+    },
+    {
+        "label": "your_function",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_1",
+        "description": "Bootcamp.day_2.ex8_1",
+        "peekOfCode": "def your_function(N: int) -> Tuple[List[str], float]:\n    \"\"\"Trả về tuple chứa 2 phần tử bao gồm:\n    - List chứa các điểm thời gian (string) sau N lần thực hiện\n    theo yêu cầu từ ``__doc__``\n    - Tổng thời gian chạy của function\n    :rtype tuple:\n    \"\"\"\n    result = None\n    return result\ndef solve(N: int) -> Tuple:",
+        "detail": "Bootcamp.day_2.ex8_1",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_1",
+        "description": "Bootcamp.day_2.ex8_1",
+        "peekOfCode": "def solve(N: int) -> Tuple:\n    \"\"\"không cần chỉnh sửa trong hàm solve, chỉ thực hiện\n    đổi tên lại function của mình cho phù hợp\n    Hàm solve dùng cho mục đích `test`\n    :rtype tuple:\n    \"\"\"\n    result = your_function(N)\n    return result\ndef main() -> None:\n    print(solve(5))",
+        "detail": "Bootcamp.day_2.ex8_1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_1",
+        "description": "Bootcamp.day_2.ex8_1",
+        "peekOfCode": "def main() -> None:\n    print(solve(5))\n# __name__ là một biến|name đặc biệt do Python tự tạo ra\n# nó có giá trị là string \"__main__\" khi file được chạy bằng lệnh\n# python filename.py\n# và có giá trị là tên file (bỏ .py) khi được import.\nif __name__ == \"__main__\":\n    print(__name__)\n    main()",
+        "detail": "Bootcamp.day_2.ex8_1",
+        "documentation": {}
+    },
+    {
+        "label": "__doc__",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_1",
+        "description": "Bootcamp.day_2.ex8_1",
+        "peekOfCode": "__doc__ = \"\"\"\nYêu cầu:\n- Viết chương trình cứ 1 giây in ra màn hình thời gian hiện tại.\n- Sau N lần thì chương trình kết thúc\nGợi ý:\ntime.sleep, datetime.datetime.now\nĐọc thêm logging: https://pymotw.com/3/logging/index.html\n\"\"\"\nimport time\nimport datetime  # NOQA",
+        "detail": "Bootcamp.day_2.ex8_1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_10",
+        "description": "Bootcamp.day_2.ex8_10",
+        "peekOfCode": "def main():\n    print(__doc__)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex8_10",
+        "documentation": {}
+    },
+    {
+        "label": "__doc__",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_10",
+        "description": "Bootcamp.day_2.ex8_10",
+        "peekOfCode": "__doc__ = \"\"\"\nTạo virtualenv và cài các package từ file `requirements-doc.txt` của repo này.\nChạy `make html` ở thư mục chứa file `Makefile` để tạo ra tài liệu ở định dạng\nHTML cho nội dung khoá học.\nTham khảo thêm: http://www.sphinx-doc.org/en/stable/\nPS: máy bạn nên cài sẵn `make`\n\"\"\"\ndef main():\n    print(__doc__)\nif __name__ == \"__main__\":",
+        "detail": "Bootcamp.day_2.ex8_10",
+        "documentation": {}
+    },
+    {
+        "label": "your_function",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_2",
+        "description": "Bootcamp.day_2.ex8_2",
+        "peekOfCode": "def your_function(option: str, n: int, file_path: str) -> List[str]:\n    \"\"\"Trả về list chứa n dòng tùy thuộc vào `option` (-t hoặc -h) sau khi\n    đọc dữ liệu từ file\n    :param option: tùy chọn để in ra các dòng đầu hoặc cuối: -h hoặc -t\n    :param file_path: đường dẫn tới file\n    :rtype list:\n    \"\"\"\n    result = None\n    return result\ndef solve(option, file_path):",
+        "detail": "Bootcamp.day_2.ex8_2",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_2",
+        "description": "Bootcamp.day_2.ex8_2",
+        "peekOfCode": "def solve(option, file_path):\n    \"\"\"Hàm `solve` sử dụng với mục đích `test`, không cần chỉnh\n    sửa gì thêm\n    :param option: tùy chọn để in ra các dòng đầu hoặc cuối: -h hoặc -t\n    :param file_path: đường dẫn tới file\n    :rtype list:\n    \"\"\"\n    # Lưu ý: sửa lại tên function của mình cho phù hợp\n    logger.debug(\"Using %s option with file %s\", option, file_path)\n    n = 10",
+        "detail": "Bootcamp.day_2.ex8_2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_2",
+        "description": "Bootcamp.day_2.ex8_2",
+        "peekOfCode": "def main():\n    option, file_path = None, None\n    # Viết code xử lí truyền 2 argument `option` và `file_path` bên dưới\n    # option: tùy chọn để in ra các dòng đầu hoặc cuối: -h hoặc -t\n    # file_path: đường dẫn tới file\n    # Gợi ý: sử dụng sys.argv\n    # Xoá dòng sau và viết code vào đây set các giá trị phù hợp\n    # raise NotImplementedError(\"chưa xử lí `argument`\")\n    option = sys.argv[1]\n    file_path = sys.argv[0]",
+        "detail": "Bootcamp.day_2.ex8_2",
+        "documentation": {}
+    },
+    {
+        "label": "__doc__",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_2",
+        "description": "Bootcamp.day_2.ex8_2",
+        "peekOfCode": "__doc__ = \"\"\"\nYêu cầu: Viết script ex8_2.py:\n- khi gọi với -h tên_file sẽ in ra 10 dòng đầu tiên của file (h == head),\n- khi gọi với -t tên_file sẽ in ra 10 dòng cuối cùng của file (t == tail).\nUsage::\n  ex8_2.py -h file_path\n  -> Print 10 first lines of file_path\n  ex8_2.py -t file_path\n  -> Print 10 last lines of file_path\nUse ``sys.argv``",
+        "detail": "Bootcamp.day_2.ex8_2",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_2",
+        "description": "Bootcamp.day_2.ex8_2",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nfile_path = 'ex8_2.txt'\ndef your_function(option: str, n: int, file_path: str) -> List[str]:\n    \"\"\"Trả về list chứa n dòng tùy thuộc vào `option` (-t hoặc -h) sau khi\n    đọc dữ liệu từ file\n    :param option: tùy chọn để in ra các dòng đầu hoặc cuối: -h hoặc -t\n    :param file_path: đường dẫn tới file\n    :rtype list:\n    \"\"\"\n    result = None",
+        "detail": "Bootcamp.day_2.ex8_2",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_2",
+        "description": "Bootcamp.day_2.ex8_2",
+        "peekOfCode": "file_path = 'ex8_2.txt'\ndef your_function(option: str, n: int, file_path: str) -> List[str]:\n    \"\"\"Trả về list chứa n dòng tùy thuộc vào `option` (-t hoặc -h) sau khi\n    đọc dữ liệu từ file\n    :param option: tùy chọn để in ra các dòng đầu hoặc cuối: -h hoặc -t\n    :param file_path: đường dẫn tới file\n    :rtype list:\n    \"\"\"\n    result = None\n    return result",
+        "detail": "Bootcamp.day_2.ex8_2",
+        "documentation": {}
+    },
+    {
+        "label": "your_function",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_3",
+        "description": "Bootcamp.day_2.ex8_3",
+        "peekOfCode": "def your_function(iterable: List) -> List[str]:\n    \"\"\"Trả về list chứa các phần tử của iterable đã chuyển thành chữ HOA\n    Không dùng list comprehension, for.\n    Gợi ý:\n        iterator, while, try/except\n    :param input_data: dữ liệu sử dụng iterable\n    :rtype list:\n    \"\"\"\n    # Sửa tên và function cho phù hợp, trả về kết quả yêu cầu.\n    result = None",
+        "detail": "Bootcamp.day_2.ex8_3",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_3",
+        "description": "Bootcamp.day_2.ex8_3",
+        "peekOfCode": "def solve(input_data):\n    # function `solve` dành cho mục đích `test`, không cần sửa\n    # Gía trị trả về của `solve` và `your_function` là như nhau\n    result = your_function(input_data)\n    return result\ndef main():\n    words = data\n    result = solve(words)\n    assert isinstance(result, list)\n    for i in result:",
+        "detail": "Bootcamp.day_2.ex8_3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_3",
+        "description": "Bootcamp.day_2.ex8_3",
+        "peekOfCode": "def main():\n    words = data\n    result = solve(words)\n    assert isinstance(result, list)\n    for i in result:\n        print(i)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex8_3",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_3",
+        "description": "Bootcamp.day_2.ex8_3",
+        "peekOfCode": "data = [\"nhung\", \"bong\", \"hoa\", \"nho\", \"va\", \"nhung\", \"bong\", \"hoa\", \"to\"]\ndef your_function(iterable: List) -> List[str]:\n    \"\"\"Trả về list chứa các phần tử của iterable đã chuyển thành chữ HOA\n    Không dùng list comprehension, for.\n    Gợi ý:\n        iterator, while, try/except\n    :param input_data: dữ liệu sử dụng iterable\n    :rtype list:\n    \"\"\"\n    # Sửa tên và function cho phù hợp, trả về kết quả yêu cầu.",
+        "detail": "Bootcamp.day_2.ex8_3",
+        "documentation": {}
+    },
+    {
+        "label": "your_decorator",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_4",
+        "description": "Bootcamp.day_2.ex8_4",
+        "peekOfCode": "def your_decorator(function):\n    \"\"\"Tính thời gian chạy của `function` (float)\"\"\"\n    def wrapper():\n        start = time.time()\n        function()\n        return time.time() - start\n    # Sửa lại tên và function cho phù hợp\n    # Xoá dòng sau và viết code vào đây set các giá trị phù hợp\n    return wrapper\n# Sửa tên decorator cho phù hợp",
+        "detail": "Bootcamp.day_2.ex8_4",
+        "documentation": {}
+    },
+    {
+        "label": "worker",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_4",
+        "description": "Bootcamp.day_2.ex8_4",
+        "peekOfCode": "def worker():\n    for i in range(10):\n        pass\n    time.sleep(1)\ndef solve():\n    \"\"\"Thực hiện 1 tính toán bất kì trong function `solve`\n    Trả về kết quả tùy ý, gán lại vào `result`\n    \"\"\"\n    result = worker()\n    # Xoá dòng sau sau khi đã thay đổi your_decorator phù hợp",
+        "detail": "Bootcamp.day_2.ex8_4",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_4",
+        "description": "Bootcamp.day_2.ex8_4",
+        "peekOfCode": "def solve():\n    \"\"\"Thực hiện 1 tính toán bất kì trong function `solve`\n    Trả về kết quả tùy ý, gán lại vào `result`\n    \"\"\"\n    result = worker()\n    # Xoá dòng sau sau khi đã thay đổi your_decorator phù hợp\n    # raise NotImplementedError(\"chưa thực hiện tính toán\")\n    a = 0\n    while a < 10:\n        a += 2",
+        "detail": "Bootcamp.day_2.ex8_4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_4",
+        "description": "Bootcamp.day_2.ex8_4",
+        "peekOfCode": "def main():\n    print(\"Function worker chạy mất: {0} giây\".format(solve()))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex8_4",
+        "documentation": {}
+    },
+    {
+        "label": "__doc__",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_4",
+        "description": "Bootcamp.day_2.ex8_4",
+        "peekOfCode": "__doc__ = \"\"\"\nYêu cầu:\n- Viết decorator in ra thời gian chạy của 1 function\n\"\"\"\nimport time\ndef your_decorator(function):\n    \"\"\"Tính thời gian chạy của `function` (float)\"\"\"\n    def wrapper():\n        start = time.time()\n        function()",
+        "detail": "Bootcamp.day_2.ex8_4",
+        "documentation": {}
+    },
+    {
+        "label": "TestFactorial",
+        "kind": 6,
+        "importPath": "Bootcamp.day_2.ex8_5",
+        "description": "Bootcamp.day_2.ex8_5",
+        "peekOfCode": "class TestFactorial(unittest.TestCase):\n    def test_factorial_0_is_1(self):\n        self.assertEqual(1, factorial(0))\n    def test_factorial_3_is_6(self):\n        self.assertEqual(6, factorial(3))\n    def test_factorial_4_is_24(self):\n        self.assertEqual(120, factorial(5))\ndef solve() -> bool:\n    \"\"\"\n    Sửa lại các test case trong TestFactorial cho đúng.",
+        "detail": "Bootcamp.day_2.ex8_5",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_5",
+        "description": "Bootcamp.day_2.ex8_5",
+        "peekOfCode": "def factorial(n: int) -> int:\n    if n <= 0:\n        return 1\n    return n * factorial(n - 1)\nclass TestFactorial(unittest.TestCase):\n    def test_factorial_0_is_1(self):\n        self.assertEqual(1, factorial(0))\n    def test_factorial_3_is_6(self):\n        self.assertEqual(6, factorial(3))\n    def test_factorial_4_is_24(self):",
+        "detail": "Bootcamp.day_2.ex8_5",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_5",
+        "description": "Bootcamp.day_2.ex8_5",
+        "peekOfCode": "def solve() -> bool:\n    \"\"\"\n    Sửa lại các test case trong TestFactorial cho đúng.\n    \"\"\"\n    suite = unittest.TestLoader().loadTestsFromTestCase(TestFactorial)\n    _, fn = tempfile.mkstemp()\n    with open(fn, \"w\") as tmpf:\n        r = unittest.TextTestRunner(stream=tmpf, verbosity=2).run(suite)\n        print(dir(r))\n    return r.wasSuccessful()",
+        "detail": "Bootcamp.day_2.ex8_5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_5",
+        "description": "Bootcamp.day_2.ex8_5",
+        "peekOfCode": "def main() -> None:\n    test_result = solve()\n    print(\"Test was successful? \", test_result)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "Bootcamp.day_2.ex8_5",
+        "documentation": {}
+    },
+    {
+        "label": "your_function",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_8",
+        "description": "Bootcamp.day_2.ex8_8",
+        "peekOfCode": "def your_function(input_data: str) -> str:\n    \"\"\"Trả về tên phiên bản như yêu cầu tại ``__doc__``\n    :param input_data: ngày format ở dạng <month>/<day>/<year>,\n                       ví dụ: \"02/03/16\"\n    :rtype str:\n    \"\"\"\n    # Sửa tên và function cho phù hợp, trả về kết quả yêu cầu.\n    result = None\n    return result\ndef solve(input_data):",
+        "detail": "Bootcamp.day_2.ex8_8",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_8",
+        "description": "Bootcamp.day_2.ex8_8",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"Function `solve` dùng để `test`, không cần chỉnh sửa gì thêm\n    Chỉ thay đổi lại tên function của mình bên dưới cho phù hợp\n    Gía trị trả về của hàm `solve` và `your_function` là như nhau\n    :rtype str:\n    \"\"\"\n    result = your_function(input_data)\n    # Xoá dòng sau và viết code vào đây set các giá trị phù hợp\n    # raise NotImplementedError(\"Bạn chưa làm bài này\")\n    return result",
+        "detail": "Bootcamp.day_2.ex8_8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_8",
+        "description": "Bootcamp.day_2.ex8_8",
+        "peekOfCode": "def main():\n    # input_data = None\n    # sử dụng `sys.argv` hoặc `argparse` để gán gía trị yêu cầu\n    # vào biến `input_data`\n    # Xoá dòng sau và viết code vào đây set các giá trị phù hợp\n    # raise NotImplementedError(\"chưa thực hiện truyền input_data\")\n    # logger.debug(\"Getting version for the day %s\", input_data)\n    # print(input_data, solve(input_data))\n    for d in \"02/03/16\", \"09/06/16\", \"06/23/17\":\n        print(d, solve(d))",
+        "detail": "Bootcamp.day_2.ex8_8",
+        "documentation": {}
+    },
+    {
+        "label": "__doc__",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_8",
+        "description": "Bootcamp.day_2.ex8_8",
+        "peekOfCode": "__doc__ = \"\"\"\nViết script get_version nhận vào ngày ở format <month>/<day>/<year>.\nVD: 03/28/16 làm parameter và in ra một version được tính theo quy luật sau:\n- Version ở dạng format: <MAJOR>.<MINOR>.<PATCH>, vd: \"6.9.2\"\n- Cách đánh version này gọi là semver http://semver.org/\n- Từ ngày 09 tháng 02 năm 2016, phiên bản bắt đầu là \"1.0.0\"\n- Mỗi 28 ngày, MAJOR lại tăng thêm 1, MINOR và PATCH set về 0\n- Mỗi 7 ngày, MINOR tăng thêm 1 và PATCH sẽ set về 0\n- Cứ mỗi ngày, PATCH lại tăng thêm 1.\nIn ra phiên bản tương ứng.",
+        "detail": "Bootcamp.day_2.ex8_8",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_8",
+        "description": "Bootcamp.day_2.ex8_8",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef your_function(input_data: str) -> str:\n    \"\"\"Trả về tên phiên bản như yêu cầu tại ``__doc__``\n    :param input_data: ngày format ở dạng <month>/<day>/<year>,\n                       ví dụ: \"02/03/16\"\n    :rtype str:\n    \"\"\"\n    # Sửa tên và function cho phù hợp, trả về kết quả yêu cầu.\n    result = None\n    return result",
+        "detail": "Bootcamp.day_2.ex8_8",
+        "documentation": {}
+    },
+    {
+        "label": "your_function",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_9",
+        "description": "Bootcamp.day_2.ex8_9",
+        "peekOfCode": "def your_function(path) -> Dict[str, int]:\n    \"\"\"Trả về `dict` chứa tổng số dòng của từng loại file trong thư\n    mục hiện tại (bao gồm cả thư mục con) theo format:\n        result = {\n            \".py\": 1234,\n            \".txt\": 5678,\n            ...\n        }\n    Lưu ý:\n    - Nếu file không đọc được, gán số dòng bằng 0",
+        "detail": "Bootcamp.day_2.ex8_9",
+        "documentation": {}
+    },
+    {
+        "label": "solve",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_9",
+        "description": "Bootcamp.day_2.ex8_9",
+        "peekOfCode": "def solve(input_data):\n    \"\"\"Function `solve` dùng để `test`, không cần chỉnh sửa gì thêm\n    Chỉ thay đổi lại tên function của mình bên dưới cho phù hợp\n    Gía trị trả về của hàm `solve` và `your_function` là như nhau\n    :param input_data: đường dẫn tới thư mục\n    :rtype dict:\n    NOTE: nếu test xảy ra exception, mở file test và sửa lại cho đúng,\n    bạn đã học hết Python rồi.\n    \"\"\"\n    # logger.debug(\"Statically analysing directory %s\", input_data)",
+        "detail": "Bootcamp.day_2.ex8_9",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Bootcamp.day_2.ex8_9",
+        "description": "Bootcamp.day_2.ex8_9",
+        "peekOfCode": "def main():\n    # path = PATH  # thư mục hiện tại\n    path = '.'\n    # sử dụng `sys.argv` hoặc `argparse` để gán gía trị yêu cầu vào biến `path`\n    # Xoá dòng sau và viết code vào đây set các giá trị phù hợp\n    # raise NotImplementedError(\"chưa thực hiện truyền `path`\")\n    print(solve(path))\nif __name__ == \"__main__\":\n    main()\n# chưa duyệT đc thư mục con",
+        "detail": "Bootcamp.day_2.ex8_9",
+        "documentation": {}
+    },
+    {
+        "label": "__doc__",
+        "kind": 5,
+        "importPath": "Bootcamp.day_2.ex8_9",
+        "description": "Bootcamp.day_2.ex8_9",
+        "peekOfCode": "__doc__ = \"\"\"\nYêu cầu:\n- Tìm và in ra tổng số dòng của mỗi loại file (kể cả thư mục con,\ndựa vào phần mở rộng abc.py và xyz.py là cùng loại) khi thực hiện lệnh:\n    ex8_9.py `duong_dan_toi_thu_muc`\n- Mặc định là thư mục hiện tại: PATH = '.'\nGợi ý: sử dụng `os.walk` để duyệt vào thư mục con.\nYêu cầu nâng cao:\n- Trong thư mục hiện tại nếu tìm thấy file là python module\nin ra màn hình tên của các function trong đó",
+        "detail": "Bootcamp.day_2.ex8_9",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectEuler",
+        "kind": 6,
+        "importPath": "Bootcamp.project_euler",
+        "description": "Bootcamp.project_euler",
+        "peekOfCode": "class ProjectEuler():\n    def __init__(self) -> None:\n        pass\n    def const_fibonacci(self, n):\n        fi_list = [1,2]\n        while fi_list[-1] < n+1:\n            fi_list.append(fi_list[-1] + fi_list[-2])\n        return fi_list[:-1]\n    def palindromic_number(self, n):\n        n = str(n)",
+        "detail": "Bootcamp.project_euler",
+        "documentation": {}
+    },
+    {
+        "label": "euler_answer",
+        "kind": 5,
+        "importPath": "Bootcamp.project_euler",
+        "description": "Bootcamp.project_euler",
+        "peekOfCode": "euler_answer = ProjectEuler()\nproblem = euler_answer.problem_test()\nprint(problem)",
+        "detail": "Bootcamp.project_euler",
+        "documentation": {}
+    },
+    {
+        "label": "problem",
+        "kind": 5,
+        "importPath": "Bootcamp.project_euler",
+        "description": "Bootcamp.project_euler",
+        "peekOfCode": "problem = euler_answer.problem_test()\nprint(problem)",
+        "detail": "Bootcamp.project_euler",
+        "documentation": {}
+    },
+    {
+        "label": "input_text",
+        "kind": 5,
+        "importPath": "answer.day2.ex1",
+        "description": "answer.day2.ex1",
+        "peekOfCode": "input_text = \"Sơn Tùng MTP\"\nlength = len(input_text)\nif length < 2:\n    output = ''\nelif length == 2:\n    output = input_text*2\nelse:\n    output = input_text[:2]+input_text[-2:]\nprint(output)",
+        "detail": "answer.day2.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 5,
+        "importPath": "answer.day2.ex1",
+        "description": "answer.day2.ex1",
+        "peekOfCode": "length = len(input_text)\nif length < 2:\n    output = ''\nelif length == 2:\n    output = input_text*2\nelse:\n    output = input_text[:2]+input_text[-2:]\nprint(output)",
+        "detail": "answer.day2.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "input_text",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "input_text = 'Aquafina - Vị ngon của sự tinh khiết'\noutput = ''\nfor char in input_text:\n    if char == 'a':\n        output += '@'\n    elif char == 'o':\n        output += '0'\n    elif char == 's':\n        output += '$'\n    elif char == 'i':",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "output",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "output = ''\nfor char in input_text:\n    if char == 'a':\n        output += '@'\n    elif char == 'o':\n        output += '0'\n    elif char == 's':\n        output += '$'\n    elif char == 'i':\n        output += '1'   ",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "output2",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "output2 = ''\noutput2 = input_text.replace('a','@')\noutput2 = output2.replace('o','0')\noutput2 = output2.replace('s','$')\noutput2 = output2.replace('i','1')\nprint(output2)\n# cách khác dict\ninput_dict = {'a': '@', 'o': '0', 's':'$','i':'1'}\noutput3 = ''\nfor char in input_text:",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "output2",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "output2 = input_text.replace('a','@')\noutput2 = output2.replace('o','0')\noutput2 = output2.replace('s','$')\noutput2 = output2.replace('i','1')\nprint(output2)\n# cách khác dict\ninput_dict = {'a': '@', 'o': '0', 's':'$','i':'1'}\noutput3 = ''\nfor char in input_text:\n    if char in input_dict:",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "output2",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "output2 = output2.replace('o','0')\noutput2 = output2.replace('s','$')\noutput2 = output2.replace('i','1')\nprint(output2)\n# cách khác dict\ninput_dict = {'a': '@', 'o': '0', 's':'$','i':'1'}\noutput3 = ''\nfor char in input_text:\n    if char in input_dict:\n        output3 += input_dict[char]",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "output2",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "output2 = output2.replace('s','$')\noutput2 = output2.replace('i','1')\nprint(output2)\n# cách khác dict\ninput_dict = {'a': '@', 'o': '0', 's':'$','i':'1'}\noutput3 = ''\nfor char in input_text:\n    if char in input_dict:\n        output3 += input_dict[char]\n    else:",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "output2",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "output2 = output2.replace('i','1')\nprint(output2)\n# cách khác dict\ninput_dict = {'a': '@', 'o': '0', 's':'$','i':'1'}\noutput3 = ''\nfor char in input_text:\n    if char in input_dict:\n        output3 += input_dict[char]\n    else:\n        output3 += char",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "input_dict",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "input_dict = {'a': '@', 'o': '0', 's':'$','i':'1'}\noutput3 = ''\nfor char in input_text:\n    if char in input_dict:\n        output3 += input_dict[char]\n    else:\n        output3 += char\nprint(output3)\n#  cách khác với list\nlst_find = ['a', 'o', 's', 'i']",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "output3",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "output3 = ''\nfor char in input_text:\n    if char in input_dict:\n        output3 += input_dict[char]\n    else:\n        output3 += char\nprint(output3)\n#  cách khác với list\nlst_find = ['a', 'o', 's', 'i']\nlst_replace = ['@','0','$','1']",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "lst_find",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "lst_find = ['a', 'o', 's', 'i']\nlst_replace = ['@','0','$','1']\noutput4 = ''\nfor char in input_text:\n    if char in lst_find:\n        index = lst_find.index(char)\n        output4 += lst_replace[index]\n    else:\n        output4 += char\nprint(output4)",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "lst_replace",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "lst_replace = ['@','0','$','1']\noutput4 = ''\nfor char in input_text:\n    if char in lst_find:\n        index = lst_find.index(char)\n        output4 += lst_replace[index]\n    else:\n        output4 += char\nprint(output4)",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "output4",
+        "kind": 5,
+        "importPath": "answer.day2.ex2",
+        "description": "answer.day2.ex2",
+        "peekOfCode": "output4 = ''\nfor char in input_text:\n    if char in lst_find:\n        index = lst_find.index(char)\n        output4 += lst_replace[index]\n    else:\n        output4 += char\nprint(output4)",
+        "detail": "answer.day2.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "first_name",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "first_name = 'Nguyễn '\nmiddle_name = 'Văn'\nlast_name = 'Tèo'\nfull_name = first_name.strip() + ' '+middle_name.strip()+' '+last_name.strip()\nprint(full_name)\n# cách khác\nname_lst = ['Nguyễn ','Văn','Tèo']\nfull_name2 = ''\nfor name in name_lst:\n    full_name2 += name.strip()+' '",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "middle_name",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "middle_name = 'Văn'\nlast_name = 'Tèo'\nfull_name = first_name.strip() + ' '+middle_name.strip()+' '+last_name.strip()\nprint(full_name)\n# cách khác\nname_lst = ['Nguyễn ','Văn','Tèo']\nfull_name2 = ''\nfor name in name_lst:\n    full_name2 += name.strip()+' '\nfull_name2=full_name2.strip()",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "last_name",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "last_name = 'Tèo'\nfull_name = first_name.strip() + ' '+middle_name.strip()+' '+last_name.strip()\nprint(full_name)\n# cách khác\nname_lst = ['Nguyễn ','Văn','Tèo']\nfull_name2 = ''\nfor name in name_lst:\n    full_name2 += name.strip()+' '\nfull_name2=full_name2.strip()\nprint(full_name2)",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "full_name",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "full_name = first_name.strip() + ' '+middle_name.strip()+' '+last_name.strip()\nprint(full_name)\n# cách khác\nname_lst = ['Nguyễn ','Văn','Tèo']\nfull_name2 = ''\nfor name in name_lst:\n    full_name2 += name.strip()+' '\nfull_name2=full_name2.strip()\nprint(full_name2)\n# cách khác",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "name_lst",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "name_lst = ['Nguyễn ','Văn','Tèo']\nfull_name2 = ''\nfor name in name_lst:\n    full_name2 += name.strip()+' '\nfull_name2=full_name2.strip()\nprint(full_name2)\n# cách khác\nfirst_name = 'Nguyễn '\nmiddle_name = 'Văn'\nlast_name = 'Tèo'",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "full_name2",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "full_name2 = ''\nfor name in name_lst:\n    full_name2 += name.strip()+' '\nfull_name2=full_name2.strip()\nprint(full_name2)\n# cách khác\nfirst_name = 'Nguyễn '\nmiddle_name = 'Văn'\nlast_name = 'Tèo'\nfull_name3 = f'{first_name}{middle_name} {last_name}'",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "first_name",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "first_name = 'Nguyễn '\nmiddle_name = 'Văn'\nlast_name = 'Tèo'\nfull_name3 = f'{first_name}{middle_name} {last_name}'\nprint(full_name3)",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "middle_name",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "middle_name = 'Văn'\nlast_name = 'Tèo'\nfull_name3 = f'{first_name}{middle_name} {last_name}'\nprint(full_name3)",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "last_name",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "last_name = 'Tèo'\nfull_name3 = f'{first_name}{middle_name} {last_name}'\nprint(full_name3)",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "full_name3",
+        "kind": 5,
+        "importPath": "answer.day2.ex3",
+        "description": "answer.day2.ex3",
+        "peekOfCode": "full_name3 = f'{first_name}{middle_name} {last_name}'\nprint(full_name3)",
+        "detail": "answer.day2.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "full_name",
+        "kind": 5,
+        "importPath": "answer.day2.ex4",
+        "description": "answer.day2.ex4",
+        "peekOfCode": "full_name = input('Nhập họ tên của bạn: ')\nage = int(input('Nhập tuổi của bạn: '))\nprint(f'{full_name.upper()} {age} TUỐI')\n#  cách khác\nresult = '{} {} tuổi'.format(full_name, age)\nprint(result.upper())",
+        "detail": "answer.day2.ex4",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "answer.day2.ex4",
+        "description": "answer.day2.ex4",
+        "peekOfCode": "age = int(input('Nhập tuổi của bạn: '))\nprint(f'{full_name.upper()} {age} TUỐI')\n#  cách khác\nresult = '{} {} tuổi'.format(full_name, age)\nprint(result.upper())",
+        "detail": "answer.day2.ex4",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "answer.day2.ex4",
+        "description": "answer.day2.ex4",
+        "peekOfCode": "result = '{} {} tuổi'.format(full_name, age)\nprint(result.upper())",
+        "detail": "answer.day2.ex4",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "answer.day2.ex5",
+        "description": "answer.day2.ex5",
+        "peekOfCode": "str = 'abcdefgh'\nstr_new = str[::-1]\nprint('cach 1: ',str_new)\n# cách 2 với list\nlst_str = list(str)\nlst_str.reverse()\nstr_new2 = ''.join(lst_str)\nprint('cach 2: ',str_new2)",
+        "detail": "answer.day2.ex5",
+        "documentation": {}
+    },
+    {
+        "label": "str_new",
+        "kind": 5,
+        "importPath": "answer.day2.ex5",
+        "description": "answer.day2.ex5",
+        "peekOfCode": "str_new = str[::-1]\nprint('cach 1: ',str_new)\n# cách 2 với list\nlst_str = list(str)\nlst_str.reverse()\nstr_new2 = ''.join(lst_str)\nprint('cach 2: ',str_new2)",
+        "detail": "answer.day2.ex5",
+        "documentation": {}
+    },
+    {
+        "label": "lst_str",
+        "kind": 5,
+        "importPath": "answer.day2.ex5",
+        "description": "answer.day2.ex5",
+        "peekOfCode": "lst_str = list(str)\nlst_str.reverse()\nstr_new2 = ''.join(lst_str)\nprint('cach 2: ',str_new2)",
+        "detail": "answer.day2.ex5",
+        "documentation": {}
+    },
+    {
+        "label": "str_new2",
+        "kind": 5,
+        "importPath": "answer.day2.ex5",
+        "description": "answer.day2.ex5",
+        "peekOfCode": "str_new2 = ''.join(lst_str)\nprint('cach 2: ',str_new2)",
+        "detail": "answer.day2.ex5",
+        "documentation": {}
+    },
+    {
+        "label": "expected_output",
+        "kind": 5,
+        "importPath": "answer.day2.ex6",
+        "description": "answer.day2.ex6",
+        "peekOfCode": "expected_output = [1,4,9,16,25,36,49,64]\n\"\"\"\nlist_input = [1,2,3,4,5,6,7,8]\nexpected_output = []\nfor i in list_input:\n    expected_output.append(i**2)\nprint(expected_output)\n#  cach 2\nexpected_output2 = [0]*len(list_input)\ni = 0",
+        "detail": "answer.day2.ex6",
+        "documentation": {}
+    },
+    {
+        "label": "list_input",
+        "kind": 5,
+        "importPath": "answer.day2.ex6",
+        "description": "answer.day2.ex6",
+        "peekOfCode": "list_input = [1,2,3,4,5,6,7,8]\nexpected_output = []\nfor i in list_input:\n    expected_output.append(i**2)\nprint(expected_output)\n#  cach 2\nexpected_output2 = [0]*len(list_input)\ni = 0\nwhile (i < len(list_input)):\n    expected_output2[i] = list_input[i]**2",
+        "detail": "answer.day2.ex6",
+        "documentation": {}
+    },
+    {
+        "label": "expected_output",
+        "kind": 5,
+        "importPath": "answer.day2.ex6",
+        "description": "answer.day2.ex6",
+        "peekOfCode": "expected_output = []\nfor i in list_input:\n    expected_output.append(i**2)\nprint(expected_output)\n#  cach 2\nexpected_output2 = [0]*len(list_input)\ni = 0\nwhile (i < len(list_input)):\n    expected_output2[i] = list_input[i]**2\n    i+=1",
+        "detail": "answer.day2.ex6",
+        "documentation": {}
+    },
+    {
+        "label": "expected_output2",
+        "kind": 5,
+        "importPath": "answer.day2.ex6",
+        "description": "answer.day2.ex6",
+        "peekOfCode": "expected_output2 = [0]*len(list_input)\ni = 0\nwhile (i < len(list_input)):\n    expected_output2[i] = list_input[i]**2\n    i+=1\nprint(expected_output2)",
+        "detail": "answer.day2.ex6",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "answer.day2.ex6",
+        "description": "answer.day2.ex6",
+        "peekOfCode": "i = 0\nwhile (i < len(list_input)):\n    expected_output2[i] = list_input[i]**2\n    i+=1\nprint(expected_output2)",
+        "detail": "answer.day2.ex6",
+        "documentation": {}
+    },
+    {
+        "label": "list_input",
+        "kind": 5,
+        "importPath": "answer.day2.ex7",
+        "description": "answer.day2.ex7",
+        "peekOfCode": "list_input = [1, 6, \"Hương\", \"\", [\"vinamilk\", \"ông thọ\"], \"\", 3.5]\n\"\"\"\nlist_input = [1, 6, \"Hương\", \"\",[\"vinamilk\", \"ông thọ\"], \"\", 3.5]\nlist_output = []\nfor ele in list_input:\n    if ele != \"\":\n        list_output.append(ele)\nprint('cach 1: ',list_output)\n# cách khác\nwhile \"\" in list_input:",
+        "detail": "answer.day2.ex7",
+        "documentation": {}
+    },
+    {
+        "label": "list_input",
+        "kind": 5,
+        "importPath": "answer.day2.ex7",
+        "description": "answer.day2.ex7",
+        "peekOfCode": "list_input = [1, 6, \"Hương\", \"\",[\"vinamilk\", \"ông thọ\"], \"\", 3.5]\nlist_output = []\nfor ele in list_input:\n    if ele != \"\":\n        list_output.append(ele)\nprint('cach 1: ',list_output)\n# cách khác\nwhile \"\" in list_input:\n    list_input.remove(\"\")\nprint('cach 2: ',list_input)",
+        "detail": "answer.day2.ex7",
+        "documentation": {}
+    },
+    {
+        "label": "list_output",
+        "kind": 5,
+        "importPath": "answer.day2.ex7",
+        "description": "answer.day2.ex7",
+        "peekOfCode": "list_output = []\nfor ele in list_input:\n    if ele != \"\":\n        list_output.append(ele)\nprint('cach 1: ',list_output)\n# cách khác\nwhile \"\" in list_input:\n    list_input.remove(\"\")\nprint('cach 2: ',list_input)",
+        "detail": "answer.day2.ex7",
+        "documentation": {}
+    },
+    {
+        "label": "fullname",
+        "kind": 5,
+        "importPath": "answer.day3.ex01",
+        "description": "answer.day3.ex01",
+        "peekOfCode": "fullname = input(\"Tên ủa bạn là gì?: \\n\")\nage = int(input(\"Bạn bao nhiêu tuôi: \\n\"))\nnowYear = time.localtime(time.time()).tm_year\nfutureYear = (100-age)+nowYear\nage_check = lambda age : \"chẵn\" if age%2==0 else \"lẽ\"\nmessage = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"",
+        "detail": "answer.day3.ex01",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "answer.day3.ex01",
+        "description": "answer.day3.ex01",
+        "peekOfCode": "age = int(input(\"Bạn bao nhiêu tuôi: \\n\"))\nnowYear = time.localtime(time.time()).tm_year\nfutureYear = (100-age)+nowYear\nage_check = lambda age : \"chẵn\" if age%2==0 else \"lẽ\"\nmessage = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"\nprint(message)",
+        "detail": "answer.day3.ex01",
+        "documentation": {}
+    },
+    {
+        "label": "nowYear",
+        "kind": 5,
+        "importPath": "answer.day3.ex01",
+        "description": "answer.day3.ex01",
+        "peekOfCode": "nowYear = time.localtime(time.time()).tm_year\nfutureYear = (100-age)+nowYear\nage_check = lambda age : \"chẵn\" if age%2==0 else \"lẽ\"\nmessage = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"\nprint(message)",
+        "detail": "answer.day3.ex01",
+        "documentation": {}
+    },
+    {
+        "label": "futureYear",
+        "kind": 5,
+        "importPath": "answer.day3.ex01",
+        "description": "answer.day3.ex01",
+        "peekOfCode": "futureYear = (100-age)+nowYear\nage_check = lambda age : \"chẵn\" if age%2==0 else \"lẽ\"\nmessage = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"\nprint(message)",
+        "detail": "answer.day3.ex01",
+        "documentation": {}
+    },
+    {
+        "label": "age_check",
+        "kind": 5,
+        "importPath": "answer.day3.ex01",
+        "description": "answer.day3.ex01",
+        "peekOfCode": "age_check = lambda age : \"chẵn\" if age%2==0 else \"lẽ\"\nmessage = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"\nprint(message)",
+        "detail": "answer.day3.ex01",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "answer.day3.ex01",
+        "description": "answer.day3.ex01",
+        "peekOfCode": "message = f\"\"\"\nChào bạn {fullname.upper()}\nSố tuổi của bạn là {age_check(age)}\nNăm {futureYear}, bạn sẽ tròn 100 tuổi\n\"\"\"\nprint(message)",
+        "detail": "answer.day3.ex01",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "answer.day3.ex02",
+        "description": "answer.day3.ex02",
+        "peekOfCode": "a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]\nb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]\nc = []\n# b1: loại bỏ phần tử trùng trong list.\na_set=set(a)\nb_set=set(b)\n# b2: vòng lặp set1, check tồn tại trong set2 và append vào list mới  \nfor i in a_set:\n  if i in b_set:\n    c.append(i)",
+        "detail": "answer.day3.ex02",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "answer.day3.ex02",
+        "description": "answer.day3.ex02",
+        "peekOfCode": "b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]\nc = []\n# b1: loại bỏ phần tử trùng trong list.\na_set=set(a)\nb_set=set(b)\n# b2: vòng lặp set1, check tồn tại trong set2 và append vào list mới  \nfor i in a_set:\n  if i in b_set:\n    c.append(i)\nprint(c)",
+        "detail": "answer.day3.ex02",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "answer.day3.ex02",
+        "description": "answer.day3.ex02",
+        "peekOfCode": "c = []\n# b1: loại bỏ phần tử trùng trong list.\na_set=set(a)\nb_set=set(b)\n# b2: vòng lặp set1, check tồn tại trong set2 và append vào list mới  \nfor i in a_set:\n  if i in b_set:\n    c.append(i)\nprint(c)",
+        "detail": "answer.day3.ex02",
+        "documentation": {}
+    },
+    {
+        "label": "check_palindrome",
+        "kind": 2,
+        "importPath": "answer.day3.ex03",
+        "description": "answer.day3.ex03",
+        "peekOfCode": "def check_palindrome(string):\n    if string == string[::-1]:\n        return \"This is a palindrome\"\n    else:\n        return \"This isn't a palindrome\"\nprint(check_palindrome(string))",
+        "detail": "answer.day3.ex03",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "answer.day3.ex03",
+        "description": "answer.day3.ex03",
+        "peekOfCode": "string = input(\"Nhập vào 1 chữ bất kì:\\n\")\ndef check_palindrome(string):\n    if string == string[::-1]:\n        return \"This is a palindrome\"\n    else:\n        return \"This isn't a palindrome\"\nprint(check_palindrome(string))",
+        "detail": "answer.day3.ex03",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "answer.day3.ex04",
+        "description": "answer.day3.ex04",
+        "peekOfCode": "a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.\"\nhint: use list comprehension\n\"\"\"\na = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\nb = [i for i in a if i%2==0]\nprint(b)",
+        "detail": "answer.day3.ex04",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "answer.day3.ex04",
+        "description": "answer.day3.ex04",
+        "peekOfCode": "a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\nb = [i for i in a if i%2==0]\nprint(b)",
+        "detail": "answer.day3.ex04",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "answer.day3.ex04",
+        "description": "answer.day3.ex04",
+        "peekOfCode": "b = [i for i in a if i%2==0]\nprint(b)",
+        "detail": "answer.day3.ex04",
+        "documentation": {}
+    },
+    {
+        "label": "input_text",
+        "kind": 5,
+        "importPath": "homework.day 02.ex1",
+        "description": "homework.day 02.ex1",
+        "peekOfCode": "input_text = \"P\"\nif len(input_text) >= 2:\n    x = input_text[0:2]\n    y = input_text[-2:]\n    print(x+y)\nelse:\n    print(\"chuỗi ban đầu chưa đáp ứng điều kiện\")",
+        "detail": "homework.day 02.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "input_text",
+        "kind": 5,
+        "importPath": "homework.day 02.ex2",
+        "description": "homework.day 02.ex2",
+        "peekOfCode": "input_text = \"Aquafina - Vị ngon của sự tinh khiết\"\nprint(input_text.replace(\"a\",\"@\").replace(\"o\",\"0\").replace(\"s\",\"$\").replace(\"i\",\"1\"))\n# print(input_text.replace(\"o\",\"0\"))\n# print(input_text.replace(\"s\",\"$\"))\n# print(input_text.replace(\"i\",\"1\"))",
+        "detail": "homework.day 02.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "input_list",
+        "kind": 5,
+        "importPath": "homework.day 02.ex3",
+        "description": "homework.day 02.ex3",
+        "peekOfCode": "input_list = [\"Nguyễn\", \"Văn\", \"Tèo\"]\nnew_line = \"\"\nfor i in input_list:\n    new_line += i + \" \"\nprint(new_line)",
+        "detail": "homework.day 02.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "new_line",
+        "kind": 5,
+        "importPath": "homework.day 02.ex3",
+        "description": "homework.day 02.ex3",
+        "peekOfCode": "new_line = \"\"\nfor i in input_list:\n    new_line += i + \" \"\nprint(new_line)",
+        "detail": "homework.day 02.ex3",
+        "documentation": {}
+    },
+    {
+        "label": "fullname",
+        "kind": 5,
+        "importPath": "homework.day 02.ex4",
+        "description": "homework.day 02.ex4",
+        "peekOfCode": "fullname = input(\"Họ và tên của user: \\n\")\nage = input(\"Tuổi của user: \\n\")\nprint(f\"{fullname} {age} tuổi\".upper())",
+        "detail": "homework.day 02.ex4",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "homework.day 02.ex4",
+        "description": "homework.day 02.ex4",
+        "peekOfCode": "age = input(\"Tuổi của user: \\n\")\nprint(f\"{fullname} {age} tuổi\".upper())",
+        "detail": "homework.day 02.ex4",
+        "documentation": {}
+    },
+    {
+        "label": "input_string",
+        "kind": 5,
+        "importPath": "homework.day 02.ex5",
+        "description": "homework.day 02.ex5",
+        "peekOfCode": "input_string = \"Hôm nay trời đẹp quá, anh muốn hôn vào má\"\nprint(input_string[::-1])",
+        "detail": "homework.day 02.ex5",
+        "documentation": {}
+    },
+    {
+        "label": "expected_output",
+        "kind": 5,
+        "importPath": "homework.day 02.ex6",
+        "description": "homework.day 02.ex6",
+        "peekOfCode": "expected_output = [1,4,9,16,25,36,49,64]\n\"\"\"\nlist_input = [1,2,3,4,5,6,7,8]\nexpected_list = []\nfor i in list_input:\n    i = i ** 2\n    expected_list.append(i)\nprint(expected_list)",
+        "detail": "homework.day 02.ex6",
+        "documentation": {}
+    },
+    {
+        "label": "list_input",
+        "kind": 5,
+        "importPath": "homework.day 02.ex6",
+        "description": "homework.day 02.ex6",
+        "peekOfCode": "list_input = [1,2,3,4,5,6,7,8]\nexpected_list = []\nfor i in list_input:\n    i = i ** 2\n    expected_list.append(i)\nprint(expected_list)",
+        "detail": "homework.day 02.ex6",
+        "documentation": {}
+    },
+    {
+        "label": "expected_list",
+        "kind": 5,
+        "importPath": "homework.day 02.ex6",
+        "description": "homework.day 02.ex6",
+        "peekOfCode": "expected_list = []\nfor i in list_input:\n    i = i ** 2\n    expected_list.append(i)\nprint(expected_list)",
+        "detail": "homework.day 02.ex6",
+        "documentation": {}
+    },
+    {
+        "label": "list_input",
+        "kind": 5,
+        "importPath": "homework.day 02.ex7",
+        "description": "homework.day 02.ex7",
+        "peekOfCode": "list_input = [1, 6, \"Hương\", \"\", [\"vinamilk\", \"ông thọ\"], \"\", 3.5]\n\"\"\"\nlist_input = [1, 6, \"Hương\", \"\", [\"vinamilk\", \"ông thọ\"], \"\", 3.5]\nfor i in list_input:\n    if i == \"\":\n        list_input.remove(i)\nprint(list_input)",
+        "detail": "homework.day 02.ex7",
+        "documentation": {}
+    },
+    {
+        "label": "list_input",
+        "kind": 5,
+        "importPath": "homework.day 02.ex7",
+        "description": "homework.day 02.ex7",
+        "peekOfCode": "list_input = [1, 6, \"Hương\", \"\", [\"vinamilk\", \"ông thọ\"], \"\", 3.5]\nfor i in list_input:\n    if i == \"\":\n        list_input.remove(i)\nprint(list_input)",
+        "detail": "homework.day 02.ex7",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "homework.day 03.ex04",
+        "description": "homework.day 03.ex04",
+        "peekOfCode": "a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.\"\nhint: use list comprehension\n\"\"\"",
+        "detail": "homework.day 03.ex04",
+        "documentation": {}
+    },
+    {
+        "label": "chiphi",
+        "kind": 2,
+        "importPath": "lythuyettailop.test",
+        "description": "lythuyettailop.test",
+        "peekOfCode": "def chiphi(giuxe, ansang, antrua):\n    print()\n    print()\n    print()\n    return (giuxe+ansang+antrua)*30\nprint(chiphi(5,18,30))\ndef tamgiac(n):\n    for i in range(1,n+1):\n        print('*'*i)\ntamgiac(7)",
+        "detail": "lythuyettailop.test",
+        "documentation": {}
+    },
+    {
+        "label": "tamgiac",
+        "kind": 2,
+        "importPath": "lythuyettailop.test",
+        "description": "lythuyettailop.test",
+        "peekOfCode": "def tamgiac(n):\n    for i in range(1,n+1):\n        print('*'*i)\ntamgiac(7)",
+        "detail": "lythuyettailop.test",
+        "documentation": {}
+    }
+]

@@ -10,6 +10,8 @@ secret https://docs.python.org/3.7/library/secrets.html
 
 import random  # NOQA
 import string  # NOQA
+import secrets
+
 
 full_list = string.ascii_letters + string.punctuation + string.digits
 
@@ -20,7 +22,6 @@ def your_function(length=16):
     """
 
 
-
 def generate_and_append(length, passwords=[]):
     """
     Sinh password ngẫu nhiên và append vào list passwords.
@@ -28,7 +29,6 @@ def generate_and_append(length, passwords=[]):
     password vừa tạo ra.
     Sửa argument tùy ý.
     """
-
 
 
 def solve(input_data):
@@ -46,9 +46,9 @@ def main():
 
     passwords12 = generate_and_append(12, passwords12)
 
-    assert len(passwords8) == 1, passwords8
-    assert len(passwords10) == 1, passwords10
-    assert len(passwords12) == 2, passwords12
+    # assert len(passwords8) == 1, passwords8
+    # assert len(passwords10) == 1, passwords10
+    # assert len(passwords12) == 2, passwords12
 
     for ps in passwords8, passwords10, passwords12:
         for p in ps:

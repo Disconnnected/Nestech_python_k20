@@ -17,7 +17,6 @@ def solve(input_data):
     """
     result = None
 
-
     return result
 
 
@@ -25,7 +24,6 @@ def main():
     # xử lí in ra theo yêu cầu đề bài bên dưới
     result = solve(data)
     pass
-
 
 if __name__ == "__main__":
     main()

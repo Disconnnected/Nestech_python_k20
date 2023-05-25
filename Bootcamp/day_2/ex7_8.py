@@ -7,6 +7,7 @@ Cài đặt các chương trình dòng lệnh rất phổ biến viết bằng P
 
 pip install asciinema youtube_dl httpie
 
+pip install git+https://github.com/ytdl-org/youtube-dl.git@master#egg=youtube_dl
 httpie
 ======
 
