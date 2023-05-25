@@ -50,3 +50,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+i_input= int(input('Nhập 1 số: '))
+if i_input != 511:
+    if i_input > 511:
+        i_input = i_input - 511
+        print(f'Cần trừ đi {i_input} để thu được {oct(511)}')
+    elif i_input < 511:
+        i_input = 511 - i_input
+        print(f'Cần cộng thêm {i_input} để thu được {oct(511)}')
+else:
+    print(f'oct của 511 là: {oct(511)}')

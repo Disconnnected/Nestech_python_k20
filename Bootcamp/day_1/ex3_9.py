@@ -33,3 +33,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+lst = []
+for a in reversed(range(1,10)): #a giảm dần
+    for b in range(1,10):
+        for c in range(1,10):
+            d = [a,b,c] #khai báo định dạng d
+            if a + b/c == 10:
+                lst.append(d) #gán giá trị
+                print(d) #in giá trị

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import sqlite3
 
 
 def solve() -> str:
@@ -22,32 +21,9 @@ def solve() -> str:
     Dùng thư viện có sẵn sqlite3 giải bài này.
     """
     result = None
-    db_file = "Bootcamp/day_2/sql-murder-mystery.db"
 
-    def create_connection(db_file):
-        """ create a database connection to the SQLite database
-            specified by the db_file
-        :param db_file: database file
-        :return: Connection object or None
-        """
-
-        conn = None
-
-        conn = sqlite3.connect(db_file)
-        cur = conn.cursor()
-        cur.execute("SELECT * FROM crime_scene_report")
-
-        rows = cur.fetchall()
-
-        for row in rows:
-            print(row)
-
-
-        return conn
-    
-    create_connection(db_file)
-
-
+    # Xoá dòng sau và viết code vào đây set các giá trị phù hợp
+    raise NotImplementedError("Bạn chưa làm bài này")
 
     return result
 

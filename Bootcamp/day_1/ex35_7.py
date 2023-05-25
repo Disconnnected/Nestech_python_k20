@@ -11,9 +11,9 @@ def solve(N):
     Must: use list comprehension
     Tips: list comprehension always create new list
     """
-    result = None
-
-
+    lst = [i for i in range(N) if i % 3 == 0 | i % 5 == 0]
+    
+    result = sum(lst)
     return result
 
 
@@ -23,3 +23,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+import matplotlib.pyplot as plt

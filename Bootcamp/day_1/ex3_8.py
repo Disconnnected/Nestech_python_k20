@@ -24,3 +24,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+word = input('')
+if word.upper() == word[::-1].upper():
+    print('word is palindrome')
+else:
+    print('word is not palindrome')

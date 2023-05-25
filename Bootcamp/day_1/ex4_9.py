@@ -20,3 +20,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+number = [-1, 5, 9, 6, -999999999999999, 1]
+temp = 0
+for i in number:
+    if i > temp:
+        temp = i
+print(temp)

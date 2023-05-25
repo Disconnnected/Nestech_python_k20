@@ -17,15 +17,25 @@ def solve():
 
     Lưu ý: Thứ tự tăng dần theo bảng cửu chương
     """
-    result = None
+#     result = None
 
-    return result
-
-
-def main():
-    for i in solve():
-        print(i)
+#     return result
 
 
-if __name__ == "__main__":
-    main()
+# def main():
+#     for i in solve():
+#         print(i)
+
+
+# if __name__ == "__main__":
+#     main()
+
+
+lsstr = []
+
+for i in range(1,100):
+    if i % 5 == 0:
+        a = f'{i} == {int(i/5)} * 5'
+        lsstr.append(a)
+
+print(lsstr)

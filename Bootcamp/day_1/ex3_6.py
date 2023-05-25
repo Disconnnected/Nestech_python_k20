@@ -24,15 +24,30 @@ def solve(input_data):
     :param input_data: tháng bất kì
     :rtype: list
     """
-    result = None
+#     result = None
 
-    return result
-
-
-def main():
-    month, day = solve(0)
-    print(month, day)
+#     return result
 
 
-if __name__ == "__main__":
-    main()
+# def main():
+#     month, day = solve(0)
+#     print(month, day)
+
+
+# if __name__ == "__main__":
+#     main()
+while True:
+    input_data = input('Nhập tháng: ')
+    for i in range(1, 13, 1):
+        month = int(input_data)
+        if i == month:
+            if i % 2 == 1 and i < 8 or i % 2 == 0 and i > 7:
+                date = str(31)
+            if i == 2:
+                date = str(28)
+            elif i % 2 == 0 and i < 8 or i % 2 == 1 and i > 7:
+                date = str(30)
+            print(f'Tháng {i} có: {date} ngày')
+            print(f'({input_data.strip()}, {date.strip()})')
+
+

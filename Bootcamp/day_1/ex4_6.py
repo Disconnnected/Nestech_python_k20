@@ -25,3 +25,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+import string
+lst = []
+ss = "Em ơi có bao nhiêu, 60năm cuộc đời, 20 năm đầu, sung sướng0bao lâu9"
+for num in ss:
+    for dig in string.digits:
+        if num == dig:
+            lst.append(num)
+print(''.join(lst))

@@ -10,7 +10,7 @@ def solve(N):
     Tips: list comprehension always create new list
     """
 
-    result = None
+    result = sum([int(i) for i in str(2**1000)])
 
 
     return result

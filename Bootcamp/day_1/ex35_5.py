@@ -12,7 +12,6 @@ def solve(N):
 
     result = None
 
-
     return result
 
 

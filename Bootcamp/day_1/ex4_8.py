@@ -19,3 +19,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+a = {a for a in range(1,11)}
+b = {b for b in range(1,11)}
+c = {c for c in range(1,11)}
+# p = a + b + c
+for a in a:
+    for b in b:
+        for c in c:
+            if a + b + c == 24:
+                print(a + b + c )
+

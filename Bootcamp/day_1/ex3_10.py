@@ -38,3 +38,20 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+# nums = [1,2,3,4,5,0,6,7,8,9,10]
+# nums.sort()
+# target = int(input('Nhập target: '))
+# for i in nums:
+#     for j in nums:
+#         if target == nums[i] + nums[j]:
+#             print(f'{i,j}')
+
+nums = data[0]
+target = data[1]
+for i in range(len(nums)):
+    for j in range(len(nums)):
+        if target == nums[i] + nums[j]:
+            print(f'index (i,j): {i,j}')

@@ -8,9 +8,9 @@ Dùng để lặp khi 1 điều kiện còn đúng:
 In [2]: i = 0
 
 In [3]: while i < 5:
-   ...:     print(i)
-   ...:     i = i + 1
-   ...:
+  ...:     print(i)
+  ...:     i = i + 1
+  ...:
 0
 1
 2
@@ -73,9 +73,31 @@ def main():
       Trên Python2, function tương ứng tên là `raw_input`
     """
 
-    ip = input("Nhập vào IP:")
-    print(solve(ip))
+
+    # print(solve(ip))
 
 
 if __name__ == "__main__":
     main()
+
+
+# ip = input("Nhập vào IP:")
+# iplist = ip.split('.')
+# k = []
+# for i in range(len(iplist)):
+#   while int(iplist[i]) > 0:
+#     b = int(iplist[i]) % 2
+#     iplist[i] = int(iplist[i]) / 2
+#     print(iplist[i])
+#     k.append(str(b))
+# kq = ''
+# print(k[-1].zfill(8))
+# k.reverse()
+# for i in k:
+#     kq += i
+# print(kq)
+ip = '192.168.1.1'
+ip ='.'.join([bin(int(x)+256)[3:] for x in ip.split('.')])
+# + 256 là vì địa chỉ ip có 256 giá trị từ 0 255 và lấy từ vị trí thứ 3 sẽ ra được địa bin của ipip
+print(ip)
+print(bin(1+256))

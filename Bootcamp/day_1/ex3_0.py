@@ -25,3 +25,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#thêm thư viện
+import math as m
+
+square = int(input("Số bạn nhập là: "))
+print(int(m.pow(square,2))) #hàm tính bình phương math.pow

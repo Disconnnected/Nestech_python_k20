@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
 
 data = {"first_50": 1230, "from_51_to_100": 1530, "above_100": 1786}
+idata = {
+        "usages": [
+            ("nam", "1"),
+            ("pikalong", "29"),
+            ("phan quan", "1235"),
+            ("maria", "69"),
+            ("trump", "100"),
+        ],
+        "prices": data,
+    }
 
 
 def calculate_cost(usage, prices):
@@ -34,7 +44,6 @@ def solve(input_data):
     result = [
         (i[0].title(), calculate_cost(i[1], input_data["prices"])) for i in input_data["usages"]
     ]
-
     return result
 
 
@@ -66,3 +75,31 @@ def main():
 if __name__ == "__main__":
     # print(__name__)
     main()
+
+
+
+price = []
+# pay = [idata["usages"][0] : price[i] range(len(idata["usages"]))]
+
+
+
+for i in range(len(idata["usages"])):
+    if int(idata["usages"][i][1]) <= 50:
+        result = int(idata["usages"][i][1]) * 1230
+    elif int(idata["usages"][i][1]) > 50 and int(idata["usages"][i][1]) <= 100:
+        result = (50 * 1230) + ((int(idata["usages"][i][1]) - 50) * 1530)
+    if int(idata["usages"][i][1]) > 100:
+        result = (50 * 1230) + ((100 - 50) * 1530) + ((int(idata["usages"][i][1]) -100) * 1786)
+    price.append(str(result))
+# print("{:,}".format(str([i for i in range(price)])))
+# print([idata["usages"][i][0] for i in range(5)])
+# print(len(idata["usages"]))
+
+# result = ["{:,}".format(i) for i in (price)]
+for i in price:
+    result = "{:,}".format(i)
+    print(i)
+# print(result)
+# # print(idata["usages"][1][1])
+
+# # print("{:,}".format(1000000))

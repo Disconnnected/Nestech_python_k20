@@ -33,3 +33,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+data = input("Please choose a file with format: ")
+def data_1():
+    for i in range(len(data)):
+        if data[i] == "." :
+            enddot = (data)[i:] # tìm dấu chấm cuối cùng ==> định dạng file
+    return enddot
+print(data.removesuffix(data_1())) #removesuffix xóa hậu tố

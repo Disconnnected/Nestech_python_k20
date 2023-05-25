@@ -29,3 +29,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+print(list(enumerate(data,1)))

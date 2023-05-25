@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 
-term1 = {"math": 3, "python": 5, "data": 2}
-term2 = {"math": 7, "python": 9, "SQL": 8, "HTML": 6}
+term1 = {"math": 3,
+        "python": 5,
+        "data": 2,}
+term2 = {"math": 7,
+        "python": 9, 
+        "SQL": 8, 
+        "HTML": 6}
 data = [term1, term2]
 
 
@@ -24,3 +29,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+for key, value in term1.items():
+    if key not in term2.keys():
+        term2[key] = value
+print('Điểm học kỳ là:')
+for key, value in term2.items():
+    print(key, ':' , value)

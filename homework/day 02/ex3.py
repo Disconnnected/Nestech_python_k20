@@ -10,7 +10,10 @@ Ghép nhiều chuỗi riêng biệt thành 1 chuỗi hoàn chỉnh, ngăn cách 
 """
 
 input_list = ["Nguyễn", "Văn", "Tèo"]
-new = " ".join(input_list)
+new_line = ""
 
-print(new)
+for i in input_list:
+    new_line += i + " "
+
+print(new_line)
 

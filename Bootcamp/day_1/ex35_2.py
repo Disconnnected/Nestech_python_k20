@@ -24,3 +24,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+import random
+
+#list comprehension
+lst = [random.randrange(0,10) for i in range(10)]
+#for loop
+new_lst = []
+for i in range(10):
+    new_lst.append(random.randrange(0,10))
+print(lst)
+print(new_lst)
